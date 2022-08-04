@@ -2259,6 +2259,14 @@ initial-scale=1.0">
                 height: 6880px;
             }
 
+            .cryptoImg {
+                margin-left: 35px;
+                margin-bottom: 30px;
+                margin-top: 20px;
+                height: 200px;
+                width: 200px;
+            }
+
             #lp-pom-block-11 {
                 display: block;
                 background: rgba(0, 0, 0, 0.5);
@@ -2452,7 +2460,7 @@ initial-scale=1.0">
                 top: 728.5px;
                 z-index: 21;
                 width: 320px;
-                height: 509px;
+                height: 409px;
                 position: absolute;
             }
 
@@ -5077,35 +5085,8 @@ lp:insertions end body:before -->
         f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-KWVTQQM');
 </script>
-<!-- End
-Google Tag Manager -->
-<script type='text/javascript'>
-    (function() {
-        window.ub.googleTagManagerContainerId = 'GTM-KWVTQQM';
-    }).call(this);
-</script>
-<!-- Google Tag Manager -->
-<noscript>
-    <iframe src='//www.googletagmanager.com/ns.html?id=GTM-W3JLZGL' height='0' width='0' style='display:none;visibility:hidden'></iframe>
-</noscript>
-<script>
-    (function(w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new
-            Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-W3JLZGL');
-</script>
-<!-- End
-Google Tag Manager -->
+
+
 <script type='text/javascript'>
     (function() {
         window.ub.googleTagManagerContainerId = 'GTM-W3JLZGL';
@@ -5526,89 +5507,32 @@ font-weight: 500; font-style: normal; font-size: 16px; color: rgb(255,
                 </p>
             </div>
         </div>
-        <div class="lp-element lp-pom-box drop-shadow-form" id="lp-pom-box-1317">
+        <div style="height: 300px" class="lp-element lp-pom-box drop-shadow-form" id="lp-pom-box-1317">
             <div id="lp-pom-box-1317-color-overlay"></div>
-            <div class="lp-element
-lp-pom-form drop-shadow-form has-axis" id="lp-pom-form-1318">
-                <form action="/fsg?pageId=61250e73-bac3-4dc3-84d4-b692bf1ab0e0&amp;variant=b" method="POST">
-                    <input type="hidden" name="pageId" value="61250e73-bac3-4dc3-84d4-b692bf1ab0e0">
-                    <input type="hidden" name="pageVariant" value="b">
-                    <div class="fields">
-                        <div class="lp-pom-form-field single-line-text" id="container_first_name">
-                            <input id="first_name" name="first_name" type="text" class="ub-input-item single text form_elem_first_name" placeholder="First Name" required="">
-                        </div>
-                        <div class="lp-pom-form-field
-single-line-text" id="container_last_name">
-                            <input id="last_name" name="last_name" type="text" class="ub-input-item single text
-form_elem_last_name" placeholder="Last Name" required="">
-                        </div>
-                        <div class="lp-pom-form-field email" id="container_email">
-                            <input id="email" name="email" type="email" class="ub-input-item single text
-form_elem_email" placeholder="Email address" required="" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9_-]+\.[a-zA-Z0-9-.]{2,61}$">
-                        </div>
-                        <div class="lp-pom-form-field single-line-text" id="container_mobile_phone">
-                            <input id="mobile_phone" name="mobile_phone" type="tel" class="ub-input-item single text form_elem_mobile_phone" placeholder="Enter phone number" required="">
-                        </div>
-                        <input id="security" name="security" type="hidden" class="hidden" value="e91e6348157868de9dd8b25c81aebfb9">
-                        <input id="entity" name="entity" type="hidden" class="hidden" value="asic">
-                        <input id="utm_campaign" name="utm_campaign" type="hidden" class="hidden" value="">
-                        <input id="utm_medium" name="utm_medium" type="hidden" class="hidden" value="">
-                        <input id="utm_source" name="utm_source" type="hidden" class="hidden" value="">
-                        <input id="utm_content" name="utm_content" type="hidden" class="hidden" value="">
-                        <input id="utm_term" name="utm_term" type="hidden" class="hidden" value="">
-                        <input id="cxd" name="cxd" type="hidden" class="hidden" value="">
-                        <input id="gclid" name="gclid" type="hidden" class="hidden" value="">
-                        <input id="fbclid" name="fbclid" type="hidden" class="hidden" value="">
-                        <input id="landing_page" name="landing_page" type="hidden" class="hidden" value="https://trade.eightcap.com/en/trade-like-lady-of-crypto/">
-                    </div>
-                    <button class="lp-element lp-pom-button" id="lp-pom-button-1319" type="submit">
-                <span class="label">
-                  <strong>CREATE ACCOUNT</strong>
-                </span>
-                    </button>
-                    <input type="text" id="sNVS9D6blujAGFSpToQ3zrLrtBZBTFCI" name="ubafs-sNVS9D6blujAGFSpToQ3zrLrtBZBTFCI" style="display:none
-!important;">
-                </form>
+            <br>
+            <div class="lp-element lp-pom-form drop-shadow-form has-axis" id="lp-pom-form-1318">
+                <img class="cryptoImg" style="" src="img/crypto.gif" alt="" height="200">
+
+                <br><br>
+                <button class="lp-element lp-pom-button" id="lp-pom-button-1319" type="submit">
+                    <span class="label">
+                      <strong>Click To take the Quiz</strong>
+                    </span>
+                </button>
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1320">
                 <h4 style="text-align: center;">
               <span style="font-family: &quot;Open Sans&quot;; font-weight: 600; font-style:
-normal; font-size: 20px; color: rgb(0, 0, 0);">Create an account and get your FREE guide</span>
+normal; font-size: 20px; color: rgb(0, 0, 0);">Take the crypto quiz to claim free crypto <br>( How well do you know Crypto ?)</span>
                 </h4>
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1321">
-                <p style="line-height: 14px;">
-              <span style="font-size: 8px;">
-                <span style="color: rgb(99, 110, 114);">
-                  <span style="font-family: Montserrat;">
-                    <span style="font-weight: 400;">
-                      <span style="font-size: 8px;">
-                        <span style="color: rgb(46, 46, 46);">
-                          <span style="font-family: Montserrat;">
-                            <span style="font-weight: 400;">Phone number should have the following format: +[Country Code] [Phone Number]</span>
-                          </span>
-                        </span>
-                        <span style="color: rgb(255, 255, 255);">
-                          <span style="font-family: Montserrat;">
-                            <span style="font-weight: 400;"></span>
-                          </span>
-                        </span>
-                      </span>
-                      <br>
-                    </span>
-                  </span>
-                </span>
-              </span>
-                </p>
-            </div>
-            <div class="lp-element lp-code" id="lp-code-1322">
-                <!-- lp:insertions start
-div#lp-code-1322 -->
-                <iframe src="https://elements.eightcap.com/en/global/rw/" width="100%" height="100%" scrolling="100%" frameborder="0"></iframe>
-                <!-- lp:insertions
-end div#lp-code-1322 -->
-            </div>
+
+
+
+
         </div>
+
+
         <div class="lp-element lp-pom-box" id="lp-pom-box-1365">
             <div id="lp-pom-box-1365-color-overlay"></div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1360">
@@ -5646,7 +5570,7 @@ lp-pom-button drop-shadow-button" id="lp-pom-button-1364" href="#lp-pom-box-1317
             </a>
             <div class="lp-element lp-pom-image" id="lp-pom-image-1427">
                 <div class="lp-pom-image-container" style="overflow: hidden;">
-                    <img src="img/book.png" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10ba0ba0a30ba00l000028.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000jv0m8015000028.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_109s09q08z08x00f00f028.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10jk0jg0hy0hu00u00u028.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000ke0ke00y00y028.png">
+                    <img  src="img/bg2.png" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10ba0ba0a30ba00l000028.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000jv0m8015000028.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_109s09q08z08x00f00f028.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10jk0jg0hy0hu00u00u028.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000ke0ke00y00y028.png">
                 </div>
             </div>
         </div>
@@ -5691,7 +5615,7 @@ font-size: 58px; color: rgb(236, 56, 117);">Join the biggest growing and the bes
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1462">
             <h2 style="line-height: 29px;">
             <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 22px; color: rgb(255, 255, 255);">Get started and receive Lady of Crypto's ultimate Crypto guide today.</span>
+font-size: 22px; color: rgb(255, 255, 255);">Get full access to information and tools you need for real productivity and growth.F</span>
                 <span style="font-family:
 Montserrat; font-weight: 400; font-style: normal; font-size: 18px; color:
 rgb(255, 255, 255);">
