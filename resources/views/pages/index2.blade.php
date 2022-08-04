@@ -5664,7 +5664,7 @@ lp:insertions end div#lp-code-1411 -->
         <div class="lp-element
 lp-pom-image" id="lp-pom-image-1428">
             <div class="lp-pom-image-container" style="overflow: hidden;">
-                <img src="img/person.png" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10mq0jt0em0iw04z000028.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_119g13m0t811s09y000028.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_11w61nf17u1ko0ex000028.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10ch0av08w0av02f000028.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10oy0lq0hs0lq04u000028.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_111f0wl0qo0wl079000028.png">
+                <img src="img/bg.png" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10mq0jt0em0iw04z000028.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_119g13m0t811s09y000028.png" data-src-desktop-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_11w61nf17u1ko0ex000028.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10ch0av08w0av02f000028.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_10oy0lq0hs0lq04u000028.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e34f55e9-point-tilt-look_111f0wl0qo0wl079000028.png">
             </div>
         </div>
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1429">
@@ -5685,7 +5685,7 @@ normal; font-size: 28px;">Beating Visa's transactions per second... Every second
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1461">
             <h1 style="line-height: 68px;">
             <span style="font-family: Montserrat; font-weight: 800; font-style: normal;
-font-size: 58px; color: rgb(236, 56, 117);">Access Eightcap's 300+ Crypto Derivatives</span>
+font-size: 58px; color: rgb(236, 56, 117);">Join the biggest growing and the best Crypto Organization</span>
             </h1>
         </div>
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1462">
