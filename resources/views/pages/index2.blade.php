@@ -5098,7 +5098,7 @@ lp:insertions end body:before -->
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-43">
             <h2 style="line-height: 42px;">
             <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 36px; color: rgb(255, 255, 255);">Why Trade Cryptocurrency Derivatives with Eightcap444</span>
+font-size: 36px; color: rgb(255, 255, 255);">Why Join The Crypto Door  Organization ?</span>
             </h2>
         </div>
         <div class="lp-element
@@ -5142,7 +5142,7 @@ lp-pom-image" id="lp-pom-image-558">
             <h3 style="line-height: 22px;">
             <span style="font-family: Montserrat;
 font-weight: 600; font-style: normal; font-size: 18px; color: rgb(236, 56,
-117);">Experience ultra-low spreads and enjoy excellent customer support with a regulated broker.</span>
+117);">Get a Full Experience of Growth and Knowledge with one of the biggest communities in the world.</span>
             </h3>
         </div>
         <div class="lp-element
@@ -5221,7 +5221,7 @@ lp-pom-image" id="lp-pom-image-603">
                 <p style="line-height: 32px;">
               <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">The most comprehensive Crypto offering, with 250+ Cryptocurrencies including</span>
+255, 255);">-Flourish in everything Crypto Related, Get Knowledge from A-Z . Fully Understand the depth of crypto.</span>
                     <span style="font-style: normal;">
                 <span style="font-weight: 400;">
                   <span style="font-family: Montserrat;">
@@ -5230,9 +5230,7 @@ font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
                   </span>
                 </span>
               </span>
-                    <span style="font-family:
-Montserrat; font-weight: 400; font-style: normal; font-size: 18px; color:
-rgb(220, 31, 255);">Crypto-crosses and Crypto indices.</span>
+
                 </p>
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1405">
@@ -5535,17 +5533,19 @@ normal; font-size: 20px; color: rgb(0, 0, 0);">Take the crypto quiz to claim fre
 
         <div class="lp-element lp-pom-box" id="lp-pom-box-1365">
             <div id="lp-pom-box-1365-color-overlay"></div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1360">
+            <div style="margin-bottom: 20px" class="lp-element lp-pom-text nlh" id="lp-pom-text-1360">
                 <h1 style="line-height: 42px;">
               <span style="font-family: Montserrat;
 font-weight: 600; font-style: normal; font-size: 36px; color: rgb(255,
-255, 255);">Create an Eightcap account and get the ultimate Crypto guide for FREE</span>
+255, 255);">Enjoy non-stop growth in crypto with Crypto Door, We focus on growing together , leaving no one behind.</span>
                 </h1>
+
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1361">
+
+            <div style="margin-top: 30px;" class="lp-element lp-pom-text nlh" id="lp-pom-text-1361">
                 <h2 style="line-height: 22px;">
               <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(236, 56, 117);">Enjoy an extensive guide from Lady of Crypto herself covering everything from tokenomics to finding the next hot market.</span>
+font-size: 18px; color: rgb(236, 56, 117);">You have access to one of the best resources you can phantom, And also Hella Beginner Friendly.</span>
                     <span style="font-family: Montserrat; font-weight:
 400; font-style: normal; font-size: 18px; color: rgb(255, 255,
 255);">
@@ -5553,10 +5553,10 @@ font-size: 18px; color: rgb(236, 56, 117);">Enjoy an extensive guide from Lady o
               </span>
                 </h2>
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1363">
+            <div style="margin-top: 30px" class="lp-element lp-pom-text nlh" id="lp-pom-text-1363">
                 <p style="line-height: 24px;">
               <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">With a mass social media following, Lady of Crypto is a renowned influencer who shares her insights and knowledge about all things Crypto. Her followers tune in to find out her top crypto picks, the next breakout crypto markets, top tips on trading crypto and more! With this straightforward guide, you’ll learn everything you need to know to take on the cryptocurrency market and jump on the next biggest market opportunity.</span>
+font-size: 18px; color: rgb(255, 255, 255);"> Crypto Door is an efficient and effective community of growth minded Leaders and Individuals like you, who prioritize Growth and Development of the space and reaching new heights .  We are Glad to have you onboard to the Community, You are set for a great time as you join like minded friends from all over the world.</span>
                     <span style="font-family:
 Montserrat; font-weight: 600; font-style: normal; font-size: 18px; color:
 rgb(255, 255, 255);">
@@ -5564,10 +5564,10 @@ rgb(255, 255, 255);">
               </span>
                 </p>
             </div>
-            <a class="lp-element
-lp-pom-button drop-shadow-button" id="lp-pom-button-1364" href="#lp-pom-box-1317" target="_self">
-                <span class="label">CREATE ACCOUNT</span>
-            </a>
+{{--            <a class="lp-element--}}
+{{--lp-pom-button drop-shadow-button" id="lp-pom-button-1364" href="#lp-pom-box-1317" target="_self">--}}
+{{--                <span class="label">CREATE ACCOUNT</span>--}}
+{{--            </a>--}}
             <div class="lp-element lp-pom-image" id="lp-pom-image-1427">
                 <div class="lp-pom-image-container" style="overflow: hidden;">
                     <img  src="img/bg2.png" alt="" data-src-desktop-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10ba0ba0a30ba00l000028.png" data-src-desktop-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000jv0m8015000028.png" data-src-mobile-1x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_109s09q08z08x00f00f028.png" data-src-mobile-2x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10jk0jg0hy0hu00u00u028.png" data-src-mobile-3x="//d9hhrg4mnvzow.cloudfront.net/trade.eightcap.com/en/trade-like-lady-of-crypto/e43a3a13-ebook-cover_10000000ke0ke00y00y028.png">
