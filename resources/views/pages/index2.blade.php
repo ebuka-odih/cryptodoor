@@ -5158,18 +5158,11 @@ lp-pom-image" id="lp-pom-image-588">
                 <p style="line-height: 32px;">
               <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">Trade with an industry recognised broker. We are&nbsp;</span>
-                    <span style="font-family: Montserrat; font-weight: 400;
-font-style: normal; font-size: 18px; color: rgb(220, 31, 255);">regulated by the FCA, ASIC, CySEC and SCB.</span>
+255, 255);">-Technical Analysis for all crypto charts, breakdown and Price actions, Get Full Data and stay on track.</span>
+
                 </p>
             </div>
-            <div class="lp-element
-lp-pom-text nlh" id="lp-pom-text-1408">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">Recognised Broker</span>
-                </p>
-            </div>
+
         </div>
         <div class="lp-element lp-pom-box
 drop-shadow" id="lp-pom-box-597">
@@ -5182,29 +5175,11 @@ lp-pom-image" id="lp-pom-image-598">
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-599">
                 <p style="line-height: 32px;">
-              <span style="font-family: Montserrat;
-font-weight: 400; font-style: normal; font-size: 18px; color: rgb(220, 31,
-255);">No wallet needed</span>
                     <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">&nbsp;when you trade Crypto derivatives.&nbsp;</span>
-                    <span style="color: rgb(255, 255, 255);">
-                <span style="font-style: normal;">
-                  <span style="font-weight: 400;">
-                    <span style="font-family: Montserrat;">
-                      <span style="font-size: 18px;">Fund with BTC, USDT, PayPal, Credit/Debit card, Skrill, Neteller</span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-                    <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">&nbsp;&amp; more.</span>
-                </p>
-            </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1404">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">No Wallet Needed</span>
+255, 255);">-Trading Futures , Pro steps, How it is rightly Done.</span>
+                    <br>
+
                 </p>
             </div>
         </div>
@@ -5233,15 +5208,8 @@ font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
 
                 </p>
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1405">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">
-                <span style="font-size:
-18px;">250+ Cryptocurrencies</span>
-              </span>
-                </p>
-            </div>
+
+
         </div>
         <a class="lp-element lp-pom-button drop-shadow-button" id="lp-pom-button-610" href="#lp-pom-box-1317" target="_self">
             <span class="label">CREATE ACCOUNT</span>
@@ -5352,32 +5320,13 @@ lp-pom-image" id="lp-pom-image-902">
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-903">
                 <p style="line-height: 32px;">
-              <span style="font-family: Montserrat;
-font-weight: 400; font-style: normal; font-size: 18px; color: rgb(220, 31,
-255);">Ready to</span>
-                    <span style="color: rgb(220, 31, 255);">
-                <span style="font-style: normal;">
-                  <span style="font-weight: 400;">
-                    <span style="font-family: Montserrat;">
-                      <span style="font-size: 18px;">&nbsp;take advantage of falling prices?&nbsp;</span>
-                    </span>
-                  </span>
-                </span>
-                <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px;">Go short on a wide range of Crypto derivatives</span>
-              </span>
                     <span style="font-family: Montserrat;
-font-weight: 400; font-style: normal; font-size: 18px; color: rgb(220, 31,
-255);">&nbsp;with tight spreads.</span>
+font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
+255, 255);">-Coin Watch Segment,  Follow the Pro-team , Get early into Profitable crypto projects early.</span>
+                    
                 </p>
             </div>
-            <div class="lp-element
-lp-pom-text nlh" id="lp-pom-text-1406">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">Go Long or Go Short</span>
-                </p>
-            </div>
+
         </div>
         <div class="lp-element lp-pom-box drop-shadow" id="lp-pom-box-907">
             <div id="lp-pom-box-907-color-overlay"></div>
@@ -5390,19 +5339,13 @@ font-size: 18px; color: rgb(255, 255, 255);">Go Long or Go Short</span>
                 <p style="line-height: 32px;">
               <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">Expert support whenever you need it. We are here for you 24/5. Don't believe us?&nbsp;</span>
+255, 255);">-Don’t miss out on Upcoming Crypto events world-wide, as member of the Crypto Door Organization, you have access to meeting and crypto Events worldwide.</span>
                     <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(220, 31,
-255);">Check out our TrustPilot reviews!</span>
+255);"> The Fun is unlimited.&nbsp;</span>
                 </p>
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1407">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat;
-font-weight: 600; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">24/5 Expert Support</span>
-                </p>
-            </div>
+
         </div>
         <div class="lp-element lp-pom-box drop-shadow" id="lp-pom-box-915">
             <div id="lp-pom-box-915-color-overlay"></div>
@@ -5414,31 +5357,14 @@ lp-pom-image" id="lp-pom-image-916">
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-917">
                 <p style="line-height: 32px;">
-              <span style="font-family: Montserrat;
+       <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
-255, 255);">Experience the ease of </span>
-                    <span style="font-family:
-Montserrat; font-weight: 400; font-style: normal; font-size: 18px; color:
-rgb(220, 31, 255);">trading directly off charts</span>
-                    <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">, gain </span>
-                    <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px; color: rgb(220, 31, 255);">key insights</span>
-                    <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">&nbsp;and use exclusive trading </span>
-                    <span style="font-family: Montserrat; font-weight: 400;
-font-style: normal; font-size: 18px; color: rgb(220, 31, 255);">indicators and strategies</span>
-                    <span style="font-family: Montserrat; font-weight:
-400; font-style: normal; font-size: 18px; color: rgb(255, 255,
-255);">.</span>
+255, 255);"> -Protect yourself from losses, theft and scams, Also be one step ahead , Our research team is big on finding and preventing losses among our members.</span>
+
+
                 </p>
             </div>
-            <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1403">
-                <p style="line-height: 32px;">
-              <span style="font-family: Montserrat; font-weight: 600; font-style: normal;
-font-size: 18px; color: rgb(255, 255, 255);">Connect with TradingView</span>
-                </p>
-            </div>
+
         </div>
         <div class="lp-element lp-pom-box
 drop-shadow" id="lp-pom-box-979">
