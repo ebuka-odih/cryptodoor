@@ -5211,7 +5211,7 @@ font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
 
 
         </div>
-        <a class="lp-element lp-pom-button drop-shadow-button" id="lp-pom-button-610" href="#lp-pom-box-1317" target="_self">
+        <a class="lp-element lp-pom-button drop-shadow-button" id="lp-pom-button-610" href="register" target="_self">
             <span class="label">CREATE ACCOUNT</span>
         </a>
         <div class="lp-element lp-pom-text nlh" id="lp-pom-text-821">
@@ -5224,8 +5224,7 @@ rgb(45, 186, 105);">Award-Winning Platforms&nbsp;</span>
             </span>
             </p>
         </div>
-        <div class="lp-element lp-pom-text
-nlh" id="lp-pom-text-846">
+        <div class="lp-element lp-pom-text nlh" id="lp-pom-text-846">
             <h3 style="line-height: 22px;">
             <span style="font-family: Montserrat; font-weight: 400; font-style: normal;
 font-size: 18px; color: rgb(255, 255, 255);">Trade Crypto derivatives on MetaTrader - The Most Popular Trading Platforms. Buy or sell Crypto CFDs on MT4 and MT5 across webtrader, desktop and mobile, all on our powerful and secure technology infrastructure. <br>
@@ -5301,7 +5300,7 @@ hidden;">
                 </div>
             </div>
         </div>
-        <a class="lp-element lp-pom-button drop-shadow-button" id="lp-pom-button-862" href="#lp-pom-box-1317" target="_self">
+        <a class="lp-element lp-pom-button drop-shadow-button" id="lp-pom-button-862" href="register" target="_self">
             <span class="label">CREATE ACCOUNT</span>
         </a>
         <div class="lp-element lp-pom-image" id="lp-pom-image-900">
@@ -5323,7 +5322,7 @@ lp-pom-image" id="lp-pom-image-902">
                     <span style="font-family: Montserrat;
 font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
 255, 255);">-Coin Watch Segment,  Follow the Pro-team , Get early into Profitable crypto projects early.</span>
-                    
+
                 </p>
             </div>
 
@@ -5366,8 +5365,7 @@ font-weight: 400; font-style: normal; font-size: 18px; color: rgb(255,
             </div>
 
         </div>
-        <div class="lp-element lp-pom-box
-drop-shadow" id="lp-pom-box-979">
+        <div class="lp-element lp-pom-box drop-shadow" id="lp-pom-box-979">
             <div id="lp-pom-box-979-color-overlay"></div>
             <div class="lp-element lp-pom-text
 nlh" id="lp-pom-text-980">
@@ -5383,6 +5381,9 @@ hidden;">
                 </div>
             </div>
         </div>
+
+
+
         <div class="lp-element lp-pom-box drop-shadow" id="lp-pom-box-982">
             <div id="lp-pom-box-982-color-overlay"></div>
             <div class="lp-element lp-pom-text
@@ -5438,11 +5439,11 @@ font-weight: 500; font-style: normal; font-size: 16px; color: rgb(255,
                 <img class="cryptoImg" style="" src="img/crypto.gif" alt="" height="200">
 
                 <br><br>
-                <button class="lp-element lp-pom-button" id="lp-pom-button-1319" type="submit">
+                <a href="{{ route('quiz') }}" class="lp-element lp-pom-button" id="lp-pom-button-1319" type="submit">
                     <span class="label">
                       <strong>Click To take the Quiz</strong>
                     </span>
-                </button>
+                </a>
             </div>
             <div class="lp-element lp-pom-text nlh" id="lp-pom-text-1320">
                 <h4 style="text-align: center;">

@@ -13,4 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'pages.index2');
+Route::view('/', 'pages.index2')->name('index');
+Route::view('quiz', 'pages.quiz')->name('quiz');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
