@@ -18,7 +18,7 @@
 <header style="background: rgb(98 15 95);" class="header">
 {{--    <div class="left-title"><img height="100" width="100" src="{{ asset('img/logo.png') }}" alt=""></div>--}}
     <div class="left-title"><a style="text-decoration: none" href="{{ route('index') }}"><h3 class="text-white">Cryptodoor</h3></a></div>
-    <div class="right-title">Total Questions: <span id="tque"></span></div>
+    <div style="visibility: hidden" class="right-title">Total Questions: <span id="tque"></span></div>
     <div class="clearfix"></div>
 </header>
 <div class="content">

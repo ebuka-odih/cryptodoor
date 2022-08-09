@@ -1,74 +1,54 @@
 
-<html lang="en">
-
-
-<!-- Mirrored from demo.foxthemes.net/courseplus-v4.3.1/default/form-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Aug 2022 12:04:11 GMT -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Favicon -->
-    <link href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/favicon.png" rel="icon" type="image/png">
-
-    <!-- Basic Page Needs
-          ================================================== -->
-    <title>Courseplus Template</title>
+<html lang="en"><head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- icons
-      ================================================== -->
-    <link rel="stylesheet" href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/css/icons.css">
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@themepixels">
+    <meta name="twitter:creator" content="@themepixels">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bracket Plus">
+    <meta name="twitter:description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="twitter:image" content="http://themepixels.me/bracketplus/img/bracketplus-social.png">
 
-    <!-- CSS
-      ================================================== -->
-    <link rel="stylesheet" href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/css/uikit.css">
-    <link rel="stylesheet" href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/css/style.css">
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Facebook -->
+    <meta property="og:url" content="http://themepixels.me/bracketplus">
+    <meta property="og:title" content="Bracket Plus">
+    <meta property="og:description" content="Premium Quality and Responsive UI for Dashboard.">
 
-    <style>
-        input , .bootstrap-select.btn-group button{
-            background-color: #f3f4f6  !important;
-            height: 44px  !important;
-            box-shadow: none  !important;
-        }
-    </style>
+    <meta property="og:image" content="http://themepixels.me/bracketplus/img/bracketplus-social.png">
+    <meta property="og:image:secure_url" content="http://themepixels.me/bracketplus/img/bracketplus-social.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
 
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="author" content="ThemePixels">
+
+    <title>Bracket Plus Responsive Bootstrap 4 Admin Template</title>
+
+    <!-- vendor css -->
+    <link href="{{ asset('lib/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Bracket CSS -->
+    <link rel="stylesheet" href="{{ asset('css/bracket.css') }}">
 </head>
 
 <body>
 
+<div class="d-flex align-items-center justify-content-center ht-100v">
+    <img src="{{ asset('img/bg.jpg') }}" class="wd-100p ht-100p object-fit-cover" alt="">
+    <div class="overlay-body bg-black-6 d-flex align-items-center justify-content-center">
+        <div class="login-wrapper wd-300 wd-xs-350 pd-25 pd-xs-40 rounded bd bd-white-2 bg-black-7">
+            <div class="signin-logo tx-center tx-28 tx-bold tx-white">
+                <span class="tx-normal">[</span> Crypto<span class="tx-info">Door</span> <span class="tx-normal">]</span></div>
+{{--            <div class="tx-white-5 tx-center mg-b-60">Join </div>--}}
 
-<div id="wrapper" class="flex flex-col justify-between h-screen">
-
-    <!-- header-->
-    <div class="bg-white py-4 shadow dark:bg-gray-800">
-        <div class="max-w-6xl mx-auto">
-
-
-            <div class="flex items-center lg:justify-between justify-around">
-
-                <a href="{{ route('index') }}">
-                    <h2 style="font-weight: bolder; color: #620F5FFF; font-size: 24px">Cryptodoor</h2>
-{{--                    <img src="{{ asset('img/logo2.png') }}" alt="" class="w-32">--}}
-                </a>
-
-                <div class="capitalize flex font-semibold hidden lg:block my-2 space-x-3 text-center text-sm">
-                    <a href="login" class="py-3 px-4">Login</a>
-                    <a href="register" class="bg-purple-500 purple-500 px-6 py-3 rounded-md shadow text-white">Register</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Content-->
-    <div>
-        <div class="lg:p-12 max-w-xl lg:my-0 my-12 mx-auto p-6 space-y-">
-            <form action="{{ route('register') }}" class="lg:p-10 p-6 space-y-3 relative bg-white shadow-xl rounded-md" method="POST">
+            <form class="mt-4" action="{{ route('register') }}" method="POST">
                 @csrf
-                <h1 class="lg:text-2xl text-xl font-semibold mb-6"> Register </h1>
                 @if ($errors->any())
                     <div class="alert alert-danger">
                         <ul>
@@ -78,73 +58,35 @@
                         </ul>
                     </div>
                 @endif
-
-                <div>
-                    <label class="mb-0" for="first-name"> Full Name </label>
-                    <input type="text" name="name" placeholder="Your Name"  id="first-name" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control fc-outline-dark" placeholder="Enter your Full-Name">
                 </div>
-                <div>
-                    <label class="mb-0" for="username"> Username </label>
-                    <input type="text" name="username" autocomplete="off" placeholder="Username" id="username" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
+                <div class="form-group">
+                    <input type="email" autocomplete="off" name="email" class="form-control fc-outline-dark" placeholder="Enter your email">
                 </div>
-                <div>
-                    <label class="mb-0" for="email"> Email Address </label>
-                    <input type="email" name="email" placeholder="Info@example.com" id="email" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
+                <div class="form-group">
+                    <input type="text" name="username" class="form-control fc-outline-dark" placeholder="Enter your Username">
                 </div>
-                <div>
-                    <label class="mb-0" for="password"> Password </label>
-                    <input type="password" name="password" placeholder="******" id="password" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
+                <!-- form-group -->
+                <div class="form-group">
+                    <input type="password" name="password" class="form-control fc-outline-dark" placeholder="Enter your password">
                 </div>
-                <div>
-                    <label class="mb-0" for="password">Confirm Password </label>
-                    <input type="password" name="password_confirmation" placeholder="******" id="password" class="bg-gray-100 h-12 mt-2 px-3 rounded-md w-full">
+                <div class="form-group">
+                    <input type="password" name="password_confirmation" class="form-control fc-outline-dark" placeholder="Confirm password">
                 </div>
-
-                <div class="checkbox">
-                    <input type="checkbox" id="chekcbox1" checked="">
-                    <label for="chekcbox1"><span class="checkbox-icon"></span> I agree to the <a href="pages-terms.html" target="_blank" class="uk-text-bold uk-text-small uk-link-reset"> Terms and Conditions </a>
-                    </label>
-                </div>
-
-                <div>
-                    <button type="button" class="bg-blue-600 font-semibold p-2 mt-5 rounded-md text-center text-white w-full">
-                        Get Started</button>
-                </div>
+                <!-- form-group -->
+                <button type="submit" class="btn btn-info btn-block">Sign Up</button>
             </form>
 
+            <div class="mg-t-60 tx-center">Have an account? <a href="{{ route('login') }}" class="tx-info">Sign In</a></div>
+        </div><!-- login-wrapper -->
+    </div><!-- overlay-body -->
+</div><!-- d-flex -->
 
-        </div>
-    </div>
-
-    <!-- Footer -->
-
-    <div class="lg:mb-5 py-3 uk-link-reset">
-        <div class="flex flex-col items-center justify-between lg:flex-row max-w-6xl mx-auto lg:space-y-0 space-y-3">
-            <div class="flex space-x-2 text-gray-700 uppercase">
-                <a href="#"> About</a>
-                <a href="#"> Help</a>
-                <a href="#"> Terms</a>
-                <a href="#"> Privacy</a>
-            </div>
-            <p class="capitalize"> © copyright 2021 by Courseplus</p>
-        </div>
-    </div>
-
-</div>
-
-<!-- Javascript
-================================================== -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.7.6/dist/js/uikit.min.js"></script>
-<script src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/js/uikit.js"></script>
-<script src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/js/tippy.all.min.js"></script>
-<script src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/js/simplebar.js"></script>
-<script src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/js/custom.js"></script>
-<script src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/js/bootstrap-select.min.js"></script>
-<script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+<script src="{{ asset('lib/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('lib/jquery-ui/ui/widgets/datepicker.js') }}"></script>
+<script src="{{ asset('lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
 
-</body>
 
-<!-- Mirrored from demo.foxthemes.net/courseplus-v4.3.1/default/form-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 06 Aug 2022 12:04:12 GMT -->
-</html>
+</body></html>

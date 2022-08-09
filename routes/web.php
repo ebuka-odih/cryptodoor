@@ -17,5 +17,10 @@ Route::view('/', 'pages.index2')->name('index');
 Route::view('quiz', 'pages.quiz')->name('quiz');
 
 Auth::routes();
+include 'admin.php';
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['admin', 'auth', 'verified'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
+    Route::get('admin', 'adminController@adminDashboard');
+});
