@@ -21,6 +21,8 @@ include 'admin.php';
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::group(['middleware' => ['admin', 'auth', 'verified'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
-    Route::get('admin', 'adminController@adminDashboard');
+Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], function () {
+    Route::get('dashboard', 'UserController@dashboard')->name('dashboard');
+
+    Route::get('crypto/news', "CryptoNewsController@news")->name('news');
 });
