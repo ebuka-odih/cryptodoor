@@ -29,7 +29,6 @@ class AdminCryptoNewsController extends Controller
         ]);
 
         if ($request->hasFile('image')){
-
             $image = $request->file('image');
             $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
             $destinationPath = public_path('/images');

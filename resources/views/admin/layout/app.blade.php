@@ -61,8 +61,8 @@
                 <span class="menu-item-label"> Crypto News</span>
             </a><!-- br-menu-link -->
             <ul class="br-menu-sub">
-                <li class="sub-item"><a href="{{ route('admin.crypto-news.create') }}" class="sub-link">Add News</a></li>
-                <li class="sub-item"><a href="{{ route('admin.crypto-news.index') }}" class="sub-link">All News</a></li>
+                <li class="sub-item"><a href="{{ route('admin.crypto-news.create') }}" class="sub-link">Add Crypto News</a></li>
+                <li class="sub-item"><a href="{{ route('admin.crypto-news.index') }}" class="sub-link">All Crypto News</a></li>
             </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
@@ -78,39 +78,44 @@
 
         <li class="br-menu-item">
             <a href="#" class="br-menu-link with-sub">
-                <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
-                <span class="menu-item-label">Cards &amp; Widgets</span>
+                <i class="menu-item-icon fas fa-chart-area tx-20"></i>
+                <span class="menu-item-label"> Coin Charts</span>
             </a><!-- br-menu-link -->
             <ul class="br-menu-sub">
-                <li class="sub-item"><a href="card-dashboard.html" class="sub-link">Dashboard</a></li>
-                <li class="sub-item"><a href="card-social.html" class="sub-link">Blog &amp; Social Media</a></li>
-                <li class="sub-item"><a href="card-listing.html" class="sub-link">Shop &amp; Listing</a></li>
-            </ul>
-        </li>
-        <li class="br-menu-item">
-            <a href="#" class="br-menu-link with-sub">
-                <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
-                <span class="menu-item-label">UI Elements</span>
-            </a><!-- br-menu-link -->
-            <ul class="br-menu-sub">
-                <li class="sub-item"><a href="accordion.html" class="sub-link">Accordion</a></li>
-                <li class="sub-item"><a href="alerts.html" class="sub-link">Alerts</a></li>
-                <li class="sub-item"><a href="buttons.html" class="sub-link">Buttons</a></li>
-                <li class="sub-item"><a href="cards.html" class="sub-link">Cards</a></li>
-                <li class="sub-item"><a href="carousel.html" class="sub-link">Carousel</a></li>
-                <li class="sub-item"><a href="dropdowns.html" class="sub-link">Dropdowns</a></li>
-                <li class="sub-item"><a href="icons.html" class="sub-link">Icons</a></li>
-                <li class="sub-item"><a href="images.html" class="sub-link">Images</a></li>
-                <li class="sub-item"><a href="list.html" class="sub-link">Lists</a></li>
-                <li class="sub-item"><a href="modal.html" class="sub-link">Modal</a></li>
-                <li class="sub-item"><a href="media.html" class="sub-link">Media Object</a></li>
-                <li class="sub-item"><a href="pagination.html" class="sub-link">Pagination</a></li>
-                <li class="sub-item"><a href="popups.html" class="sub-link">Tooltip &amp; Popover</a></li>
-                <li class="sub-item"><a href="progress.html" class="sub-link">Progress</a></li>
-                <li class="sub-item"><a href="spinners.html" class="sub-link">Spinners</a></li>
-                <li class="sub-item"><a href="typography.html" class="sub-link">Typography</a></li>
+                <li class="sub-item"><a href="navigation.html" class="sub-link">Add Chart</a></li>
+                <li class="sub-item"><a href="navigation-layouts.html" class="sub-link">All Charts</a></li>
             </ul>
         </li><!-- br-menu-item -->
+
+        <li class="br-menu-item">
+            <a href="#" class="br-menu-link with-sub">
+                <i class="menu-item-icon fas fa-paperclip tx-20"></i>
+                <span class="menu-item-label"> News Update</span>
+            </a><!-- br-menu-link -->
+            <ul class="br-menu-sub">
+                <li class="sub-item"><a href="navigation.html" class="sub-link">Add News</a></li>
+                <li class="sub-item"><a href="navigation-layouts.html" class="sub-link">All News</a></li>
+            </ul>
+        </li><!-- br-menu-item -->
+        <li class="br-menu-item">
+            <a href="index.html" class="br-menu-link">
+                <i class="menu-item-icon fa fa-users tx-20"></i>
+                <span class="menu-item-label"> The Community</span>
+            </a><!-- br-menu-link -->
+        </li><!-- br-menu-item -->
+        <li class="br-menu-item">
+            <a href="index.html" class="br-menu-link">
+                <i class="menu-item-icon fa fa-book tx-24"></i>
+                <span class="menu-item-label"> Learn</span>
+            </a><!-- br-menu-link -->
+        </li><!-- br-menu-item -->
+        <li class="br-menu-item">
+            <a href="index.html" class="br-menu-link">
+                <i class="menu-item-icon fa fa-anchor tx-20"></i>
+                <span class="menu-item-label"> Connect</span>
+            </a><!-- br-menu-link -->
+        </li><!-- br-menu-item -->
+
 
     </ul><!-- br-sideleft-menu -->
 
@@ -184,330 +189,7 @@
         </li>
     </ul><!-- sidebar-tabs -->
 
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane pos-absolute a-0 mg-t-60 contact-scrollbar active" id="contacts" role="tabpanel">
-            <label class="sidebar-label pd-x-25 mg-t-25">Online Contacts</label>
-            <div class="contact-list pd-x-10">
-                <a href="" class="contact-list-link new">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Marilyn Tarter</p>
-                            <span>Clemson, CA</span>
-                        </div>
-                        <span class="tx-info tx-12"><span class="square-8 bg-info rounded-circle"></span> 1 new</span>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p class="mg-b-0 ">Belinda Connor</p>
-                            <span>Fort Kent, ME</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link new">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Britanny Cevallos</p>
-                            <span>Shiboygan Falls, WI</span>
-                        </div>
-                        <span class="tx-info tx-12"><span class="square-8 bg-info rounded-circle"></span> 3 new</span>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link new">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Brandon Lawrence</p>
-                            <span>Snohomish, WA</span>
-                        </div>
-                        <span class="tx-info tx-12"><span class="square-8 bg-info rounded-circle"></span> 1 new</span>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Andrew Wiggins</p>
-                            <span>Springfield, MA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Theodore Gristen</p>
-                            <span>Nashville, TN</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-success"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Deborah Miner</p>
-                            <span>North Shore, CA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-            </div><!-- contact-list -->
 
-
-            <label class="sidebar-label pd-x-25 mg-t-25">Offline Contacts</label>
-            <div class="contact-list pd-x-10">
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Marilyn Tarter</p>
-                            <span>Clemson, CA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Belinda Connor</p>
-                            <span>Fort Kent, ME</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Britanny Cevallos</p>
-                            <span>Shiboygan Falls, WI</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Brandon Lawrence</p>
-                            <span>Snohomish, WA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Andrew Wiggins</p>
-                            <span>Springfield, MA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Theodore Gristen</p>
-                            <span>Nashville, TN</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-                <a href="" class="contact-list-link">
-                    <div class="d-flex">
-                        <div class="pos-relative">
-                            <img src="https://via.placeholder.com/500" alt="">
-                            <div class="contact-status-indicator bg-gray-500"></div>
-                        </div>
-                        <div class="contact-person">
-                            <p>Deborah Miner</p>
-                            <span>North Shore, CA</span>
-                        </div>
-                    </div><!-- d-flex -->
-                </a><!-- contact-list-link -->
-            </div><!-- contact-list -->
-
-        </div><!-- #contacts -->
-        <div class="tab-pane pos-absolute a-0 mg-t-60 attachment-scrollbar" id="attachments" role="tabpanel">
-            <label class="sidebar-label pd-x-25 mg-t-25">Recent Attachments</label>
-            <div class="media-file-list">
-                <div class="media">
-                    <div class="pd-10 bg-gray-500 bg-mojito wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-image tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">IMG_43445</p>
-                        <p class="mg-b-0 tx-12 op-5">JPG Image</p>
-                        <p class="mg-b-0 tx-12 op-5">1.2mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-purple wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-video tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">VID_6543</p>
-                        <p class="mg-b-0 tx-12 op-5">MP4 Video</p>
-                        <p class="mg-b-0 tx-12 op-5">24.8mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-reef wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-word tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">Tax_Form</p>
-                        <p class="mg-b-0 tx-12 op-5">Word Document</p>
-                        <p class="mg-b-0 tx-12 op-5">5.5mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-firewatch wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-pdf tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">Getting_Started</p>
-                        <p class="mg-b-0 tx-12 op-5">PDF Document</p>
-                        <p class="mg-b-0 tx-12 op-5">12.7mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-firewatch wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-pdf tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">Introduction</p>
-                        <p class="mg-b-0 tx-12 op-5">PDF Document</p>
-                        <p class="mg-b-0 tx-12 op-5">7.7mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-mojito wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-image tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">IMG_43420</p>
-                        <p class="mg-b-0 tx-12 op-5">JPG Image</p>
-                        <p class="mg-b-0 tx-12 op-5">2.2mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-mojito wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-image tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">IMG_43447</p>
-                        <p class="mg-b-0 tx-12 op-5">JPG Image</p>
-                        <p class="mg-b-0 tx-12 op-5">3.2mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-purple wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-video tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">VID_6545</p>
-                        <p class="mg-b-0 tx-12 op-5">AVI Video</p>
-                        <p class="mg-b-0 tx-12 op-5">14.8mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-                <div class="media mg-t-20">
-                    <div class="pd-10 bg-gray-500 bg-reef wd-50 ht-60 tx-center d-flex align-items-center justify-content-center">
-                        <i class="far fa-file-word tx-28 tx-white"></i>
-                    </div>
-                    <div class="media-body">
-                        <p class="mg-b-0 tx-13">Secret_Document</p>
-                        <p class="mg-b-0 tx-12 op-5">Word Document</p>
-                        <p class="mg-b-0 tx-12 op-5">4.5mb</p>
-                    </div><!-- media-body -->
-                    <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                </div><!-- media -->
-            </div><!-- media-list -->
-        </div><!-- #history -->
-        <div class="tab-pane pos-absolute a-0 mg-t-60 schedule-scrollbar" id="calendar" role="tabpanel">
-            <label class="sidebar-label pd-x-25 mg-t-25">Time &amp; Date</label>
-            <div class="pd-x-25">
-                <h2 id="brTime" class="br-time"></h2>
-                <h6 id="brDate" class="br-date"></h6>
-            </div>
-
-            <label class="sidebar-label pd-x-25 mg-t-25">Events Calendar</label>
-            <div class="datepicker sidebar-datepicker"></div>
-
-
-            <label class="sidebar-label pd-x-25 mg-t-25">Event Today</label>
-            <div class="pd-x-25">
-                <div class="list-group sidebar-event-list mg-b-20">
-                    <div class="list-group-item">
-                        <div>
-                            <h6>Roven's 32th Birthday</h6>
-                            <p>2:30PM</p>
-                        </div>
-                        <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                    </div><!-- list-group-item -->
-                    <div class="list-group-item">
-                        <div>
-                            <h6>Regular Workout Schedule</h6>
-                            <p>7:30PM</p>
-                        </div>
-                        <a href="" class="more"><i class="icon ion-android-more-vertical tx-18"></i></a>
-                    </div><!-- list-group-item -->
-                </div><!-- list-group -->
-
-                <a href="" class="btn btn-block btn-outline-secondary tx-uppercase tx-12 tx-spacing-2">+ Add Event</a>
-                <br>
-            </div>
-
-        </div>
-    </div><!-- tab-content -->
 </div><!-- br-sideright -->
 <!-- ########## END: RIGHT PANEL ########## --->
 
