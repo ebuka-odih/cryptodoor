@@ -18,6 +18,7 @@ class CreateCryptoNewsTable extends Migration
             $table->timestamps();
             $table->string('title');
             $table->string('image')->nullable();
+            $table->integer('featured')->default(0);
             $table->text('description');
         });
     }
