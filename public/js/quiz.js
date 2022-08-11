@@ -7,33 +7,34 @@ var quiz = {
             "question": "What was the first tangible item purchased with BTC?",
             "options": [
                 {
-                    "a": "&lt;script&gt;",
-                    "b": "&lt;javascript&gt;",
-                    "c": "&lt;scripting&gt;",
-                    "d": "&lt;js&gt;"
+                    "a": "Beer",
+                    "b": "Pizza",
+                    "c": "A boat",
+                    "d": "A house"
                 }
             ],
-            "answer": "&lt;script&gt;",
+            "answer": "Pizza",
             "score": 0,
             "status": ""
         },
         {
             "id": 2,
-            "question": "Where is the correct place to insert a JavaScript?",
+            "question": "In which year was Proof of Work first conceptualized?",
             "options": [
                 {
-                    "a": "The &lt;head&gt; section",
-                    "b": "The &lt;body&gt; section",
-                    "c": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct"
+                    "a": "1993",
+                    "b": "1998",
+                    "c": "2008",
+                    "d": "2009"
                 }
             ],
-            "answer": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
+            "answer": "2009",
             "score": 0,
             "status": ""
         },
         {
             "id": 3,
-            "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+            "question": "Which was the first contentious Bitcoin hard fork?",
             "options": [
                 {
                     "a": "&ltscript href=&quot;xxx.js&quot;>",
