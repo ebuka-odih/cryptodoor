@@ -32,6 +32,7 @@
 </div>
 
 <!--Navbar Start-->
+{{--<a href="register" class="btn btn-primary">Register</a>--}}
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom " id="navbar">
     <div class="container">
         <!-- LOGO -->
@@ -74,7 +75,7 @@
             <div class="col-lg-5">
                 <h1 class="text-white display-4 font-weight-semibold mb-4 hero-1-title">Join the biggest growing and the best Crypto Organization</h1>
                 <p class="text-white-70 mb-4  mb-lg-5">Get full access to information and tools you need for real productivity and growth.</p>
-                <a href="javascript: void(0);" class="btn btn-lg btn-light rounded-pill me-2">Get Started</a>
+                <a href="{{ route('quiz') }}" class="btn btn-lg btn-light rounded-pill me-2">Take A Quiz</a>
             </div>
             <!-- end col -->
             <div class="col-lg-6 col-sm-10 mx-auto ms-lg-auto me-lg-0">
@@ -404,24 +405,54 @@
     <div class="container">
         <div class="row justify-content-center mb-4">
             <div class="col-lg-7 text-center">
-                <h2 class="fw-bold">Our Blog</h2>
-                <p class="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem ab illo inventore.</p>
+                <h2 class="fw-bold">Why Join The Crypto Door  Organization ?</h2>
+                <p class="text-muted">Get a Full Experience of Growth and Knowledge with one of the biggest communities in the world.</p>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4">
                 <div class="card mt-4 border-0 shadow">
                     <div class="card-body p-4">
-                        <span class="badge badge-soft-primary">UI & UX Design</span>
-                        <h4 class="font-size-22 my-4"><a href="javascript: void(0);">Step bt step to conduct usability testing</a></h4>
-                        <p class="text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                        <div class="d-flex align-items-center mt-4 pt-2">
-                            <img src="images/user/img-2.jpg" class="rounded-circle avatar-sm me-3" alt="..." />
-                            <div class="flex-body">
-                                <h5 class="font-size-17 mb-0">John Yeager</h5>
-                                <p class="text-muted mb-0 font-size-14">Designer, New York</p>
-                            </div>
-                        </div>
+
+                        <span class="badge badge-soft-primary">Insight</span>
+
+                        <p class="text-muted mt-2"> -Flourish in everything Crypto Related, Get Knowledge from A-Z . Fully Understand the depth of crypto.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+
+                        <span class="badge badge-soft-primary">Technical Analysis</span>
+
+                        <p class="text-muted mt-2"> -Technical Analysis for all crypto charts, breakdown and Price actions, Get Full Data and stay on track.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+                        <span class="badge badge-soft-primary">Crypto Events</span>
+
+                        <p class="text-muted mt-2"> -Don’t miss out on Upcoming Crypto events world-wide, as member of the Crypto Door Organization, you have access to meeting and crypto Events worldwide. The Fun is unlimited.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+                        <span class="badge badge-soft-primary">Trading</span>
+
+                        <p class="text-muted mt-2">-Trading Futures , Pro steps, How it is rightly Done.
+                        </p>
+
                     </div>
                 </div>
             </div>
@@ -430,34 +461,50 @@
             <div class="col-lg-4">
                 <div class="card mt-4 border-0 shadow">
                     <div class="card-body p-4">
-                        <span class="badge badge-soft-primary">CEO</span>
-                        <h4 class="font-size-22 my-4"><a href="javascript: void(0);">Increase conversion rate from ad to landing page</a></h4>
-                        <p class="text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                        <div class="d-flex align-items-center mt-4 pt-2">
-                            <img src="images/user/img-3.jpg" class="rounded-circle avatar-sm me-3" alt="..." />
-                            <div class="flex-body">
-                                <h5 class="font-size-17 mb-0">Berneice Harris</h5>
-                                <p class="text-muted mb-0 font-size-14">Designer, New York</p>
-                            </div>
-                        </div>
+                        <span class="badge badge-soft-primary">Security</span>
+
+                        <p class="text-muted mt-2">  -Protect yourself from losses, theft and scams, Also be one step ahead, Our research team is big on finding and preventing losses among our members.   </p>
+
                     </div>
                 </div>
             </div>
-            <!-- end col -->
-
             <div class="col-lg-4">
                 <div class="card mt-4 border-0 shadow">
                     <div class="card-body p-4">
-                        <span class="badge badge-soft-primary">Developer</span>
-                        <h4 class="font-size-22 my-4"><a href="javascript: void(0);">Why small business should start marketing</a></h4>
-                        <p class="text-muted">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-                        <div class="d-flex align-items-center mt-4 pt-2">
-                            <img src="images/user/img-1.jpg" class="rounded-circle avatar-sm me-3" alt="..." />
-                            <div class="flex-body">
-                                <h5 class="font-size-17 mb-0">Sarah Pettway</h5>
-                                <p class="text-muted mb-0 font-size-14">Designer, New York</p>
-                            </div>
-                        </div>
+                        <span class="badge badge-soft-primary">Crypto Projects</span>
+
+                        <p class="text-muted mt-2">-Coin Watch Segment,  Follow the Pro-team , Get early into Profitable crypto projects early.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+                        <span class="badge badge-soft-primary">Explore</span>
+
+                        <p class="text-muted mt-2"> -The Blockchain : Understanding how Trillions or Dollars are made in the Blockchain, Get a Full Knowledge on The Blockchain.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+                        <span class="badge badge-soft-primary">Trading Signals</span>
+
+                        <p class="text-muted mt-2"> - Crypto Trading on All Platform , the professional Approach A-Z    </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mt-4 border-0 shadow">
+                    <div class="card-body p-4">
+                        <span class="badge badge-soft-primary">Crypto News</span>
+
+                        <p class="text-muted mt-2"> - Stay Updated never miss out on Life Changing Updates.    </p>
+
                     </div>
                 </div>
             </div>
