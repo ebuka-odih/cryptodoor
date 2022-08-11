@@ -37,54 +37,58 @@ var quiz = {
             "question": "Which was the first contentious Bitcoin hard fork?",
             "options": [
                 {
-                    "a": "&ltscript href=&quot;xxx.js&quot;>",
-                    "b": "&lt;script name=&quot;xxx.js&quot;&gt;",
-                    "c": "&lt;script src=&quot;xxx.js&quot;&gt;"
+                    "a": "Bitcoin Plus",
+                    "b": "Bit Gold",
+                    "c": "Bitcoin Cash",
+                    "d": "Bitcoin XT"
                 }
             ],
-            "answer": "&lt;script src=&quot;xxx.js&quot;&gt;",
+            "answer": "Bit Gold",
             "score": 0,
             "status": ""
         },
         {
             "id": 4,
-            "question": "The external JavaScript file must contain the &lt;script&gt; tag.",
+            "question": "What was the name of the paper introducing Bitcoin?\n",
             "options": [
                 {
-                    "a": "True",
-                    "b": "False"
+                    "a": "Bitcoin: A Decentralized Digital Currency",
+                    "b": "Bitcoin: A Peer-to-Peer Electronic Cash System",
+                    "c": "Bitcoin: A Decentralized Electronic Cash System",
+                    "d": "Bitcoin: A Peer-to-Peer Digital Currency",
                 }
             ],
-            "answer": "False",
+            "answer": "Bitcoin: A Peer-to-Peer Electronic Cash System",
             "score": 0,
             "status": ""
         },
         {
             "id": 5,
-            "question": "How do you write &quot;Hello World&quot; in an alert box?",
+            "question": "What date was the Bitcoin genesis block mined?",
             "options": [
                 {
-                    "a": "alertBox(&quot;Hello World&quot;);",
-                    "b": "msg(&quot;Hello World&quot;);",
-                    "c": "alert(&quot;Hello World&quot;);",
-                    "d": "msgBox(&quot;Hello World&quot;);",
+                    "a": "31st December 2008",
+                    "b": "21st December 2008",
+                    "c": "03rd January 2009",
+                    "d": "06th October 2004",
                 }
             ],
-            "answer": "alert(&quot;Hello World&quot;);",
+            "answer": "03rd January 2009",
             "score": 0,
             "status": ""
         },
         {
             "id": 6,
-            "question": "How do you create a function in JavaScript?",
+            "question": "What was the message hard-coded into the genesis block?\n",
             "options": [
                 {
-                    "a": "function myFunction()",
-                    "b": "function:myFunction()",
-                    "c": "function = myFunction()",
+                    "a": "The Wall Street Journal 18/Sep/2008 Mounting fears shake world markets as banking giants rush to raise capital",
+                    "b": "The New York Times 19/Sep/2008 Vast bailout by U.S. proposed in bid to stem economic crisis",
+                    "c": "The WSJ 02/Oct/2008 Historic bailout passes as economy slips further",
+                    "d": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
                 }
             ],
-            "answer": "function myFunction()",
+            "answer": "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks",
             "score": 0,
             "status": ""
         },
