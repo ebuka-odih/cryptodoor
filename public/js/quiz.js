@@ -4,7 +4,7 @@ var quiz = {
     "JS": [
         {
             "id": 1,
-            "question": "Inside which HTML element do we put the JavaScript?",
+            "question": "What was the first tangible item purchased with BTC?",
             "options": [
                 {
                     "a": "&lt;script&gt;",
@@ -87,7 +87,7 @@ var quiz = {
             "score": 0,
             "status": ""
         },
-       
+
     ]
 }
 var quizApp = function () {
