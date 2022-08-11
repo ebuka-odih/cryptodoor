@@ -222,7 +222,7 @@
     <section id="details" class="details">
         <div class="container">
             <div class="row content">
-                <div class="col-md-4" data-aos="fade-right"><img src="assets/img/details-1.png" class="img-fluid"
+                <div class="col-md-4" data-aos="fade-right"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-1.png" class="img-fluid"
                                                                  alt=""></div>
                 <div class="col-md-8 pt-4" data-aos="fade-up"><h3>Voluptatem dignissimos provident quasi corporis
                         voluptates sit assumenda.</h3>
@@ -241,7 +241,7 @@
                         Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</p></div>
             </div>
             <div class="row content">
-                <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="assets/img/details-2.png"
+                <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-2.png"
                                                                                    class="img-fluid" alt=""></div>
                 <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up"><h3>Corporis temporibus maiores
                         provident</h3>
@@ -255,7 +255,7 @@
                         est nisi esse. Saepe aut dignissimos distinctio id enim.</p></div>
             </div>
             <div class="row content">
-                <div class="col-md-4" data-aos="fade-right"><img src="assets/img/details-3.png" class="img-fluid"
+                <div class="col-md-4" data-aos="fade-right"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-3.png" class="img-fluid"
                                                                  alt=""></div>
                 <div class="col-md-8 pt-5" data-aos="fade-up"><h3>Sunt consequatur ad ut est nulla consectetur
                         reiciendis animi voluptas</h3>
@@ -272,7 +272,7 @@
                         soluta explicabo vel fugiat eum non.</p></div>
             </div>
             <div class="row content">
-                <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="assets/img/details-4.png"
+                <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-4.png"
                                                                                    class="img-fluid" alt=""></div>
                 <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up"><h3>Quas et necessitatibus eaque
                         impedit ipsum animi consequatur incidunt in</h3>
