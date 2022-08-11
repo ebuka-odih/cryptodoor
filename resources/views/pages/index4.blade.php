@@ -10,6 +10,8 @@
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <base href="https://bootstrapmade.com/demo/templates/Bootslander/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
@@ -82,12 +84,25 @@
                     <p>Enjoy non-stop growth in crypto with Crypto Door, the focus is on growing together , leaving no member of this community behind, Following Professional step, and learning how it’s done rightly , we focus on growth for each member of the community and also for the entire Crypto/web3 ecosystem.</p>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="">- Flourish in Crypto </a></h4>
+                        <h4 class="title"><a href="">Flourish in Crypto </a></h4>
+                        <p class="description">
+                            Get Knowledge from A-Z . Fully Understand the depth of crypto. Learn and Understand money is made in crypto .
+                        </p>
                        </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-gift"></i></div>
-                        <h4 class="title"><a href="">-Access to Crypto events world-wide </a></h4>
+                        <h4 class="title"><a href="">Access to Crypto events world-wide </a></h4>
+                        <p class="description">
+                            As a member of the Crypto Door Organization, you have access to meeting and crypto Events worldwide. The Fun is unlimited, make new connections and establish Growth.
+                        </p>
                        </div>
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon"><i class="bx bx-gift"></i></div>
+                        <h4 class="title"><a href="">Be The First. </a></h4>
+                        <p class="description">
+                            Technical Analysis for all crypto charts, breakdown and Price actions, Get Full Data,  stay on track. Don’t miss out on vital opportunities, Learn from Crypto Leaders.
+                        </p>
+                    </div>
 
                 </div>
             </div>
@@ -99,7 +114,7 @@
                 <p>Check The Features</p></div>
             <div class="row" data-aos="fade-left">
                 <div class="col-lg-3 col-md-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="ri-store-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="fa fa-trophy"
                                                                                     style="color: #ffbb2c;"></i>
                         <h3><a href="">- Award Winning Crypto Community</a></h3></div>
                 </div>
@@ -174,7 +189,7 @@
                     <div class="count-box"><i class="bi bi-emoji-smile"></i>
                         <span class="pureounter">121,020 +</span>
 
-                        <p>Happy Clients</p>
+                        <p>Happy Members</p>
 
                 </div>
                 </div>
@@ -187,9 +202,8 @@
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
                     <div class="count-box"><i class="bi bi-headset"></i>
-                        <span class="pureounter">$1.5B</span>
-
-                        <p>In Transactions</p>
+                        <span class="pureounter">24,683 </span>
+                        <p>Millionaires Made so far (Over $1.6 Billion in Transactions)</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
@@ -226,33 +240,23 @@
             <div class="row content">
                 <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-2.png"
                                                                                    class="img-fluid" alt=""></div>
-                <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up"><h3>Corporis temporibus maiores
-                        provident</h3>
-                    <p class="fst-italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    <p> Inventore id enim dolor dicta qui et magni molestiae. Mollitia optio officia illum ut cupiditate
-                        eos autem. Soluta dolorum repellendus repellat amet autem rerum illum in. Quibusdam occaecati
-                        est nisi esse. Saepe aut dignissimos distinctio id enim.</p></div>
+                <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
+                    <h3>Is It Late to get into Crypto and Understand the Blockchain?</h3>
+                    <p > Statistics show that we are in the very early phase of crypto and their is far more to be made , Crypto has Generated over $1.6 Billion for members of the organization, and statistically we are not started yet. It up to your perception of Time and Events, but it’s really way to early for everyone in Crypto.</p>
+
+                </div>
             </div>
             <div class="row content">
                 <div class="col-md-4" data-aos="fade-right"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-3.png" class="img-fluid"
                                                                  alt=""></div>
-                <div class="col-md-8 pt-5" data-aos="fade-up"><h3>Sunt consequatur ad ut est nulla consectetur
-                        reiciendis animi voluptas</h3>
-                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit
-                        aut quia voluptatem hic voluptas dolor doloremque.</p>
+                <div class="col-md-8 pt-5" data-aos="fade-up"><h3>The Membership Status of cryptodoor.org , What to Understand</h3>
+                    <p>It’s been a great time welcoming members from all over the world as the Join The Crypto Door, currently one of the Biggest as we produce the most millionaires.</p>
                     <ul>
-                        <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+                        <li><i class="bi bi-check"></i> Joining however can’t be free as we have to maintain value , by attracting individuals who are really serious and into really Building with the Team. </li>
+                        <li><i class="bi bi-check"></i> Check the Membership Pricing Below to see the one that suits you.</li>
                     </ul>
-                    <p> Qui consequatur temporibus. Enim et corporis sit sunt harum praesentium suscipit ut voluptatem.
-                        Et nihil magni debitis consequatur est.</p>
-                    <p> Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum
-                        soluta explicabo vel fugiat eum non.</p></div>
+
+                </div>
             </div>
 
         </div>
@@ -264,43 +268,44 @@
             <div class="row g-0" data-aos="fade-left">
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100"><a
-                            href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/1.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/1.jpeg') }}" height="250" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
-                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150"><a
-                            href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid"> </a></div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="150">
+                        <a href="{{ asset('img2/2.jpeg') }}"
+                            class="gallery-lightbox"> <img
+                                src="{{ asset('img2/2.jpeg') }}" height="250" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200"><a
-                            href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/3.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/3.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="250"><a
-                            href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/4.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/4.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300"><a
-                            href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/5.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/5.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="350"><a
-                            href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/6.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/6.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400"><a
-                            href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/7.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/7.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="gallery-item" data-aos="zoom-in" data-aos-delay="450"><a
-                            href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox"> <img
-                                src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid"> </a></div>
+                            href="{{ asset('img2/8.jpeg') }}" class="gallery-lightbox"> <img
+                                src="{{ asset('img2/8.jpeg') }}" alt="" class="img-fluid"> </a></div>
                 </div>
             </div>
         </div>
@@ -313,7 +318,7 @@
             <div class="row" data-aos="fade-left">
 
                 <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-                    <div class="box featured" data-aos="zoom-in" data-aos-delay="200"><h3>Business</h3><h4><sup>$</sup>35<span> / month</span>
+                    <div class="box featured" data-aos="zoom-in" data-aos-delay="200"><h3>Business</h3><h4><sup>$</sup>35<span> </span>
                         </h4>
                         <ul>
                             <li>Aida dere</li>
@@ -326,7 +331,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-                    <div class="box" data-aos="zoom-in" data-aos-delay="300"><h3>Developer</h3><h4><sup>$</sup>145<span> / month</span>
+                    <div class="box" data-aos="zoom-in" data-aos-delay="300"><h3>Developer</h3><h4><sup>$</sup>145<span></span>
                         </h4>
                         <ul>
                             <li>Aida dere</li>
@@ -340,7 +345,7 @@
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
                     <div class="box" data-aos="zoom-in" data-aos-delay="400"><span class="advanced">Advanced</span>
-                        <h3>Ultimate</h3><h4><sup>$</sup>590<span> / month</span></h4>
+                        <h3>Ultimate</h3><h4><sup>$</sup>590<span> </span></h4>
                         <ul>
                             <li>Aida dere</li>
                             <li>Nec feugiat nisl</li>
@@ -354,63 +359,7 @@
             </div>
         </div>
     </section>
-    <section id="faq" class="faq section-bg">
-        <div class="container">
-            <div class="section-title" data-aos="fade-up"><h2>F.A.Q</h2>
-                <p>Frequently Asked Questions</p></div>
-            <div class="faq-list">
-                <ul>
-                    <li data-aos="fade-up"><i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                                          class="collapse"
-                                                                                          data-bs-target="#faq-list-1">Non
-                            consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> Feugiat pretium nibh
-                                ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
-                                Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p></div>
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="100"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque
-                            varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list"><p> Dolor sit amet consectetur
-                                adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec
-                                ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
-                                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                                tincidunt dui.</p></div>
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="200"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet
-                            consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list"><p> Eleifend mi in nulla
-                                posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer
-                                enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu
-                                tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu
-                                facilisis sed odio morbi quis</p></div>
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="300"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam
-                            pellentesque nec nam aliquam sem et tortor consequat? <i
-                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list"><p> Molestie a iaculis at erat
-                                pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus
-                                commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
-                                gravida quis blandit turpis cursus in.</p></div>
-                    </li>
-                    <li data-aos="fade-up" data-aos-delay="400"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus
-                            faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Laoreet sit amet cursus sit
-                                amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel.
-                                Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut
-                                venenatis tellus in metus vulputate eu scelerisque.</p></div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title" data-aos="fade-up"><h2>Contact</h2>
