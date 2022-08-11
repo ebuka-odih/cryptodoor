@@ -44,7 +44,7 @@
             <div class="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                 <div data-aos="zoom-out"><h1>Welcome To The Biggest
                         <span>Crypto Organization</span></h1>
-                    <h2>Get full access to information and tools you need for real productivity and growth.</h2>
+                    <h2>More crypto millionaires are made daily in this organization than in anywhere else.</h2>
                     <div class="text-center text-lg-start"><a href="#about" class="btn-get-started scrollto">Get
                             Started</a></div>
                 </div>
