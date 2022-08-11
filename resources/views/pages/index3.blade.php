@@ -272,7 +272,7 @@
                                         <p class="text-muted">Support: <span class="fw-bold">No</span></p>
                                         <p class="text-muted mb-4 pb-1">Domain 1</p>
                                         <p class="text-muted font-size-14 mb-1">All Extension Included</p>
-                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$9.00 / Month</p>
+                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$35.00 / Month</p>
                                         <a href="javascript: void(0);" class="btn btn-soft-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -291,7 +291,7 @@
                                         <p class="text-muted">Support: <span class="fw-bold">Yes</span></p>
                                         <p class="text-muted mb-4 pb-1">Domain 1</p>
                                         <p class="text-muted font-size-14 mb-1">All Extension Included</p>
-                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$39.00 / Month</p>
+                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$145.00 / Month</p>
                                         <a href="javascript: void(0);" class="btn btn-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -309,7 +309,7 @@
                                         <p class="text-muted">Support: <span class="fw-bold">No</span></p>
                                         <p class="text-muted mb-4 pb-1">Domain 1</p>
                                         <p class="text-muted font-size-14 mb-1">All Extension Included</p>
-                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$79.00 / Month</p>
+                                        <p class="text-dark font-size-16 font-weight-semibold mb-4">$590.00 / Month</p>
                                         <a href="javascript: void(0);" class="btn btn-soft-primary">Buy Now</a>
                                     </div>
                                 </div>
@@ -576,61 +576,12 @@
         <div class="row">
             <div class="col-lg-4">
                 <div class="mb-4">
-                    <a href="index-1.html"><img src="images/logo-light.png" alt="" class="" height="30" /></a>
+                    <a href="{{ route('index') }}"><img src="logo.png" alt="" class="" height="30" /></a>
                     <p class="text-white-50 my-4">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
                 </div>
             </div>
             <!-- end col -->
 
-            <div class="col-lg-7 ms-lg-auto">
-                <div class="row">
-                    <div class="col-lg-3 col-6">
-                        <div class="mt-4 mt-lg-0">
-                            <h4 class="text-white font-size-18 mb-3">Customer</h4>
-                            <ul class="list-unstyled footer-sub-menu">
-                                <li><a href="javascript: void(0);" class="footer-link">Works</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Strategy</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Releases</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Press</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Mission</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="mt-4 mt-lg-0">
-                            <h4 class="text-white font-size-18 mb-3">Product</h4>
-                            <ul class="list-unstyled footer-sub-menu">
-                                <li><a href="javascript: void(0);" class="footer-link">Trending</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Popular</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Customers</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Features</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="mt-4 mt-lg-0">
-                            <h4 class="text-white font-size-18 mb-3">Information</h4>
-                            <ul class="list-unstyled footer-sub-menu">
-                                <li><a href="javascript: void(0);" class="footer-link">Developers</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Support</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Customer Service</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Get Started</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Guide</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6">
-                        <div class="mt-4 mt-lg-0">
-                            <h4 class="text-white font-size-18 mb-3">Support</h4>
-                            <ul class="list-unstyled footer-sub-menu">
-                                <li><a href="javascript: void(0);" class="footer-link">FAQ</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Contact</a></li>
-                                <li><a href="javascript: void(0);" class="footer-link">Disscusion</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- end col -->
         </div>
         <!-- end row -->
@@ -641,7 +592,7 @@
                     <p class="text-white-50 f-15 mb-0">
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> © Qexal. Design By Themesbrand</p>
+                        </script> © Cryptodoor</p>
                 </div>
             </div>
             <!-- end col -->
