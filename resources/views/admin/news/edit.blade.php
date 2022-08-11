@@ -38,7 +38,7 @@
                             <div class="form-group">
                                 <label class="form-control-label">Image: </label>
                                 <input class="form-control form-control-file" type="file" name="image">
-                               <img height="100" width="100" src="{{ asset('images/'.$news->image ) }}" alt="">
+                               <img height="100" width="100" src="{{ asset('cryptodoor/'.$news->image ) }}" alt="">
 
                             </div>
                         </div><!-- col-4 -->

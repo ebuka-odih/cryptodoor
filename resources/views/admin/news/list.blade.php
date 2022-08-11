@@ -27,7 +27,7 @@
                 @foreach($news as $item)
                 <tr>
                     <th scope="row">{{ date('d M, Y', strtotime( $item->created_at)) }}</th>
-                    <td><img height="100" width="100" src="{{ asset('images/'.$item->image ) }}" alt=""></td>
+                    <td><img height="100" width="100" src="{{ asset('cryptodoor/'.$item->image ) }}" alt=""></td>
                     <td>{{ $item->title }}</td>
                     <td>
                        <div class="row">
