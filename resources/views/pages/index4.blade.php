@@ -9,6 +9,7 @@
     <meta content="" name="keywords">
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <base href="https://bootstrapmade.com/demo/templates/Bootslander/">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
@@ -253,25 +254,7 @@
                     <p> Suscipit enim et. Ut optio esse quidem quam reiciendis esse odit excepturi. Vel dolores rerum
                         soluta explicabo vel fugiat eum non.</p></div>
             </div>
-            <div class="row content">
-                <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-4.png"
-                                                                                   class="img-fluid" alt=""></div>
-                <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up"><h3>Quas et necessitatibus eaque
-                        impedit ipsum animi consequatur incidunt in</h3>
-                    <p class="fst-italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <p> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    <ul>
-                        <li><i class="bi bi-check"></i> Et praesentium laboriosam architecto nam .</li>
-                        <li><i class="bi bi-check"></i> Eius et voluptate. Enim earum tempore aliquid. Nobis et sunt
-                            consequatur. Aut repellat in numquam velit quo dignissimos et.
-                        </li>
-                        <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
-                    </ul>
-                </div>
-            </div>
+
         </div>
     </section>
     <section id="gallery" class="gallery">
@@ -549,37 +532,10 @@
                             <strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
                                                        data-cfemail="a9c0c7cfc6e9ccd1c8c4d9c5cc87cac6c4">[email&#160;protected]</a><br>
                         </p>
-                        <div class="social-links mt-3"><a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> <a
-                                href="#" class="facebook"><i class="bx bxl-facebook"></i></a> <a href="#"
-                                                                                                 class="instagram"><i
-                                    class="bx bxl-instagram"></i></a> <a href="#" class="google-plus"><i
-                                    class="bx bxl-skype"></i></a> <a href="#" class="linkedin"><i
-                                    class="bx bxl-linkedin"></i></a></div>
+
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 footer-links"><h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 footer-links"><h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 col-md-6 footer-newsletter"><h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post"><input type="email" name="email"><input type="submit"
-                                                                                          value="Subscribe"></form>
-                </div>
+
             </div>
         </div>
     </div>
