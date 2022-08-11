@@ -82,14 +82,12 @@
                     <p>Enjoy non-stop growth in crypto with Crypto Door, the focus is on growing together , leaving no member of this community behind, Following Professional step, and learning how it’s done rightly , we focus on growth for each member of the community and also for the entire Crypto/web3 ecosystem.</p>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                            excepturi sint occaecati cupiditate non provident</p></div>
+                        <h4 class="title"><a href="">- Flourish in Crypto </a></h4>
+                       </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                         <div class="icon"><i class="bx bx-gift"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
-                            praesentium voluptatum deleniti atque</p></div>
+                        <h4 class="title"><a href="">-Access to Crypto events world-wide </a></h4>
+                       </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon"><i class="bx bx-atom"></i></div>
                         <h4 class="title"><a href="">Dine Pad</a></h4>
