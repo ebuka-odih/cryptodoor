@@ -88,11 +88,7 @@
                         <div class="icon"><i class="bx bx-gift"></i></div>
                         <h4 class="title"><a href="">-Access to Crypto events world-wide </a></h4>
                        </div>
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="icon"><i class="bx bx-atom"></i></div>
-                        <h4 class="title"><a href="">Dine Pad</a></h4>
-                        <p class="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis
-                            odit. Sunt aut deserunt minus aut eligendi omnis</p></div>
+
                 </div>
             </div>
         </div>
@@ -105,7 +101,12 @@
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="ri-store-line"
                                                                                     style="color: #ffbb2c;"></i>
-                        <h3><a href="">- Award Winning Crypto Community  - Growth is the Priority, No member here is left behind</a></h3></div>
+                        <h3><a href="">- Award Winning Crypto Community</a></h3></div>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="ri-store-line"
+                                                                                    style="color: #ffbb2c;"></i>
+                        <h3><a href=""> - Growth is the Priority, No member here is left behind</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100"><i class="ri-bar-chart-box-line"
@@ -169,32 +170,36 @@
         <div class="container">
             <div class="row" data-aos="fade-up">
                 <div class="col-lg-3 col-md-6">
-                    <div class="count-box"><i class="bi bi-emoji-smile"></i> <span data-purecounter-start="0"
-                                                                                   data-purecounter-end="232"
-                                                                                   data-purecounter-duration="1"
-                                                                                   class="purecounter"></span>
-                        <p>Happy Clients</p></div>
+
+                    <div class="count-box"><i class="bi bi-emoji-smile"></i>
+                        <span class="pureounter">121,020 +</span>
+
+                        <p>Happy Clients</p>
+
+                </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-                    <div class="count-box"><i class="bi bi-journal-richtext"></i> <span data-purecounter-start="0"
-                                                                                        data-purecounter-end="521"
-                                                                                        data-purecounter-duration="1"
-                                                                                        class="purecounter"></span>
-                        <p>Projects</p></div>
+                    <div class="count-box"><i class="bi bi-journal-richtext"></i>
+                        <span class="pureounter">1653 +</span>
+
+                        <p>Projects Generating Income for Each Member</p>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                    <div class="count-box"><i class="bi bi-headset"></i> <span data-purecounter-start="0"
-                                                                               data-purecounter-end="1463"
-                                                                               data-purecounter-duration="1"
-                                                                               class="purecounter"></span>
-                        <p>Hours Of Support</p></div>
+                    <div class="count-box"><i class="bi bi-headset"></i>
+                        <span class="pureounter">$1.5B</span>
+
+                        <p>In Transactions</p>
+                    </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                    <div class="count-box"><i class="bi bi-people"></i> <span data-purecounter-start="0"
-                                                                              data-purecounter-end="15"
+                    <div class="count-box"><i class="bi bi-people"></i>
+
+                        <span data-purecounter-start="0"
+                                                                              data-purecounter-end="265"
                                                                               data-purecounter-duration="1"
                                                                               class="purecounter"></span>
-                        <p>Hard Workers</p></div>
+                        <p>Crypto Methods to Learn And Start with</p></div>
                 </div>
             </div>
         </div>
@@ -204,21 +209,19 @@
             <div class="row content">
                 <div class="col-md-4" data-aos="fade-right"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-1.png" class="img-fluid"
                                                                  alt=""></div>
-                <div class="col-md-8 pt-4" data-aos="fade-up"><h3>Voluptatem dignissimos provident quasi corporis
-                        voluptates sit assumenda.</h3>
-                    <p class="fst-italic"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                <div class="col-md-8 pt-4" data-aos="fade-up">
+                    <h3>Why Has The Cryptodoor Organization been the Leading wealth creation Path for new comers and experienced individuals in crypto?</h3>
+                    <p class="fst-italic"> Crypto Door have been focusing on Individual Development per Member within the community , this has lead to Growth Of everyone in the Chain, there by not leaving anyone behind . We follow simple steps:</p>
                     <ul>
-                        <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li><i class="bi bi-check"></i> Iure at voluptas aspernatur dignissimos doloribus repudiandae.
+                        <li><i class="bi bi-check"></i> - Teaching and Enlightening of New Member.</li>
+                        <li><i class="bi bi-check"></i>- Following Proven steps and taking up Profitable Projects as a Team.</li>
+                        <li><i class="bi bi-check"></i> - Making Know newest and Available means of profits Generation to all members , through Our Research Team.
                         </li>
-                        <li><i class="bi bi-check"></i> Est ipsa assumenda id facilis nesciunt placeat sed doloribus
-                            praesentium.
+                        <li><i class="bi bi-check"></i> - Connect with Pros who are 24/7 a big part of the Team to show you how it’s done.
                         </li>
                     </ul>
-                    <p> Voluptas nisi in quia excepturi nihil voluptas nam et ut. Expedita omnis eum consequatur non.
-                        Sed in asperiores aut repellendus. Error quisquam ab maiores. Quibusdam sit in officia</p></div>
+                    <p> By Joining the Community , You have a 100% chance of elevation and Growth , It’s important to know that following the right and proven steps in all that is really important.
+                    </p></div>
             </div>
             <div class="row content">
                 <div class="col-md-4 order-1 order-md-2" data-aos="fade-left"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-2.png"
