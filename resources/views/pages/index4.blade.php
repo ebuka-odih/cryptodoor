@@ -78,10 +78,8 @@
                                               class="glightbox play-btn mb-4"></a></div>
                 <div
                     class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
-                    data-aos="fade-left"><h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-                    <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima
-                        temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam
-                        sint et id nulla tenetur. Suscipit aut voluptate.</p>
+                    data-aos="fade-left"><h3>Everyone knows that Crypto Door has been best Organization in Crypto</h3>
+                    <p>Enjoy non-stop growth in crypto with Crypto Door, the focus is on growing together , leaving no member of this community behind, Following Professional step, and learning how it’s done rightly , we focus on growth for each member of the community and also for the entire Crypto/web3 ecosystem.</p>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
                         <h4 class="title"><a href="">Lorem Ipsum</a></h4>
