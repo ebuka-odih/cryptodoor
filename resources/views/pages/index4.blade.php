@@ -326,7 +326,7 @@
                             <li>-Get Access to All Resources and also Professional Coaching</li>
                             <li>- Access to All Crypto Event Worldwide</li>
                             <li>- Hotel Reservation and Assistance</li>
-                            <li class="na">- Support and Assistance with all Crypto/Tech Needs</li>
+                            <li>- Support and Assistance with all Crypto/Tech Needs</li>
                         </ul>
                         <div class="btn-wrap"><a href="#" class="btn-buy">Buy Now</a></div>
                     </div>
@@ -482,7 +482,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info"><h3><a href="CryptoDoor.org">CryptoDoor.Org</a></h3>
                         <p class="pb-3"><em>Crypto makes life easier , Crypto makes dreams come true , all Everyone needs is the right Door.</em></p>
-                        <p> A108 Adam Street <br> NY 535022, USA<br><br>
+                        <p> 17 Allée Saint Jean-Paul II, Monaco-Ville 98000<br><br>
                             <strong>Phone: (Monaco Office)</strong> +377 97365363<br>
                             <strong>Phone: (Toll)</strong> +1(559)3158459<br>
                             <strong>Email:</strong> <a href="mailto:cryptodoor@cryptodoor.org" class="__cf_email__"
