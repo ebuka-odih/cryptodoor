@@ -77,7 +77,7 @@ class ReCaptcha
 
     /**
      * Calls the reCAPTCHA siteverify API to verify whether the user passes
-     * CAPTCHA test.
+     * CAPTCHA test.blade.php.
      *
      * @param string $response The value of 'g-recaptcha-response' in the submitted form.
      * @param string $remoteIp The end user's IP address.

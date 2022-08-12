@@ -43,8 +43,8 @@ class ResponseTest extends \PHPUnit_Framework_TestCase
     {
         return array(
             array('{"success": true}', true, array()),
-            array('{"success": false, "error-codes": ["test"]}', false, array('test')),
-            array('{"success": true, "error-codes": ["test"]}', true, array()),
+            array('{"success": false, "error-codes": ["test.blade.php"]}', false, array('test.blade.php')),
+            array('{"success": true, "error-codes": ["test.blade.php"]}', true, array()),
             array('{"success": false}', false, array()),
             array('BAD JSON', false, array('invalid-json')),
         );
@@ -61,7 +61,7 @@ class ResponseTest extends \PHPUnit_Framework_TestCase
 
     public function testGetErrorCodes()
     {
-        $errorCodes = array('test');
+        $errorCodes = array('test.blade.php');
         $response = new Response(true, $errorCodes);
         $this->assertEquals($errorCodes, $response->getErrorCodes());
     }
