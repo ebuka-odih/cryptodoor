@@ -93,8 +93,8 @@
                 <span class="menu-item-label"> News Update</span>
             </a><!-- br-menu-link -->
             <ul class="br-menu-sub">
-                <li class="sub-item"><a href="navigation.html" class="sub-link">Add News</a></li>
-                <li class="sub-item"><a href="navigation-layouts.html" class="sub-link">All News</a></li>
+                <li class="sub-item"><a href="{{ route('admin.news-update.create') }}" class="sub-link">Add News</a></li>
+                <li class="sub-item"><a href="{{ route('admin.news-update.index') }}" class="sub-link">All News</a></li>
             </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
