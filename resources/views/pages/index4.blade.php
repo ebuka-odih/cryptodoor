@@ -114,14 +114,15 @@
                 <p>Check The Features</p></div>
             <div class="row" data-aos="fade-left">
                 <div class="col-lg-3 col-md-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="fa fa-trophy"
-                                                                                    style="color: #ffbb2c;"></i>
-                        <h3><a href="">- Award Winning Crypto Community</a></h3></div>
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
+                        <i class="fa fa-trophy fa-1x"
+                                                                                    style="color: #ffbb2c; margin-right: 5px"></i>
+                        <h3 ><a  href=""> -Award Winning Crypto Community</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="ri-store-line"
                                                                                     style="color: #ffbb2c;"></i>
-                        <h3><a href=""> - Growth is the Priority, No member here is left behind</a></h3></div>
+                        <h3><a href=""> -Growth is the Priority, No member here is left behind</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100"><i class="ri-bar-chart-box-line"
@@ -368,54 +369,60 @@
             <div class="faq-list">
                 <ul>
                     <li data-aos="fade-up" class="aos-init aos-animate"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a
-                            erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i
+                            data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is The Main Goal Of Crypto Door ? <i class="bx bx-chevron-down icon-show"></i><i
                                 class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> Feugiat pretium nibh
-                                ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida.
-                                Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p></div>
+                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> The aim of The Crypto Door Organisation is to unite all individuals of the crypto ecosystem to create and support a friendly environment to develop and Promote an Effective Mechanism of streamlined Growth for each member , And increase in Net-worth and Experience per Person. </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate"><i
                             class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                        data-bs-target="#faq-list-2" class="collapsed">Feugiat
-                            scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i
+                                                                        data-bs-target="#faq-list-2" class="collapsed">Is Crypto Hard To Understand and Follow Up in ?
+                            <i class="bx bx-chevron-down icon-show"></i><i
                                 class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list"><p> Dolor sit amet consectetur
-                                adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec
-                                ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est
-                                pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
-                                tincidunt dui.</p></div>
+                        <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list"><p> Understanding Crypto is quite the easiest Part of Crypto, We as a Team are focused on Creating easier methods to Learn and Earn with Crypto, For freshly new comers , we have a Beginner friendly approach to Ensure maximum efficacy and enable Growth in the Long Run.
+                            </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                        data-bs-target="#faq-list-3" class="collapsed">Dolor
-                            sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i
+                            class="bx bx-help-circle icon-help"></i>
+                        <a data-bs-toggle="collapse"
+                                                                        data-bs-target="#faq-list-3" class="collapsed">
+                            How do I get Exclusive Tickets to Crypto Event all Around the world?     <i class="bx bx-chevron-down icon-show"></i><i
                                 class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list"><p> Eleifend mi in nulla
-                                posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer
-                                enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu
-                                tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu
-                                facilisis sed odio morbi quis</p></div>
+                        <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list"><p> You have To be a Member Firstly , So After Registration and Completing your status you have everything you need inside.
+                            </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"><i
                             class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                        data-bs-target="#faq-list-4" class="collapsed">Tempus
-                            quam pellentesque nec nam aliquam sem et tortor consequat? <i
+                                                                        data-bs-target="#faq-list-4" class="collapsed">
+                            How do I master Productivity in Crypto and NFTs?
+                            <i
                                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list"><p> Molestie a iaculis at erat
-                                pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus
-                                commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
-                                gravida quis blandit turpis cursus in.</p></div>
+                        <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                            <p>Productivity is mastered , and here you have true coaches to ensure you have the Same Virtue , it’s easy when you have a guide to follow.
+
+                            </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                                                                        data-bs-target="#faq-list-5" class="collapsed">Tortor
-                            vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
+                            class="bx bx-help-circle icon-help"></i>
+                        <a data-bs-toggle="collapse"
+                                                                        data-bs-target="#faq-list-5" class="collapsed">
+                            What if I have no Money to Fully Start in Crypto?
+                            <i
                                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Laoreet sit amet cursus sit
-                                amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel.
-                                Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut
-                                venenatis tellus in metus vulputate eu scelerisque.</p></div>
+                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Starting with no money in crypto can be Tricky especially when you don’t do it right, You can get The best Jobs and Tricks you can learn to Scale up Quickly.
+                            </p></div>
+                    </li>
+                    <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate"><i
+                            class="bx bx-help-circle icon-help"></i>
+                        <a data-bs-toggle="collapse"
+                                                                        data-bs-target="#faq-list-5" class="collapsed">
+                            What Ways do Members interact , what is the medium used to Learn and Talk to others?
+                            <i
+                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                            <p>
+                                Everything is Done Exclusively, The way to find out is to get Registered
+                            </p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -430,12 +437,14 @@
                 <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
                     <div class="info">
                         <div class="address"><i class="bi bi-geo-alt"></i><h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p></div>
+                            <p>17 Allée Saint Jean-Paul II, Monaco-Ville 98000</p></div>
                         <div class="email"><i class="bi bi-envelope"></i><h4>Email:</h4>
-                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                  data-cfemail="51383f373e113429303c213d347f323e3c">[email&#160;protected]</a></p></div>
+                            <p><a href="mailto:cryptodoor@cryptodoor.org" class="__cf_email__"
+                                  data-cfemail="51383f373e113429303c213d347f323e3c">cryptodoor@cryptodoor.org</a></p></div>
                         <div class="phone"><i class="bi bi-phone"></i><h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p></div>
+                            <p>Monaco Office: +377 97365363</p>
+                            <p>Toll: +1(559)3158459</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">
@@ -471,13 +480,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6">
-                    <div class="footer-info"><h3>Bootslander</h3>
-                        <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi
-                                quod.</em></p>
-                        <p> A108 Adam Street <br> NY 535022, USA<br><br> <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
-                                                       data-cfemail="a9c0c7cfc6e9ccd1c8c4d9c5cc87cac6c4">[email&#160;protected]</a><br>
+                    <div class="footer-info"><h3><a href="CryptoDoor.org">CryptoDoor.Org</a></h3>
+                        <p class="pb-3"><em>Crypto makes life easier , Crypto makes dreams come true , all Everyone needs is the right Door.</em></p>
+                        <p> A108 Adam Street <br> NY 535022, USA<br><br>
+                            <strong>Phone: (Monaco Office)</strong> +377 97365363<br>
+                            <strong>Phone: (Toll)</strong> +1(559)3158459<br>
+                            <strong>Email:</strong> <a href="mailto:cryptodoor@cryptodoor.org" class="__cf_email__"
+                                                       data-cfemail="a9c0c7cfc6e9ccd1c8c4d9c5cc87cac6c4">cryptodoor@cryptodoor.org</a><br>
                         </p>
+                        <div class="social-links mt-3">
+                            <a href="https://twitter.com/cryptodoororg" class="twitter">
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                            <a href="https://web.facebook.com/cryptodoor" class="facebook">
+                                <i class="bx bxl-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/cryptodoororg" class="instagram">
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@cryptodoor.org" class="linkedin">
+                                <i class="bx bxl-tiktok"></i>
+                            </a>
+                        </div>
 
                     </div>
                 </div>
@@ -486,8 +510,7 @@
         </div>
     </div>
     <div class="container">
-        <div class="copyright"> &copy; Copyright <strong><span>Bootslander</span></strong>. All Rights Reserved</div>
-        <div class="credits"> Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+        <div class="copyright"> &copy; Copyright <strong><span>Cryptodoor.org</span></strong>. All Rights Reserved</div>
     </div>
 </footer>
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
