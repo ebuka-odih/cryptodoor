@@ -75,7 +75,7 @@ class AdminCryptoNewsController extends Controller
         if ($request->hasFile('image')){
             $featured_image = $request->file('image');
             $input['image'] = time().'.'.$featured_image->getClientOriginalExtension();
-            $destinationPath = public_path('/images');
+            $destinationPath = public_path('/cryptodoor');
             $featured_image->move($destinationPath, $input['image']);
 
             $news->update($data);

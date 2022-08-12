@@ -6,4 +6,5 @@ Route::group(['middleware' => ['admin', 'auth', 'verified'], 'prefix' => 'admin'
     Route::get('dashboard', 'Admin\AdminController@dashboard')->name('dashboard');
 
     Route::resource('crypto-news', 'Admin\AdminCryptoNewsController');
+    Route::resource('coin-picker', 'Admin\AdminCoinPickerController');
 });

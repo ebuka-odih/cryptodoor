@@ -71,8 +71,8 @@
                 <span class="menu-item-label"> Coin Picker</span>
             </a><!-- br-menu-link -->
             <ul class="br-menu-sub">
-                <li class="sub-item"><a href="navigation.html" class="sub-link">Add Coin</a></li>
-                <li class="sub-item"><a href="navigation-layouts.html" class="sub-link">All Coins</a></li>
+                <li class="sub-item"><a href="{{ route('admin.coin-picker.create') }}" class="sub-link">Add Coin</a></li>
+                <li class="sub-item"><a href="{{ route('admin.coin-picker.index') }}" class="sub-link">All Coins</a></li>
             </ul>
         </li><!-- br-menu-item -->
 

@@ -16,6 +16,12 @@ class CreateCoinPickersTable extends Migration
         Schema::create('coin_pickers', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->string('name');
+            $table->string('up_down');
+            $table->string('image');
+            $table->string('price');
+            $table->string('percent');
+            $table->string('link')->nullable();
         });
     }
 
