@@ -52,7 +52,7 @@
                 <div class="col-lg-12">
                     <div class="form-group">
                         <label class="form-control-label">Description: </label>
-                        <textarea name="description" id="" cols="30" rows="10" class="form-control"></textarea>
+                        <textarea name="description" id="" cols="30" rows="10" class="form-control ckeditor"></textarea>
                     </div>
                 </div><!-- col-4 -->
 

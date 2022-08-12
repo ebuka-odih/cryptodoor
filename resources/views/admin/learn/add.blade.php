@@ -10,7 +10,7 @@
 
 <div class="br-pagebody">
     <div class="br-section-wrapper">
-        <h6 class="br-section-label">Add Crypto News</h6>
+        <h6 class="br-section-label">Add Learn Crypto Article</h6>
 
         <form action="{{ route('admin.crypto-news.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
@@ -67,5 +67,7 @@
 
     </div><!-- br-section-wrapper -->
 </div>
+
+
 
 @endsection

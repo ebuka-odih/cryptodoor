@@ -76,16 +76,6 @@
             </ul>
         </li><!-- br-menu-item -->
 
-        <li class="br-menu-item">
-            <a href="#" class="br-menu-link with-sub">
-                <i class="menu-item-icon fas fa-chart-area tx-20"></i>
-                <span class="menu-item-label"> Coin Charts</span>
-            </a><!-- br-menu-link -->
-            <ul class="br-menu-sub">
-                <li class="sub-item"><a href="navigation.html" class="sub-link">Add Chart</a></li>
-                <li class="sub-item"><a href="navigation-layouts.html" class="sub-link">All Charts</a></li>
-            </ul>
-        </li><!-- br-menu-item -->
 
         <li class="br-menu-item">
             <a href="#" class="br-menu-link with-sub">
@@ -95,6 +85,16 @@
             <ul class="br-menu-sub">
                 <li class="sub-item"><a href="{{ route('admin.news-update.create') }}" class="sub-link">Add News</a></li>
                 <li class="sub-item"><a href="{{ route('admin.news-update.index') }}" class="sub-link">All News</a></li>
+            </ul>
+        </li><!-- br-menu-item -->
+        <li class="br-menu-item">
+            <a href="#" class="br-menu-link with-sub">
+                <i class="menu-item-icon fas fa-pen-fancy tx-20"></i>
+                <span class="menu-item-label"> Learn Crypto</span>
+            </a><!-- br-menu-link -->
+            <ul class="br-menu-sub">
+                <li class="sub-item"><a href="{{ route('admin.learn-crypto.create') }}" class="sub-link">Add </a></li>
+                <li class="sub-item"><a href="{{ route('admin.learn-crypto.index') }}" class="sub-link">All </a></li>
             </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
@@ -262,6 +262,18 @@
             }
         }
     });
+</script>
+
+<script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.ckeditor').ckeditor();
+    });
+
+    {{--CKEDITOR.replace('wysiwyg-editor', {--}}
+    {{--    filebrowserUploadUrl: "{{route('admin.article.store', ['_token' => csrf_token() ])}}",--}}
+    {{--    filebrowserUploadMethod: 'form'--}}
+    {{--});--}}
 </script>
 </body>
 </html>
