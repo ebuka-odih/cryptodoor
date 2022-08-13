@@ -529,11 +529,11 @@ var onceSupported = function () {
   return supported;
 }();
 /**
- * Remove event listener from the target element.
- * @param {Element} element - The event target.
- * @param {string} type - The event type(s).
- * @param {Function} listener - The event listener.
- * @param {Object} options - The event options.
+ * Remove crypto-event listener from the target element.
+ * @param {Element} element - The crypto-event target.
+ * @param {string} type - The crypto-event type(s).
+ * @param {Function} listener - The crypto-event listener.
+ * @param {Object} options - The crypto-event options.
  */
 
 
@@ -562,11 +562,11 @@ function removeListener(element, type, listener) {
   });
 }
 /**
- * Add event listener to the target element.
- * @param {Element} element - The event target.
- * @param {string} type - The event type(s).
- * @param {Function} listener - The event listener.
- * @param {Object} options - The event options.
+ * Add crypto-event listener to the target element.
+ * @param {Element} element - The crypto-event target.
+ * @param {string} type - The crypto-event type(s).
+ * @param {Function} listener - The crypto-event listener.
+ * @param {Object} options - The crypto-event options.
  */
 
 function addListener(element, type, listener) {
@@ -604,11 +604,11 @@ function addListener(element, type, listener) {
   });
 }
 /**
- * Dispatch event on the target element.
- * @param {Element} element - The event target.
- * @param {string} type - The event type(s).
- * @param {Object} data - The additional event data.
- * @returns {boolean} Indicate if the event is default prevented or not.
+ * Dispatch crypto-event on the target element.
+ * @param {Element} element - The crypto-event target.
+ * @param {string} type - The crypto-event type(s).
+ * @param {Object} data - The additional crypto-event data.
+ * @returns {boolean} Indicate if the crypto-event is default prevented or not.
  */
 
 function dispatchEvent(element, type, data) {
@@ -732,8 +732,8 @@ function getMaxZoomRatio(pointers) {
   return ratios[0];
 }
 /**
- * Get a pointer from an event object.
- * @param {Object} event - The target event object.
+ * Get a pointer from an crypto-event object.
+ * @param {Object} crypto-event - The target crypto-event object.
  * @param {boolean} endOnly - Indicates if only returns the end point coordinate or not.
  * @returns {Object} The result pointer contains start and/or end point coordinates.
  */
@@ -1790,12 +1790,12 @@ var handlers = {
     var action;
 
     if (e.changedTouches) {
-      // Handle touch event
+      // Handle touch crypto-event
       forEach(e.changedTouches, function (touch) {
         pointers[touch.identifier] = getPointer(touch);
       });
     } else {
-      // Handle mouse event and pointer event
+      // Handle mouse crypto-event and pointer crypto-event
       pointers[e.pointerId || 0] = getPointer(e);
     }
 
@@ -2526,7 +2526,7 @@ var methods = {
   /**
    * Zoom the canvas with a relative ratio
    * @param {number} ratio - The target ratio.
-   * @param {Event} _originalEvent - The original event if any.
+   * @param {Event} _originalEvent - The original crypto-event if any.
    * @returns {Cropper} this
    */
   zoom: function zoom(ratio, _originalEvent) {
@@ -2546,7 +2546,7 @@ var methods = {
    * Zoom the canvas to an absolute ratio
    * @param {number} ratio - The target ratio.
    * @param {Object} pivot - The zoom pivot point coordinate.
-   * @param {Event} _originalEvent - The original event if any.
+   * @param {Event} _originalEvent - The original crypto-event if any.
    * @returns {Cropper} this
    */
   zoomTo: function zoomTo(ratio, pivot, _originalEvent) {
@@ -2576,7 +2576,7 @@ var methods = {
         var center = pointers && Object.keys(pointers).length ? getPointersCenter(pointers) : {
           pageX: _originalEvent.pageX,
           pageY: _originalEvent.pageY
-        }; // Zoom from the triggering point of the event
+        }; // Zoom from the triggering point of the crypto-event
 
         canvasData.left -= (newWidth - width) * ((center.pageX - offset.left - canvasData.left) / width);
         canvasData.top -= (newHeight - height) * ((center.pageY - offset.top - canvasData.top) / height);

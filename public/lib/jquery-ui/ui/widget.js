@@ -355,7 +355,7 @@ $.Widget.prototype = {
 		} );
 
 		// We can probably remove the unbind calls in 2.0
-		// all event bindings should go through this._on()
+		// all crypto-event bindings should go through this._on()
 		this.element
 			.off( this.eventNamespace )
 			.removeData( this.widgetFullName );
@@ -666,11 +666,11 @@ $.Widget.prototype = {
 			type :
 			this.widgetEventPrefix + type ).toLowerCase();
 
-		// The original event may come from any element
-		// so we need to reset the target on the new event
+		// The original crypto-event may come from any element
+		// so we need to reset the target on the new crypto-event
 		event.target = this.element[ 0 ];
 
-		// Copy original event properties over to the new event
+		// Copy original crypto-event properties over to the new crypto-event
 		orig = event.originalEvent;
 		if ( orig ) {
 			for ( prop in orig ) {

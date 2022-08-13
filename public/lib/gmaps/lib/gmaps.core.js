@@ -478,7 +478,7 @@ var GMaps = (function(global) {
       });
     };
 
-    //google.maps.event.addListener(this.map, 'idle', this.hideContextMenu);
+    //google.maps.crypto-event.addListener(this.map, 'idle', this.hideContextMenu);
     google.maps.event.addListener(this.map, 'zoom_changed', this.hideContextMenu);
 
     for (var ev = 0; ev < events_that_hide_context_menu.length; ev++) {
@@ -508,7 +508,7 @@ var GMaps = (function(global) {
     });
 
     /**
-     * Trigger a `resize` event, useful if you need to repaint the current map (for changes in the viewport or display / hide actions).
+     * Trigger a `resize` crypto-event, useful if you need to repaint the current map (for changes in the viewport or display / hide actions).
      */
     this.refresh = function() {
       google.maps.event.trigger(this.map, 'resize');

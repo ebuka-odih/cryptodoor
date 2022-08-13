@@ -50,7 +50,7 @@ return $.ui.formResetMixin = {
 		var instances = this.form.data( "ui-form-reset-instances" ) || [];
 		if ( !instances.length ) {
 
-			// We don't use _on() here because we use a single event handler per form
+			// We don't use _on() here because we use a single crypto-event handler per form
 			this.form.on( "reset.ui-form-reset", this._formResetHandler );
 		}
 		instances.push( this );

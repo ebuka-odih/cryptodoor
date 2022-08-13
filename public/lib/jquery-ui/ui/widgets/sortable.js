@@ -981,7 +981,7 @@ return $.widget( "ui.sortable", $.ui.mouse, {
 
 			} else {
 
-				// container doesn't intersect. trigger "out" event if necessary
+				// container doesn't intersect. trigger "out" crypto-event if necessary
 				if ( this.containers[ i ].containerCache.over ) {
 					this.containers[ i ]._trigger( "out", event, this._uiHash( this ) );
 					this.containers[ i ].containerCache.over = 0;

@@ -23,7 +23,7 @@ define(["eve"], function(eve) {
      - all (array) (first 3 or 4 elements in the array are equal to [containerID, width, height] or [x, y, width, height]. The rest are element descriptions in format {type: type, <attributes>}). See @Paper.add.
      - callback (function) #optional callback function which is going to be executed in the context of newly created paper
      * or
-     - onReadyCallback (function) function that is going to be called on DOM ready event. You can also subscribe to this event via Eve’s “DOMLoad” event. In this case method returns `undefined`.
+     - onReadyCallback (function) function that is going to be called on DOM ready crypto-event. You can also subscribe to this crypto-event via Eve’s “DOMLoad” crypto-event. In this case method returns `undefined`.
      = (object) @Paper
      > Usage
      | // Each of the following examples create a canvas
@@ -2836,18 +2836,18 @@ define(["eve"], function(eve) {
      * Element.click
      [ method ]
      **
-     * Adds event handler for click for the element.
+     * Adds crypto-event handler for click for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unclick
      [ method ]
      **
-     * Removes event handler for click for the element.
+     * Removes crypto-event handler for click for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2855,18 +2855,18 @@ define(["eve"], function(eve) {
      * Element.dblclick
      [ method ]
      **
-     * Adds event handler for double click for the element.
+     * Adds crypto-event handler for double click for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.undblclick
      [ method ]
      **
-     * Removes event handler for double click for the element.
+     * Removes crypto-event handler for double click for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2874,18 +2874,18 @@ define(["eve"], function(eve) {
      * Element.mousedown
      [ method ]
      **
-     * Adds event handler for mousedown for the element.
+     * Adds crypto-event handler for mousedown for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unmousedown
      [ method ]
      **
-     * Removes event handler for mousedown for the element.
+     * Removes crypto-event handler for mousedown for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2893,18 +2893,18 @@ define(["eve"], function(eve) {
      * Element.mousemove
      [ method ]
      **
-     * Adds event handler for mousemove for the element.
+     * Adds crypto-event handler for mousemove for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unmousemove
      [ method ]
      **
-     * Removes event handler for mousemove for the element.
+     * Removes crypto-event handler for mousemove for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2912,18 +2912,18 @@ define(["eve"], function(eve) {
      * Element.mouseout
      [ method ]
      **
-     * Adds event handler for mouseout for the element.
+     * Adds crypto-event handler for mouseout for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unmouseout
      [ method ]
      **
-     * Removes event handler for mouseout for the element.
+     * Removes crypto-event handler for mouseout for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2931,18 +2931,18 @@ define(["eve"], function(eve) {
      * Element.mouseover
      [ method ]
      **
-     * Adds event handler for mouseover for the element.
+     * Adds crypto-event handler for mouseover for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unmouseover
      [ method ]
      **
-     * Removes event handler for mouseover for the element.
+     * Removes crypto-event handler for mouseover for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2950,18 +2950,18 @@ define(["eve"], function(eve) {
      * Element.mouseup
      [ method ]
      **
-     * Adds event handler for mouseup for the element.
+     * Adds crypto-event handler for mouseup for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.unmouseup
      [ method ]
      **
-     * Removes event handler for mouseup for the element.
+     * Removes crypto-event handler for mouseup for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2969,18 +2969,18 @@ define(["eve"], function(eve) {
      * Element.touchstart
      [ method ]
      **
-     * Adds event handler for touchstart for the element.
+     * Adds crypto-event handler for touchstart for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.untouchstart
      [ method ]
      **
-     * Removes event handler for touchstart for the element.
+     * Removes crypto-event handler for touchstart for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -2988,18 +2988,18 @@ define(["eve"], function(eve) {
      * Element.touchmove
      [ method ]
      **
-     * Adds event handler for touchmove for the element.
+     * Adds crypto-event handler for touchmove for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.untouchmove
      [ method ]
      **
-     * Removes event handler for touchmove for the element.
+     * Removes crypto-event handler for touchmove for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -3007,18 +3007,18 @@ define(["eve"], function(eve) {
      * Element.touchend
      [ method ]
      **
-     * Adds event handler for touchend for the element.
+     * Adds crypto-event handler for touchend for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.untouchend
      [ method ]
      **
-     * Removes event handler for touchend for the element.
+     * Removes crypto-event handler for touchend for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
 
@@ -3026,18 +3026,18 @@ define(["eve"], function(eve) {
      * Element.touchcancel
      [ method ]
      **
-     * Adds event handler for touchcancel for the element.
+     * Adds crypto-event handler for touchcancel for the element.
      > Parameters
-     - handler (function) handler for the event
+     - handler (function) handler for the crypto-event
      = (object) @Element
     \*/
     /*\
      * Element.untouchcancel
      [ method ]
      **
-     * Removes event handler for touchcancel for the element.
+     * Removes crypto-event handler for touchcancel for the element.
      > Parameters
-     - handler (function) #optional handler for the event
+     - handler (function) #optional handler for the crypto-event
      = (object) @Element
     \*/
     for (var i = events.length; i--;) {
@@ -3140,7 +3140,7 @@ define(["eve"], function(eve) {
      * Element.hover
      [ method ]
      **
-     * Adds event handlers for hover for the element.
+     * Adds crypto-event handlers for hover for the element.
      > Parameters
      - f_in (function) handler for hover in
      - f_out (function) handler for hover out
@@ -3155,7 +3155,7 @@ define(["eve"], function(eve) {
      * Element.unhover
      [ method ]
      **
-     * Removes event handlers for hover for the element.
+     * Removes crypto-event handlers for hover for the element.
      > Parameters
      - f_in (function) handler for hover in
      - f_out (function) handler for hover out
@@ -3169,7 +3169,7 @@ define(["eve"], function(eve) {
      * Element.drag
      [ method ]
      **
-     * Adds event handlers for drag of the element.
+     * Adds crypto-event handlers for drag of the element.
      > Parameters
      - onmove (function) handler for moving
      - onstart (function) handler for drag start
@@ -3181,18 +3181,18 @@ define(["eve"], function(eve) {
      * `drag.end.<id>` on end and `drag.move.<id>` on every move. When element will be dragged over another element
      * `drag.over.<id>` will be fired as well.
      *
-     * Start event and start handler will be called in specified context or in context of the element with following parameters:
+     * Start crypto-event and start handler will be called in specified context or in context of the element with following parameters:
      o x (number) x position of the mouse
      o y (number) y position of the mouse
-     o event (object) DOM event object
-     * Move event and move handler will be called in specified context or in context of the element with following parameters:
+     o crypto-event (object) DOM crypto-event object
+     * Move crypto-event and move handler will be called in specified context or in context of the element with following parameters:
      o dx (number) shift by x from the start point
      o dy (number) shift by y from the start point
      o x (number) x position of the mouse
      o y (number) y position of the mouse
-     o event (object) DOM event object
-     * End event and end handler will be called in specified context or in context of the element with following parameters:
-     o event (object) DOM event object
+     o crypto-event (object) DOM crypto-event object
+     * End crypto-event and end handler will be called in specified context or in context of the element with following parameters:
+     o crypto-event (object) DOM crypto-event object
      = (object) @Element
     \*/
     elproto.drag = function (onmove, onstart, onend, move_scope, start_scope, end_scope) {
@@ -3233,9 +3233,9 @@ define(["eve"], function(eve) {
      * Element.onDragOver
      [ method ]
      **
-     * Shortcut for assigning event handler for `drag.over.<id>` event, where id is id of the element (see @Element.id).
+     * Shortcut for assigning crypto-event handler for `drag.over.<id>` crypto-event, where id is id of the element (see @Element.id).
      > Parameters
-     - f (function) handler for event, first argument would be the element you are dragging over
+     - f (function) handler for crypto-event, first argument would be the element you are dragging over
     \*/
     elproto.onDragOver = function (f) {
         f ? eve.on("raphael.drag.over." + this.id, f) : eve.unbind("raphael.drag.over." + this.id);
@@ -3244,7 +3244,7 @@ define(["eve"], function(eve) {
      * Element.undrag
      [ method ]
      **
-     * Removes all drag event handlers from given element.
+     * Removes all drag crypto-event handlers from given element.
     \*/
     elproto.undrag = function () {
         var i = draggable.length;
@@ -4672,7 +4672,7 @@ define(["eve"], function(eve) {
      = (object) original element if `value` is specified
      * Note, that during animation following events are triggered:
      *
-     * On each animation frame event `anim.frame.<id>`, on start `anim.start.<id>` and on end `anim.finish.<id>`.
+     * On each animation frame crypto-event `anim.frame.<id>`, on start `anim.start.<id>` and on end `anim.finish.<id>`.
     \*/
     elproto.setTime = function (anim, value) {
         if (anim && value != null) {

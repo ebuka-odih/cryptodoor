@@ -65,7 +65,7 @@
 					this.options.blue + ")"
 				);
 
-				// Trigger a callback/event
+				// Trigger a callback/crypto-event
 				this._trigger( "change" );
 			},
 
@@ -78,7 +78,7 @@
 					blue: Math.floor( Math.random() * 256 )
 				};
 
-				// Trigger an event, check if it's canceled
+				// Trigger an crypto-event, check if it's canceled
 				if ( this._trigger( "random", event, colors ) !== false ) {
 					this.option( colors );
 				}

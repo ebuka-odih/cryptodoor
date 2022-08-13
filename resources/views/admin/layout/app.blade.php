@@ -89,7 +89,7 @@
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
             <a href="#" class="br-menu-link with-sub">
-                <i class="menu-item-icon fas fa-pen-fancy tx-20"></i>
+                <i class="menu-item-icon fas fa-book-open tx-20"></i>
                 <span class="menu-item-label"> Learn Crypto</span>
             </a><!-- br-menu-link -->
             <ul class="br-menu-sub">
@@ -98,23 +98,35 @@
             </ul>
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
-            <a href="index.html" class="br-menu-link">
-                <i class="menu-item-icon fa fa-users tx-20"></i>
+            <a href="{{ route('admin.community.create') }}" class="br-menu-link">
+                <i class="menu-item-icon fa fa-users tx-20 mr-1"></i>
                 <span class="menu-item-label"> The Community</span>
             </a><!-- br-menu-link -->
         </li><!-- br-menu-item -->
         <li class="br-menu-item">
-            <a href="index.html" class="br-menu-link">
-                <i class="menu-item-icon fa fa-book tx-24"></i>
-                <span class="menu-item-label"> Learn</span>
-            </a><!-- br-menu-link -->
-        </li><!-- br-menu-item -->
+            <a href="#" class="br-menu-link with-sub">
+                <i class="menu-item-icon fa fa-calendar tx-20"></i>
+                <span class="menu-item-label"> Crypto Events</span>
+            </a>
+            <!-- br-menu-link -->
+            <ul class="br-menu-sub">
+                <li class="sub-item"><a href="{{ route('admin.crypto-event.create') }}" class="sub-link">Add Event</a></li>
+                <li class="sub-item"><a href="{{ route('admin.crypto-event.index') }}" class="sub-link">All Events</a></li>
+            </ul>
+        </li>
+        <!-- br-menu-item -->
+
         <li class="br-menu-item">
-            <a href="index.html" class="br-menu-link">
-                <i class="menu-item-icon fa fa-anchor tx-20"></i>
-                <span class="menu-item-label"> Connect</span>
-            </a><!-- br-menu-link -->
-        </li><!-- br-menu-item -->
+            <a href="#" class="br-menu-link with-sub">
+                <i class="menu-item-icon fa fa-running tx-20"></i>
+                <span class="menu-item-label"> Coming Soon</span>
+            </a>
+            <!-- br-menu-link -->
+            <ul class="br-menu-sub">
+                <li class="sub-item"><a href="{{ route('admin.coming-soon.create') }}" class="sub-link">Add </a></li>
+                <li class="sub-item"><a href="{{ route('admin.coming-soon.index') }}" class="sub-link">All </a></li>
+            </ul>
+        </li>
 
 
     </ul><!-- br-sideleft-menu -->

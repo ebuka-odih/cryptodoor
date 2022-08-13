@@ -9,4 +9,8 @@ Route::group(['middleware' => ['admin', 'auth', 'verified'], 'prefix' => 'admin'
     Route::resource('coin-picker', 'Admin\AdminCoinPickerController');
     Route::resource('news-update', 'Admin\AdminNewsUpdateController');
     Route::resource('learn-crypto', 'Admin\AdminLearnCryptoController');
+    Route::resource('community', 'Admin\AdminCommunityController');
+    Route::resource('crypto-event', 'Admin\AdminCryptoEventController');
+    Route::resource('coming-soon', 'Admin\AdminComingSoonController');
+
 });

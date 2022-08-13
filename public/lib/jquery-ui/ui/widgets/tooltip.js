@@ -175,7 +175,7 @@ $.widget( "ui.tooltip", {
 			target = $( event ? event.target : this.element )
 
 				// we need closest here due to mouseover bubbling,
-				// but always pointing at the same event target
+				// but always pointing at the same crypto-event target
 				.closest( this.options.items );
 
 		// No element to show a tooltip for or the tooltip is already open
@@ -236,10 +236,10 @@ $.widget( "ui.tooltip", {
 					return;
 				}
 
-				// JQuery creates a special event for focusin when it doesn't
-				// exist natively. To improve performance, the native event
+				// JQuery creates a special crypto-event for focusin when it doesn't
+				// exist natively. To improve performance, the native crypto-event
 				// object is reused and the type is changed. Therefore, we can't
-				// rely on the type being correct after the event finished
+				// rely on the type being correct after the crypto-event finished
 				// bubbling, so we set it back to the previous value. (#8740)
 				if ( event ) {
 					event.type = eventType;
@@ -323,7 +323,7 @@ $.widget( "ui.tooltip", {
 
 		// Handle tracking tooltips that are shown with a delay (#8644). As soon
 		// as the tooltip is visible, position the tooltip using the most recent
-		// event.
+		// crypto-event.
 		// Adds the check to add the timers only when both delay and track options are set (#14682)
 		if ( this.options.track && this.options.show && this.options.show.delay ) {
 			delayedShow = this.delayedShow = setInterval( function() {

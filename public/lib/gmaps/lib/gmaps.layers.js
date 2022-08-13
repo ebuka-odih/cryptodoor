@@ -77,7 +77,7 @@ GMaps.prototype.addLayer = function(layerName, options) {
         layer.setTag(options.filter);
         delete options.filter;
 
-        //click event
+        //click crypto-event
         if (options.click) {
           google.maps.event.addListener(layer, 'click', function(event) {
             options.click(event);

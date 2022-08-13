@@ -403,7 +403,7 @@ function checkDeprecatedMixinEvents(includes) {
  * @aka L.Evented
  * @inherits Class
  *
- * A set of methods shared between event-powered classes (like `Map` and `Marker`). Generally, events allow you to execute some function when something happens with an object (e.g. the user clicks on the map, causing the map to fire `'click'` event).
+ * A set of methods shared between crypto-event-powered classes (like `Map` and `Marker`). Generally, events allow you to execute some function when something happens with an object (e.g. the user clicks on the map, causing the map to fire `'click'` crypto-event).
  *
  * @example
  *
@@ -413,7 +413,7 @@ function checkDeprecatedMixinEvents(includes) {
  * } );
  * ```
  *
- * Leaflet deals with event listeners by reference, so if you want to add a listener and then remove it, define it as a function:
+ * Leaflet deals with crypto-event listeners by reference, so if you want to add a listener and then remove it, define it as a function:
  *
  * ```js
  * function onClick(e) { ... }
@@ -425,7 +425,7 @@ function checkDeprecatedMixinEvents(includes) {
 
 var Events = {
 	/* @method on(type: String, fn: Function, context?: Object): this
-	 * Adds a listener function (`fn`) to a particular event type of the object. You can optionally specify the context of the listener (object the this keyword will point to). You can also pass several space-separated types (e.g. `'click dblclick'`).
+	 * Adds a listener function (`fn`) to a particular crypto-event type of the object. You can optionally specify the context of the listener (object the this keyword will point to). You can also pass several space-separated types (e.g. `'click dblclick'`).
 	 *
 	 * @alternative
 	 * @method on(eventMap: Object): this
@@ -454,7 +454,7 @@ var Events = {
 	},
 
 	/* @method off(type: String, fn?: Function, context?: Object): this
-	 * Removes a previously added listener function. If no function is specified, it will remove all the listeners of that particular event from the object. Note that if you passed a custom context to `on`, you must pass the same context to `off` in order to remove the listener.
+	 * Removes a previously added listener function. If no function is specified, it will remove all the listeners of that particular crypto-event from the object. Note that if you passed a custom context to `on`, you must pass the same context to `off` in order to remove the listener.
 	 *
 	 * @alternative
 	 * @method off(eventMap: Object): this
@@ -565,9 +565,9 @@ var Events = {
 	},
 
 	// @method fire(type: String, data?: Object, propagate?: Boolean): this
-	// Fires an event of the specified type. You can optionally provide an data
+	// Fires an crypto-event of the specified type. You can optionally provide an data
 	// object — the first argument of the listener function will contain its
-	// properties. The event can optionally be propagated to event parents.
+	// properties. The crypto-event can optionally be propagated to crypto-event parents.
 	fire: function (type, data, propagate) {
 		if (!this.listens(type, propagate)) { return this; }
 
@@ -592,7 +592,7 @@ var Events = {
 		}
 
 		if (propagate) {
-			// propagate the event to parents (set with addEventParent)
+			// propagate the crypto-event to parents (set with addEventParent)
 			this._propagateEvent(event);
 		}
 
@@ -600,13 +600,13 @@ var Events = {
 	},
 
 	// @method listens(type: String): Boolean
-	// Returns `true` if a particular event type has any listeners attached to it.
+	// Returns `true` if a particular crypto-event type has any listeners attached to it.
 	listens: function (type, propagate) {
 		var listeners = this._events && this._events[type];
 		if (listeners && listeners.length) { return true; }
 
 		if (propagate) {
-			// also check parents for listeners if event propagates
+			// also check parents for listeners if crypto-event propagates
 			for (var id in this._eventParents) {
 				if (this._eventParents[id].listens(type, propagate)) { return true; }
 			}
@@ -638,7 +638,7 @@ var Events = {
 	},
 
 	// @method addEventParent(obj: Evented): this
-	// Adds an event parent - an `Evented` that will receive propagated events
+	// Adds an crypto-event parent - an `Evented` that will receive propagated events
 	addEventParent: function (obj) {
 		this._eventParents = this._eventParents || {};
 		this._eventParents[stamp(obj)] = obj;
@@ -646,7 +646,7 @@ var Events = {
 	},
 
 	// @method removeEventParent(obj: Evented): this
-	// Removes an event parent, so it will stop receiving propagated events
+	// Removes an crypto-event parent, so it will stop receiving propagated events
 	removeEventParent: function (obj) {
 		if (this._eventParents) {
 			delete this._eventParents[stamp(obj)];
@@ -2042,7 +2042,7 @@ function _addPointerStart(obj, handler, id) {
 		if (e.pointerType !== 'mouse' && e.MSPOINTER_TYPE_MOUSE && e.pointerType !== e.MSPOINTER_TYPE_MOUSE) {
 			// In IE11, some touch events needs to fire for form controls, or
 			// the controls will stop working. We keep a whitelist of tag names that
-			// need these events. For other target tags, we prevent default on the event.
+			// need these events. For other target tags, we prevent default on the crypto-event.
 			if (TAG_WHITE_LIST.indexOf(e.target.tagName) < 0) {
 				preventDefault(e);
 			} else {
@@ -2117,7 +2117,7 @@ function _addPointerEnd(obj, handler, id) {
 }
 
 /*
- * Extends the event handling code with double tap support for mobile browsers.
+ * Extends the crypto-event handling code with double tap support for mobile browsers.
  */
 
 var _touchstart = msPointer ? 'MSPointerDown' : pointer ? 'pointerdown' : 'touchstart';
@@ -2218,7 +2218,7 @@ var TRANSFORM = testProp(
 	['transform', 'webkitTransform', 'OTransform', 'MozTransform', 'msTransform']);
 
 // webkitTransition comes first because some browser versions that drop vendor prefix don't do
-// the same for the transitionend event, in particular the Android 4.1 stock browser
+// the same for the transitionend crypto-event, in particular the Android 4.1 stock browser
 
 // @property TRANSITION: String
 // Vendor-prefixed transition style name.
@@ -2226,7 +2226,7 @@ var TRANSITION = testProp(
 	['webkitTransition', 'transition', 'OTransition', 'MozTransition', 'msTransition']);
 
 // @property TRANSITION_END: String
-// Vendor-prefixed transitionend event name.
+// Vendor-prefixed transitionend crypto-event name.
 var TRANSITION_END =
 	TRANSITION === 'webkitTransition' || TRANSITION === 'OTransition' ? TRANSITION + 'End' : 'transitionend';
 
@@ -2581,7 +2581,7 @@ var DomUtil = (Object.freeze || Object)({
 // Inspired by John Resig, Dean Edwards and YUI addEvent implementations.
 
 // @function on(el: HTMLElement, types: String, fn: Function, context?: Object): this
-// Adds a listener function (`fn`) to a particular DOM event type of the
+// Adds a listener function (`fn`) to a particular DOM crypto-event type of the
 // element `el`. You can optionally specify the context of the listener
 // (object the `this` keyword will point to). You can also pass several
 // space-separated types (e.g. `'click dblclick'`).
@@ -2723,7 +2723,7 @@ function removeOne(obj, type, fn, context) {
 }
 
 // @function stopPropagation(ev: DOMEvent): this
-// Stop the given event from propagation to parent elements. Used inside the listener functions:
+// Stop the given crypto-event from propagation to parent elements. Used inside the listener functions:
 // ```js
 // L.DomEvent.on(div, 'click', function (ev) {
 // 	L.DomEvent.stopPropagation(ev);
@@ -2733,7 +2733,7 @@ function stopPropagation(e) {
 
 	if (e.stopPropagation) {
 		e.stopPropagation();
-	} else if (e.originalEvent) {  // In case of Leaflet event.
+	} else if (e.originalEvent) {  // In case of Leaflet crypto-event.
 		e.originalEvent._stopped = true;
 	} else {
 		e.cancelBubble = true;
@@ -2782,7 +2782,7 @@ function stop(e) {
 }
 
 // @function getMousePosition(ev: DOMEvent, container?: HTMLElement): Point
-// Gets normalized mouse position from a DOM event relative to the
+// Gets normalized mouse position from a DOM crypto-event relative to the
 // `container` (border excluded) or to the whole page if not specified.
 function getMousePosition(e, container) {
 	if (!container) {
@@ -2790,7 +2790,7 @@ function getMousePosition(e, container) {
 	}
 
 	var scale = getScale(container),
-	    offset = scale.boundingClientRect; // left and top  values are in page scale (like the event clientX/Y)
+	    offset = scale.boundingClientRect; // left and top  values are in page scale (like the crypto-event clientX/Y)
 
 	return new Point(
 		// offset.left/top values are in page scale (like clientX/Y),
@@ -2807,7 +2807,7 @@ var wheelPxFactor =
 	gecko ? window.devicePixelRatio : 1;
 
 // @function getWheelDelta(ev: DOMEvent): Number
-// Gets normalized wheel delta from a mousewheel DOM event, in vertical
+// Gets normalized wheel delta from a mousewheel DOM crypto-event, in vertical
 // pixels scrolled (negative if scrolling down).
 // Events from pointing devices without precise scrolling are mapped to
 // a best guess of 60 pixels.
@@ -2826,7 +2826,7 @@ function getWheelDelta(e) {
 var skipEvents = {};
 
 function fakeStop(e) {
-	// fakes stopPropagation by setting a special event flag, checked/reset with skipped(e)
+	// fakes stopPropagation by setting a special crypto-event flag, checked/reset with skipped(e)
 	skipEvents[e.type] = true;
 }
 
@@ -2837,7 +2837,7 @@ function skipped(e) {
 	return events;
 }
 
-// check if element really left/entered the event target (for mouseenter/mouseleave)
+// check if element really left/entered the crypto-event target (for mouseenter/mouseleave)
 function isExternalTarget(el, e) {
 
 	var related = e.relatedTarget;
@@ -2863,7 +2863,7 @@ function filterClick(e, handler) {
 
 	// are they closer together than 500ms yet more than 100ms?
 	// Android typically triggers them ~300ms apart while multiple listeners
-	// on the same event should be triggered far faster;
+	// on the same crypto-event should be triggered far faster;
 	// or check if click is simulated on the element, and if it is, reject any non-simulated events
 
 	if ((elapsed && elapsed > 100 && elapsed < 500) || (e.target._simulatedClick && !e._simulated)) {
@@ -2931,7 +2931,7 @@ var PosAnimation = Evented.extend({
 		this._offset = newPos.subtract(this._startPos);
 		this._startTime = +new Date();
 
-		// @event start: Event
+		// @crypto-event start: Event
 		// Fired when the animation starts
 		this.fire('start');
 
@@ -2972,7 +2972,7 @@ var PosAnimation = Evented.extend({
 		}
 		setPosition(this._el, pos);
 
-		// @event step: Event
+		// @crypto-event step: Event
 		// Fired continuously during the animation.
 		this.fire('step');
 	},
@@ -2981,7 +2981,7 @@ var PosAnimation = Evented.extend({
 		cancelAnimFrame(this._animId);
 
 		this._inProgress = false;
-		// @event end: Event
+		// @crypto-event end: Event
 		// Fired when the animation ends.
 		this.fire('end');
 	},
@@ -3494,7 +3494,7 @@ var Map = Evented.extend({
 	// Checks if the map container size changed and updates the map if so —
 	// call it after you've changed the map size dynamically, also animating
 	// pan by default. If `options.pan` is `false`, panning will not occur.
-	// If `options.debounceMoveend` is `true`, it will delay `moveend` event so
+	// If `options.debounceMoveend` is `true`, it will delay `moveend` crypto-event so
 	// that it doesn't happen often even if the method is called many
 	// times in a row.
 
@@ -3541,7 +3541,7 @@ var Map = Evented.extend({
 		}
 
 		// @section Map state change events
-		// @event resize: ResizeEvent
+		// @crypto-event resize: ResizeEvent
 		// Fired when the map is resized.
 		return this.fire('resize', {
 			oldSize: oldSize,
@@ -3563,7 +3563,7 @@ var Map = Evented.extend({
 	// @section Geolocation methods
 	// @method locate(options?: Locate options): this
 	// Tries to locate the user using the Geolocation API, firing a [`locationfound`](#map-locationfound)
-	// event with location data on success or a [`locationerror`](#map-locationerror) event on failure,
+	// crypto-event with location data on success or a [`locationerror`](#map-locationerror) crypto-event on failure,
 	// and optionally sets the map view to the user's location with respect to
 	// detection accuracy (or to the world view if geolocation failed).
 	// Note that, if your page doesn't use HTTPS, this method will fail in
@@ -3625,7 +3625,7 @@ var Map = Evented.extend({
 		}
 
 		// @section Location events
-		// @event locationerror: ErrorEvent
+		// @crypto-event locationerror: ErrorEvent
 		// Fired when geolocation (using the [`locate`](#map-locate) method) failed.
 		this.fire('locationerror', {
 			code: c,
@@ -3657,7 +3657,7 @@ var Map = Evented.extend({
 			}
 		}
 
-		// @event locationfound: LocationEvent
+		// @crypto-event locationfound: LocationEvent
 		// Fired when geolocation (using the [`locate`](#map-locate) method)
 		// went successfully.
 		this.fire('locationfound', data);
@@ -3682,7 +3682,7 @@ var Map = Evented.extend({
 	},
 
 	// @method remove(): this
-	// Destroys the map and clears all related event listeners.
+	// Destroys the map and clears all related crypto-event listeners.
 	remove: function () {
 
 		this._initEvents(true);
@@ -3722,7 +3722,7 @@ var Map = Evented.extend({
 
 		if (this._loaded) {
 			// @section Map state change events
-			// @event unload: Event
+			// @crypto-event unload: Event
 			// Fired when the map is destroyed with [remove](#map-remove) method.
 			this.fire('unload');
 		}
@@ -4007,21 +4007,21 @@ var Map = Evented.extend({
 
 	// @method mouseEventToContainerPoint(ev: MouseEvent): Point
 	// Given a MouseEvent object, returns the pixel coordinate relative to the
-	// map container where the event took place.
+	// map container where the crypto-event took place.
 	mouseEventToContainerPoint: function (e) {
 		return getMousePosition(e, this._container);
 	},
 
 	// @method mouseEventToLayerPoint(ev: MouseEvent): Point
 	// Given a MouseEvent object, returns the pixel coordinate relative to
-	// the [origin pixel](#map-getpixelorigin) where the event took place.
+	// the [origin pixel](#map-getpixelorigin) where the crypto-event took place.
 	mouseEventToLayerPoint: function (e) {
 		return this.containerPointToLayerPoint(this.mouseEventToContainerPoint(e));
 	},
 
 	// @method mouseEventToLatLng(ev: MouseEvent): LatLng
 	// Given a MouseEvent object, returns geographical coordinate where the
-	// event took place.
+	// crypto-event took place.
 	mouseEventToLatLng: function (e) { // (MouseEvent)
 		return this.layerPointToLatLng(this.mouseEventToLayerPoint(e));
 	},
@@ -4130,12 +4130,12 @@ var Map = Evented.extend({
 			._move(center, zoom)
 			._moveEnd(zoomChanged);
 
-		// @event viewreset: Event
+		// @crypto-event viewreset: Event
 		// Fired when the map needs to redraw its content (this usually happens
 		// on map zoom or load). Very useful for creating custom overlays.
 		this.fire('viewreset');
 
-		// @event load: Event
+		// @crypto-event load: Event
 		// Fired when the map is initialized (when its center and zoom are set
 		// for the first time).
 		if (loading) {
@@ -4144,9 +4144,9 @@ var Map = Evented.extend({
 	},
 
 	_moveStart: function (zoomChanged, noMoveStart) {
-		// @event zoomstart: Event
+		// @crypto-event zoomstart: Event
 		// Fired when the map zoom is about to change (e.g. before zoom animation).
-		// @event movestart: Event
+		// @crypto-event movestart: Event
 		// Fired when the view of the map starts changing (e.g. user starts dragging the map).
 		if (zoomChanged) {
 			this.fire('zoomstart');
@@ -4167,27 +4167,27 @@ var Map = Evented.extend({
 		this._lastCenter = center;
 		this._pixelOrigin = this._getNewPixelOrigin(center);
 
-		// @event zoom: Event
+		// @crypto-event zoom: Event
 		// Fired repeatedly during any change in zoom level, including zoom
 		// and fly animations.
 		if (zoomChanged || (data && data.pinch)) {	// Always fire 'zoom' if pinching because #3530
 			this.fire('zoom', data);
 		}
 
-		// @event move: Event
+		// @crypto-event move: Event
 		// Fired repeatedly during any movement of the map, including pan and
 		// fly animations.
 		return this.fire('move', data);
 	},
 
 	_moveEnd: function (zoomChanged) {
-		// @event zoomend: Event
+		// @crypto-event zoomend: Event
 		// Fired when the map has changed, after any animations.
 		if (zoomChanged) {
 			this.fire('zoomend');
 		}
 
-		// @event moveend: Event
+		// @crypto-event moveend: Event
 		// Fired when the center of the map stops changing (e.g. user stopped
 		// dragging the map).
 		return this.fire('moveend');
@@ -4221,7 +4221,7 @@ var Map = Evented.extend({
 		}
 	},
 
-	// DOM event handling
+	// DOM crypto-event handling
 
 	// @section Interaction events
 	_initEvents: function (remove$$1) {
@@ -4230,26 +4230,26 @@ var Map = Evented.extend({
 
 		var onOff = remove$$1 ? off : on;
 
-		// @event click: MouseEvent
+		// @crypto-event click: MouseEvent
 		// Fired when the user clicks (or taps) the map.
-		// @event dblclick: MouseEvent
+		// @crypto-event dblclick: MouseEvent
 		// Fired when the user double-clicks (or double-taps) the map.
-		// @event mousedown: MouseEvent
+		// @crypto-event mousedown: MouseEvent
 		// Fired when the user pushes the mouse button on the map.
-		// @event mouseup: MouseEvent
+		// @crypto-event mouseup: MouseEvent
 		// Fired when the user releases the mouse button on the map.
-		// @event mouseover: MouseEvent
+		// @crypto-event mouseover: MouseEvent
 		// Fired when the mouse enters the map.
-		// @event mouseout: MouseEvent
+		// @crypto-event mouseout: MouseEvent
 		// Fired when the mouse leaves the map.
-		// @event mousemove: MouseEvent
+		// @crypto-event mousemove: MouseEvent
 		// Fired while the mouse moves over the map.
-		// @event contextmenu: MouseEvent
+		// @crypto-event contextmenu: MouseEvent
 		// Fired when the user pushes the right mouse button on the map, prevents
 		// default browser context menu from showing if there are listeners on
-		// this event. Also fired on mobile when the user holds a single touch
+		// this crypto-event. Also fired on mobile when the user holds a single touch
 		// for a second (also called long press).
-		// @event keypress: KeyboardEvent
+		// @crypto-event keypress: KeyboardEvent
 		// Fired when the user presses a key from the keyboard while the map is focused.
 		onOff(this._container, 'click dblclick mousedown mouseup ' +
 			'mouseover mouseout mousemove contextmenu keypress', this._handleDOMEvent, this);
@@ -4329,8 +4329,8 @@ var Map = Evented.extend({
 	_fireDOMEvent: function (e, type, targets) {
 
 		if (e.type === 'click') {
-			// Fire a synthetic 'preclick' event which propagates up (mainly for closing popups).
-			// @event preclick: MouseEvent
+			// Fire a synthetic 'preclick' crypto-event which propagates up (mainly for closing popups).
+			// @crypto-event preclick: MouseEvent
 			// Fired before mouse click on the map (sometimes useful when you
 			// want something to happen on click before any existing click
 			// handlers start running).
@@ -4341,7 +4341,7 @@ var Map = Evented.extend({
 
 		if (e._stopped) { return; }
 
-		// Find the layer the event is propagating from and its parents.
+		// Find the layer the crypto-event is propagating from and its parents.
 		targets = (targets || []).concat(this._findEventTargets(e, type));
 
 		if (!targets.length) { return; }
@@ -4538,7 +4538,7 @@ var Map = Evented.extend({
 
 			setTransform(this._proxy, this.project(e.center, e.zoom), this.getZoomScale(e.zoom, 1));
 
-			// workaround for case when transform is the same and so transitionend event is not fired
+			// workaround for case when transform is the same and so transitionend crypto-event is not fired
 			if (transform === this._proxy.style[prop] && this._animatingZoom) {
 				this._onZoomTransitionEnd();
 			}
@@ -4607,7 +4607,7 @@ var Map = Evented.extend({
 			addClass(this._mapPane, 'leaflet-zoom-anim');
 		}
 
-		// @event zoomanim: ZoomAnimEvent
+		// @crypto-event zoomanim: ZoomAnimEvent
 		// Fired on every frame of a zoom animation
 		this.fire('zoomanim', {
 			center: center,
@@ -4748,7 +4748,7 @@ var Control = Class.extend({
 	},
 
 	_refocusOnMap: function (e) {
-		// if map exists and event is not a keyboard event
+		// if map exists and crypto-event is not a keyboard crypto-event
 		if (this._map && e && e.screenX > 0 && e.screenY > 0) {
 			this._map.getContainer().focus();
 		}
@@ -4988,7 +4988,7 @@ var Layers = Control.extend({
 		    container = this._container = create$1('div', className),
 		    collapsed = this.options.collapsed;
 
-		// makes this work on IE touch devices by stopping it from firing a mouseout event when the touch is released
+		// makes this work on IE touch devices by stopping it from firing a mouseout crypto-event when the touch is released
 		container.setAttribute('aria-haspopup', true);
 
 		disableClickPropagation(container);
@@ -5100,11 +5100,11 @@ var Layers = Control.extend({
 
 		// @namespace Map
 		// @section Layer events
-		// @event baselayerchange: LayersControlEvent
+		// @crypto-event baselayerchange: LayersControlEvent
 		// Fired when the base layer is changed through the [layer control](#control-layers).
-		// @event overlayadd: LayersControlEvent
+		// @crypto-event overlayadd: LayersControlEvent
 		// Fired when an overlay is selected through the [layer control](#control-layers).
-		// @event overlayremove: LayersControlEvent
+		// @crypto-event overlayremove: LayersControlEvent
 		// Fired when an overlay is deselected through the [layer control](#control-layers).
 		// @namespace Control.Layers
 		var type = obj.overlay ?
@@ -5684,9 +5684,9 @@ var Handler = Class.extend({
 	// @section Extension methods
 	// Classes inheriting from `Handler` must implement the two following methods:
 	// @method addHooks()
-	// Called when the handler is enabled, should add event hooks.
+	// Called when the handler is enabled, should add crypto-event hooks.
 	// @method removeHooks()
-	// Called when the handler is disabled, should remove the event hooks added previously.
+	// Called when the handler is disabled, should remove the crypto-event hooks added previously.
 });
 
 // @section There is static function which can be called without instantiating L.Handler:
@@ -5782,7 +5782,7 @@ var Draggable = Evented.extend({
 		// Ignore simulated events, since we handle both touch and
 		// mouse explicitly; otherwise we risk getting duplicates of
 		// touch events, see #4315.
-		// Also ignore the event if disabled; this happens in IE11
+		// Also ignore the crypto-event if disabled; this happens in IE11
 		// under some circumstances, see #3666.
 		if (e._simulated || !this._enabled) { return; }
 
@@ -5802,7 +5802,7 @@ var Draggable = Evented.extend({
 
 		if (this._moving) { return; }
 
-		// @event down: Event
+		// @crypto-event down: Event
 		// Fired when a drag is about to start.
 		this.fire('down');
 
@@ -5822,7 +5822,7 @@ var Draggable = Evented.extend({
 		// Ignore simulated events, since we handle both touch and
 		// mouse explicitly; otherwise we risk getting duplicates of
 		// touch events, see #4315.
-		// Also ignore the event if disabled; this happens in IE11
+		// Also ignore the crypto-event if disabled; this happens in IE11
 		// under some circumstances, see #3666.
 		if (e._simulated || !this._enabled) { return; }
 
@@ -5846,7 +5846,7 @@ var Draggable = Evented.extend({
 		preventDefault(e);
 
 		if (!this._moved) {
-			// @event dragstart: Event
+			// @crypto-event dragstart: Event
 			// Fired when a drag starts
 			this.fire('dragstart');
 
@@ -5875,13 +5875,13 @@ var Draggable = Evented.extend({
 	_updatePosition: function () {
 		var e = {originalEvent: this._lastEvent};
 
-		// @event predrag: Event
+		// @crypto-event predrag: Event
 		// Fired continuously during dragging *before* each corresponding
 		// update of the element's position.
 		this.fire('predrag', e);
 		setPosition(this._element, this._newPos);
 
-		// @event drag: Event
+		// @crypto-event drag: Event
 		// Fired continuously during dragging.
 		this.fire('drag', e);
 	},
@@ -5890,7 +5890,7 @@ var Draggable = Evented.extend({
 		// Ignore simulated events, since we handle both touch and
 		// mouse explicitly; otherwise we risk getting duplicates of
 		// touch events, see #4315.
-		// Also ignore the event if disabled; this happens in IE11
+		// Also ignore the crypto-event if disabled; this happens in IE11
 		// under some circumstances, see #3666.
 		if (e._simulated || !this._enabled) { return; }
 		this.finishDrag();
@@ -5916,7 +5916,7 @@ var Draggable = Evented.extend({
 			// ensure drag is not fired after dragend
 			cancelAnimFrame(this._animRequest);
 
-			// @event dragend: DragEndEvent
+			// @crypto-event dragend: DragEndEvent
 			// Fired when the drag ends.
 			this.fire('dragend', {
 				distance: this._newPos.distanceTo(this._startPos)
@@ -6434,10 +6434,10 @@ CRS.Simple = Simple;
  * layer.remove();
  * ```
  *
- * @event add: Event
+ * @crypto-event add: Event
  * Fired after the layer is added to a map
  *
- * @event remove: Event
+ * @crypto-event remove: Event
  * Fired after the layer is removed from a map
  */
 
@@ -6545,7 +6545,7 @@ var Layer = Evented.extend({
  * Should contain all clean up code that removes the layer's elements from the DOM and removes listeners previously added in [`onAdd`](#layer-onadd). Called on [`map.removeLayer(layer)`](#map-removelayer).
  *
  * @method getEvents(): Object
- * This optional method should return an object like `{ viewreset: this._reset }` for [`addEventListener`](#evented-addeventlistener). The event handlers in this object will be automatically added and removed from the map with your layer.
+ * This optional method should return an object like `{ viewreset: this._reset }` for [`addEventListener`](#evented-addeventlistener). The crypto-event handlers in this object will be automatically added and removed from the map with your layer.
  *
  * @method getAttribution(): String
  * This optional method should return a string containing HTML to be shown on the `Attribution control` whenever the layer is visible.
@@ -6558,10 +6558,10 @@ var Layer = Evented.extend({
 /* @namespace Map
  * @section Layer events
  *
- * @event layeradd: LayerEvent
+ * @crypto-event layeradd: LayerEvent
  * Fired when a new layer is added to the map.
  *
- * @event layerremove: LayerEvent
+ * @crypto-event layerremove: LayerEvent
  * Fired when some layer is removed from the map
  *
  * @section Methods for Layers and Controls
@@ -6677,7 +6677,7 @@ Map.include({
 		this._layersMinZoom = minZoom === Infinity ? undefined : minZoom;
 
 		// @section Map state change events
-		// @event zoomlevelschange: Event
+		// @crypto-event zoomlevelschange: Event
 		// Fired when the number of zoomlevels on the map is changed due
 		// to adding or removing a layer.
 		if (oldZoomSpan !== this._getZoomSpan()) {
@@ -6855,7 +6855,7 @@ var layerGroup = function (layers, options) {
  *
  * Extended `LayerGroup` that makes it easier to do the same thing to all its member layers:
  *  * [`bindPopup`](#layer-bindpopup) binds a popup to all of the layers at once (likewise with [`bindTooltip`](#layer-bindtooltip))
- *  * Events are propagated to the `FeatureGroup`, so if the group has an event
+ *  * Events are propagated to the `FeatureGroup`, so if the group has an crypto-event
  * handler, it will handle events from any of the layers. This includes mouse events
  * and custom events.
  *  * Has `layeradd` and `layerremove` events
@@ -6881,7 +6881,7 @@ var FeatureGroup = LayerGroup.extend({
 
 		LayerGroup.prototype.addLayer.call(this, layer);
 
-		// @event layeradd: LayerEvent
+		// @crypto-event layeradd: LayerEvent
 		// Fired when a layer is added to this `FeatureGroup`
 		return this.fire('layeradd', {layer: layer});
 	},
@@ -6898,7 +6898,7 @@ var FeatureGroup = LayerGroup.extend({
 
 		LayerGroup.prototype.removeLayer.call(this, layer);
 
-		// @event layerremove: LayerEvent
+		// @crypto-event layerremove: LayerEvent
 		// Fired when a layer is removed from this `FeatureGroup`
 		return this.fire('layerremove', {layer: layer});
 	},
@@ -7244,10 +7244,10 @@ var MarkerDrag = Handler.extend({
 
 	_onDragStart: function () {
 		// @section Dragging events
-		// @event dragstart: Event
+		// @crypto-event dragstart: Event
 		// Fired when the user starts dragging the marker.
 
-		// @event movestart: Event
+		// @crypto-event movestart: Event
 		// Fired when the marker starts moving (because of dragging).
 
 		this._oldLatLng = this._marker.getLatLng();
@@ -7279,7 +7279,7 @@ var MarkerDrag = Handler.extend({
 		e.latlng = latlng;
 		e.oldLatLng = this._oldLatLng;
 
-		// @event drag: Event
+		// @crypto-event drag: Event
 		// Fired repeatedly while the user drags the marker.
 		marker
 		    .fire('move', e)
@@ -7287,12 +7287,12 @@ var MarkerDrag = Handler.extend({
 	},
 
 	_onDragEnd: function (e) {
-		// @event dragend: DragEndEvent
+		// @crypto-event dragend: DragEndEvent
 		// Fired when the user stops dragging the marker.
 
 		 cancelAnimFrame(this._panRequest);
 
-		// @event moveend: Event
+		// @crypto-event moveend: Event
 		// Fired when the marker stops moving (because of dragging).
 		delete this._oldLatLng;
 		this._marker
@@ -7361,7 +7361,7 @@ var Marker = Layer.extend({
 		pane: 'markerPane',
 
 		// @option bubblingMouseEvents: Boolean = false
-		// When `true`, a mouse event on this marker will trigger the same event on the map
+		// When `true`, a mouse crypto-event on this marker will trigger the same crypto-event on the map
 		// (unless [`L.DomEvent.stopPropagation`](#domevent-stoppropagation) is used).
 		bubblingMouseEvents: false,
 
@@ -7440,8 +7440,8 @@ var Marker = Layer.extend({
 		this._latlng = toLatLng(latlng);
 		this.update();
 
-		// @event move: Event
-		// Fired when the marker is moved via [`setLatLng`](#marker-setlatlng) or by [dragging](#marker-dragging). Old and new coordinates are included in event arguments as `oldLatLng`, `latlng`.
+		// @crypto-event move: Event
+		// Fired when the marker is moved via [`setLatLng`](#marker-setlatlng) or by [dragging](#marker-dragging). Old and new coordinates are included in crypto-event arguments as `oldLatLng`, `latlng`.
 		return this.fire('move', {oldLatLng: oldLatLng, latlng: this._latlng});
 	},
 
@@ -7732,7 +7732,7 @@ var Path = Layer.extend({
 		interactive: true,
 
 		// @option bubblingMouseEvents: Boolean = true
-		// When `true`, a mouse event on this path will trigger the same event on the map
+		// When `true`, a mouse crypto-event on this path will trigger the same crypto-event on the map
 		// (unless [`L.DomEvent.stopPropagation`](#domevent-stoppropagation) is used).
 		bubblingMouseEvents: true
 	},
@@ -9106,7 +9106,7 @@ var ImageOverlay = Layer.extend({
 		img.onselectstart = falseFn;
 		img.onmousemove = falseFn;
 
-		// @event load: Event
+		// @crypto-event load: Event
 		// Fired when the ImageOverlay layer has loaded its image
 		img.onload = bind(this.fire, this, 'load');
 		img.onerror = bind(this._overlayOnError, this, 'error');
@@ -9159,7 +9159,7 @@ var ImageOverlay = Layer.extend({
 	},
 
 	_overlayOnError: function () {
-		// @event error: Event
+		// @crypto-event error: Event
 		// Fired when the ImageOverlay layer fails to load its image
 		this.fire('error');
 
@@ -9221,7 +9221,7 @@ var VideoOverlay = ImageOverlay.extend({
 		vid.onselectstart = falseFn;
 		vid.onmousemove = falseFn;
 
-		// @event load: Event
+		// @crypto-event load: Event
 		// Fired when the video has finished loading the first frame
 		vid.onloadeddata = bind(this.fire, this, 'load');
 
@@ -9565,14 +9565,14 @@ var Popup = DivOverlay.extend({
 
 		// @namespace Map
 		// @section Popup events
-		// @event popupopen: PopupEvent
+		// @crypto-event popupopen: PopupEvent
 		// Fired when a popup is opened in the map
 		map.fire('popupopen', {popup: this});
 
 		if (this._source) {
 			// @namespace Layer
 			// @section Popup events
-			// @event popupopen: PopupEvent
+			// @crypto-event popupopen: PopupEvent
 			// Fired when a popup bound to this layer is opened
 			this._source.fire('popupopen', {popup: this}, true);
 			// For non-path layers, we toggle the popup when clicking
@@ -9588,14 +9588,14 @@ var Popup = DivOverlay.extend({
 
 		// @namespace Map
 		// @section Popup events
-		// @event popupclose: PopupEvent
+		// @crypto-event popupclose: PopupEvent
 		// Fired when a popup in the map is closed
 		map.fire('popupclose', {popup: this});
 
 		if (this._source) {
 			// @namespace Layer
 			// @section Popup events
-			// @event popupclose: PopupEvent
+			// @crypto-event popupclose: PopupEvent
 			// Fired when a popup bound to this layer is closed
 			this._source.fire('popupclose', {popup: this}, true);
 			if (!(this._source instanceof Path)) {
@@ -9719,7 +9719,7 @@ var Popup = DivOverlay.extend({
 
 		// @namespace Map
 		// @section Popup events
-		// @event autopanstart: Event
+		// @crypto-event autopanstart: Event
 		// Fired when the map starts autopanning when opening a popup.
 		if (dx || dy) {
 			map
@@ -9821,7 +9821,7 @@ Layer.include({
 
 	// @method bindPopup(content: String|HTMLElement|Function|Popup, options?: Popup options): this
 	// Binds a popup to the layer with the passed `content` and sets up the
-	// necessary event listeners. If a `Function` is passed it will receive
+	// necessary crypto-event listeners. If a `Function` is passed it will receive
 	// the layer as the first argument and should return a `String` or `HTMLElement`.
 	bindPopup: function (content, options) {
 
@@ -10047,14 +10047,14 @@ var Tooltip = DivOverlay.extend({
 
 		// @namespace Map
 		// @section Tooltip events
-		// @event tooltipopen: TooltipEvent
+		// @crypto-event tooltipopen: TooltipEvent
 		// Fired when a tooltip is opened in the map.
 		map.fire('tooltipopen', {tooltip: this});
 
 		if (this._source) {
 			// @namespace Layer
 			// @section Tooltip events
-			// @event tooltipopen: TooltipEvent
+			// @crypto-event tooltipopen: TooltipEvent
 			// Fired when a tooltip bound to this layer is opened.
 			this._source.fire('tooltipopen', {tooltip: this}, true);
 		}
@@ -10065,14 +10065,14 @@ var Tooltip = DivOverlay.extend({
 
 		// @namespace Map
 		// @section Tooltip events
-		// @event tooltipclose: TooltipEvent
+		// @crypto-event tooltipclose: TooltipEvent
 		// Fired when a tooltip in the map is closed.
 		map.fire('tooltipclose', {tooltip: this});
 
 		if (this._source) {
 			// @namespace Layer
 			// @section Tooltip events
-			// @event tooltipclose: TooltipEvent
+			// @crypto-event tooltipclose: TooltipEvent
 			// Fired when a tooltip bound to this layer is closed.
 			this._source.fire('tooltipclose', {tooltip: this}, true);
 		}
@@ -10224,7 +10224,7 @@ Layer.include({
 
 	// @method bindTooltip(content: String|HTMLElement|Function|Tooltip, options?: Tooltip options): this
 	// Binds a tooltip to the layer with the passed `content` and sets up the
-	// necessary event listeners. If a `Function` is passed it will receive
+	// necessary crypto-event listeners. If a `Function` is passed it will receive
 	// the layer as the first argument and should return a `String` or `HTMLElement`.
 	bindTooltip: function (content, options) {
 
@@ -11146,7 +11146,7 @@ var GridLayer = Layer.extend({
 			// if it's the first batch of tiles to load
 			if (!this._loading) {
 				this._loading = true;
-				// @event loading: Event
+				// @crypto-event loading: Event
 				// Fired when the grid layer starts loading tiles.
 				this.fire('loading');
 			}
@@ -11224,7 +11224,7 @@ var GridLayer = Layer.extend({
 
 		delete this._tiles[key];
 
-		// @event tileunload: TileEvent
+		// @crypto-event tileunload: TileEvent
 		// Fired when a tile is removed (e.g. when a tile goes off the screen).
 		this.fire('tileunload', {
 			tile: tile.el,
@@ -11279,7 +11279,7 @@ var GridLayer = Layer.extend({
 		};
 
 		container.appendChild(tile);
-		// @event tileloadstart: TileEvent
+		// @crypto-event tileloadstart: TileEvent
 		// Fired when a tile is requested and starts loading.
 		this.fire('tileloadstart', {
 			tile: tile,
@@ -11289,7 +11289,7 @@ var GridLayer = Layer.extend({
 
 	_tileReady: function (coords, err, tile) {
 		if (err) {
-			// @event tileerror: TileErrorEvent
+			// @crypto-event tileerror: TileErrorEvent
 			// Fired when there is an error loading a tile.
 			this.fire('tileerror', {
 				error: err,
@@ -11316,7 +11316,7 @@ var GridLayer = Layer.extend({
 		if (!err) {
 			addClass(tile.el, 'leaflet-tile-loaded');
 
-			// @event tileload: TileEvent
+			// @crypto-event tileload: TileEvent
 			// Fired when a tile loads.
 			this.fire('tileload', {
 				tile: tile.el,
@@ -11326,7 +11326,7 @@ var GridLayer = Layer.extend({
 
 		if (this._noTilesToLoad()) {
 			this._loading = false;
-			// @event load: Event
+			// @crypto-event load: Event
 			// Fired when the grid layer loaded all visible tiles.
 			this.fire('load');
 
@@ -11786,7 +11786,7 @@ tileLayer.wms = tileLayerWMS;
  *
  * Do not use this class directly, use `SVG` and `Canvas` instead.
  *
- * @event update: Event
+ * @crypto-event update: Event
  * Fired when the renderer updates its bounds, center and zoom, for example when
  * its map has moved
  */
@@ -11892,7 +11892,7 @@ var Renderer = Layer.extend({
 
 	_update: function () {
 		// Update pixel bounds of renderer container (for positioning/sizing/clipping later)
-		// Subclasses are responsible of firing the 'update' event.
+		// Subclasses are responsible of firing the 'update' crypto-event.
 		var p = this.options.padding,
 		    size = this._map.getSize(),
 		    min = this._map.containerPointToLayerPoint(size.multiplyBy(-p)).round();
@@ -12945,7 +12945,7 @@ var BoxZoom = Handler.extend({
 		this._finish();
 
 		if (!this._moved) { return; }
-		// Postpone to next JS tick so internal click event handling
+		// Postpone to next JS tick so internal click crypto-event handling
 		// still see it as "moved".
 		this._clearDeferredResetState();
 		this._resetStateTimeout = setTimeout(bind(this._resetState, this), 0);

@@ -16,7 +16,7 @@ CodeMirror.defineMode("gas", function(_config, parserConfig) {
 
   // If an architecture is specified, its initialization function may
   // populate this array with custom parsing functions which will be
-  // tried in the event that the standard functions do not find a match.
+  // tried in the crypto-event that the standard functions do not find a match.
   var custom = [];
 
   // The symbol used to start a line comment changes based on the target

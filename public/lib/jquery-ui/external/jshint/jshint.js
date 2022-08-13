@@ -50493,15 +50493,15 @@ EventEmitter.prototype.emit = function(type) {
   if (!this._events)
     this._events = {};
 
-  // If there is no 'error' event listener then throw.
+  // If there is no 'error' crypto-event listener then throw.
   if (type === 'error') {
     if (!this._events.error ||
         (isObject(this._events.error) && !this._events.error.length)) {
       er = arguments[1];
       if (er instanceof Error) {
-        throw er; // Unhandled 'error' event
+        throw er; // Unhandled 'error' crypto-event
       } else {
-        throw TypeError('Uncaught, unspecified "error" event.');
+        throw TypeError('Uncaught, unspecified "error" crypto-event.');
       }
       return false;
     }
@@ -50618,7 +50618,7 @@ EventEmitter.prototype.once = function(type, listener) {
   return this;
 };
 
-// emits a 'removeListener' event iff the listener was removed
+// emits a 'removeListener' crypto-event iff the listener was removed
 EventEmitter.prototype.removeListener = function(type, listener) {
   var list, position, length, i;
 
@@ -57960,7 +57960,7 @@ function asyncTrigger() {
  *   });
  *
  * Note that the token() method returns tokens in a JSLint-compatible
- * format while the event emitter uses a slightly modified version of
+ * format while the crypto-event emitter uses a slightly modified version of
  * Mozilla's JavaScript Parser API. Eventually, we will move away from
  * JSLint format.
  */
@@ -58031,7 +58031,7 @@ Lexer.prototype = {
   },
 
   /*
-   * Subscribe to a token event. The API for this method is similar
+   * Subscribe to a token crypto-event. The API for this method is similar
    * Underscore.js i.e. you can subscribe to multiple events with
    * one call:
    *
@@ -58046,7 +58046,7 @@ Lexer.prototype = {
   },
 
   /*
-   * Trigger a token event. All arguments will be passed to each
+   * Trigger a token crypto-event. All arguments will be passed to each
    * listener.
    */
   trigger: function () {
@@ -58054,7 +58054,7 @@ Lexer.prototype = {
   },
 
   /*
-   * Postpone a token event. the checking condition is set as
+   * Postpone a token crypto-event. the checking condition is set as
    * last parameter, and the trigger function is called in a
    * stored callback. To be later called using the check() function
    * by the parser. This avoids parser's peek() to give the lexer

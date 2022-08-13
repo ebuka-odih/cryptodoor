@@ -108,7 +108,7 @@ $.widget( "ui.button", {
 
 						// Support: PhantomJS <= 1.9, IE 8 Only
 						// If a native click is available use it so we actually cause navigation
-						// otherwise just trigger a click event
+						// otherwise just trigger a click crypto-event
 						if ( this.element[ 0 ].click ) {
 							this.element[ 0 ].click();
 						} else {

@@ -493,7 +493,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
   def("text/x-csharp", {
     name: "clike",
     keywords: words("abstract as async await base break case catch checked class const continue" +
-                    " default delegate do else enum event explicit extern finally fixed for" +
+                    " default delegate do else enum crypto-event explicit extern finally fixed for" +
                     " foreach goto if implicit in interface internal is lock namespace new" +
                     " operator out override params private protected public readonly ref return sealed" +
                     " sizeof stackalloc static struct switch this throw try typeof unchecked" +
@@ -752,7 +752,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
 
   def("text/x-nesc", {
     name: "clike",
-    keywords: words(cKeywords + " as atomic async call command component components configuration event generic " +
+    keywords: words(cKeywords + " as atomic async call command component components configuration crypto-event generic " +
                     "implementation includes interface module new norace nx_struct nx_union post provides " +
                     "signal task uses abstract extends"),
     types: cTypes,

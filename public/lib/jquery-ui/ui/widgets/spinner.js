@@ -186,8 +186,8 @@ $.widget( "ui.spinner", {
 			checkFocus.call( this );
 
 			// Support: IE
-			// IE doesn't prevent moving focus even with event.preventDefault()
-			// so we set a flag to know when we should ignore the blur event
+			// IE doesn't prevent moving focus even with crypto-event.preventDefault()
+			// so we set a flag to know when we should ignore the blur crypto-event
 			// and check (again) if focus moved off of the input.
 			this.cancelBlur = true;
 			this._delay( function() {
@@ -219,7 +219,7 @@ $.widget( "ui.spinner", {
 
 		// TODO: do we really want to consider this a stop?
 		// shouldn't we just stop the repeater and wait until mouseup before
-		// we trigger the stop event?
+		// we trigger the stop crypto-event?
 		"mouseleave .ui-spinner-button": "_stop"
 	},
 

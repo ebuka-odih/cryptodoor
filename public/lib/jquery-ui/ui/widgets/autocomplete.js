@@ -68,10 +68,10 @@ $.widget( "ui.autocomplete", {
 
 		// Some browsers only repeat keydown events, not keypress events,
 		// so we use the suppressKeyPress flag to determine if we've already
-		// handled the keydown event. #7269
+		// handled the keydown crypto-event. #7269
 		// Unfortunately the code for & in keypress is the same as the up arrow,
 		// so we use the suppressKeyPressRepeat flag to avoid handling keypress
-		// events when we know the keydown event was used to modify the
+		// events when we know the keydown crypto-event was used to modify the
 		// search term. #7799
 		var suppressKeyPress, suppressKeyPressRepeat, suppressInput,
 			nodeName = this.element[ 0 ].nodeName.toLowerCase(),
@@ -229,8 +229,8 @@ $.widget( "ui.autocomplete", {
 				// prevent moving focus out of the text field
 				event.preventDefault();
 
-				// IE doesn't prevent moving focus even with event.preventDefault()
-				// so we set a flag to know when we should ignore the blur event
+				// IE doesn't prevent moving focus even with crypto-event.preventDefault()
+				// so we set a flag to know when we should ignore the blur crypto-event
 				this.cancelBlur = true;
 				this._delay( function() {
 					delete this.cancelBlur;
@@ -238,7 +238,7 @@ $.widget( "ui.autocomplete", {
 					// Support: IE 8 only
 					// Right clicking a menu item or selecting text from the menu items will
 					// result in focus moving out of the input. However, we've already received
-					// and ignored the blur event because of the cancelBlur flag set above. So
+					// and ignored the blur crypto-event because of the cancelBlur flag set above. So
 					// we restore focus to ensure that the menu closes properly based on the user's
 					// next actions.
 					if ( this.element[ 0 ] !== $.ui.safeActiveElement( this.document[ 0 ] ) ) {
@@ -267,7 +267,7 @@ $.widget( "ui.autocomplete", {
 				item = ui.item.data( "ui-autocomplete-item" );
 				if ( false !== this._trigger( "focus", event, { item: item } ) ) {
 
-					// use value to match what will end up in the input, if it was a key event
+					// use value to match what will end up in the input, if it was a key crypto-event
 					if ( event.originalEvent && /^key/.test( event.originalEvent.type ) ) {
 						this._value( item.value );
 					}
@@ -302,7 +302,7 @@ $.widget( "ui.autocomplete", {
 					this._value( item.value );
 				}
 
-				// reset the term after the select event
+				// reset the term after the select crypto-event
 				// this allows custom select handling to work properly
 				this.term = this._value();
 

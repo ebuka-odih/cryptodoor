@@ -627,7 +627,7 @@ define(["./raphael.core"], function(R) {
          * Element.node
          [ property (object) ]
          **
-         * Gives you a reference to the DOM object, so you can assign event handlers or just mess around.
+         * Gives you a reference to the DOM object, so you can assign crypto-event handlers or just mess around.
          **
          * Note: Don’t mess with it.
          > Usage

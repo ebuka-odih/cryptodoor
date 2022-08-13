@@ -137,8 +137,8 @@ $.extend( $.simulate.prototype, {
 		} else if ( document.createEventObject ) {
 			event = document.createEventObject();
 			$.extend( event, options );
-			// standards event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ff974877(v=vs.85).aspx
-			// old IE event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ms533544(v=vs.85).aspx
+			// standards crypto-event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ff974877(v=vs.85).aspx
+			// old IE crypto-event.button uses constants defined here: http://msdn.microsoft.com/en-us/library/ie/ms533544(v=vs.85).aspx
 			// so we actually need to map the standard back to oldIE
 			event.button = {
 				0: 1,
@@ -173,7 +173,7 @@ $.extend( $.simulate.prototype, {
 			// initKeyEvent throws an exception in WebKit
 			// see: http://stackoverflow.com/questions/6406784/initkeyevent-keypress-only-works-in-firefox-need-a-cross-browser-solution
 			// and also https://bugs.webkit.org/show_bug.cgi?id=13368
-			// fall back to a generic event until we decide to implement initKeyboardEvent
+			// fall back to a generic crypto-event until we decide to implement initKeyboardEvent
 			} catch( err ) {
 				event = document.createEvent( "Events" );
 				event.initEvent( type, options.bubbles, options.cancelable );

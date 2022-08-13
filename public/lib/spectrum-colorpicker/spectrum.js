@@ -346,7 +346,7 @@
                 move();
 
                 if(flat) {
-                    //for the flat style, this is a change event
+                    //for the flat style, this is a change crypto-event
                     updateOriginalInput(true);
                 }
             });
@@ -647,7 +647,7 @@
             // Return on right click.
             if (e.button == 2) { return; }
 
-            // If a drag event was happening during the mouseup, don't hide
+            // If a drag crypto-event was happening during the mouseup, don't hide
             // on click.
             if (isDragging) { return; }
 
@@ -1106,7 +1106,7 @@
                 $(doc).unbind(duringDragEvents);
                 $(doc.body).removeClass("sp-dragging");
 
-                // Wait a tick before notifying observers to allow the click event
+                // Wait a tick before notifying observers to allow the click crypto-event
                 // to fire in Chrome.
                 setTimeout(function() {
                     onstop.apply(element, arguments);
