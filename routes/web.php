@@ -25,4 +25,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('dashboard', 'UserController@dashboard')->name('dashboard');
 
     Route::get('crypto/news', "CryptoNewsController@news")->name('news');
+    Route::get('membership/plans', "PaymentController@membershipPlan")->name('membershipPlan');
+    Route::post('membership/payment', "PaymentController@payment")->name('payment');
 });

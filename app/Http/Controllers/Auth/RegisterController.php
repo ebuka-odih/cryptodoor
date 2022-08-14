@@ -74,6 +74,7 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
         ]);
 
+
         // email data
         $email_data = array(
             'name' => $data['name'],
@@ -82,7 +83,6 @@ class RegisterController extends Controller
         Mail::to($email_data['email'])->send(new WelcomeMail($email_data));
 
         return $user;
-
 
     }
 }

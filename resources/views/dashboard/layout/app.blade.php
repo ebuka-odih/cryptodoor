@@ -5,7 +5,7 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Courseplus Template</title>
+    <title>Cryptodoor</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
@@ -36,10 +36,8 @@
 
                 <!-- Logo -->
                 <div id="logo">
-                    <a href="explore.html">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/logo.png" alt="">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/logo-light.png" class="logo_inverse" alt="">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/logo-mobile.png" class="logo_mobile" alt="">
+                    <a href="{{ route('index') }}">
+                        <h3 style="font-weight: bolder;" class="text-primary">Cryptodoor</h3>
                     </a>
                 </div>
                 <!-- icon menu for mobile -->
@@ -51,42 +49,8 @@
 
                 <!-- Header search box  -->
                 <div class="header_search"><i class="uil-search-alt"></i>
-                    <input value="" type="text" class="form-control" placeholder=" Quick search for anything.." autocomplete="off">
                     <div uk-drop="mode: click;offset:10" class="header_search_dropdown">
 
-                        <h4 class="search_title"> Recently </h4>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-1.jpg" alt="" class="list-avatar">
-                                    <div class="list-name">  Erica Jones </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="" class="list-avatar">
-                                    <div class="list-name">  Coffee  Addicts </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-3.jpg" alt="" class="list-avatar">
-                                    <div class="list-name"> Mountain Riders </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-4.jpg" alt="" class="list-avatar">
-                                    <div class="list-name"> Property Rent And Sale  </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-5.jpg" alt="" class="list-avatar">
-                                    <div class="list-name">  Erica Jones </div>
-                                </a>
-                            </li>
-                        </ul>
 
                     </div>
                 </div>
@@ -96,169 +60,9 @@
                     <!-- search icon for mobile -->
                     <div class="header-search-icon" uk-toggle="target: #wrapper ; cls: show-searchbox"> </div>
 
-                    <!-- cart -->
-                    <a href="#" class="header_widgets">
-                        <ion-icon name="cart-outline" class="is-icon"></ion-icon>
-                    </a>
-                    <div uk-drop="mode: click" class="dropdown_cart">
-                        <div class="cart-headline"> My Cart
-                            <a href="#" class="checkout">Checkout</a>
-                        </div>
-                        <ul class="dropdown_cart_scrollbar" data-simplebar>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-1.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4> Learn Angular Beginner to Advanced Fundamentals </h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $12.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-1.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4>  Become a Web Developer from Scratch to Advanced </h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $19.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-2.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4> Angular Fundamentals for Beginner to advance </h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $12.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-3.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4> Ultimate Web Developer Course for Beginners 2020</h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $14.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-4.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4> The Complete JavaScript From beginning to advance </h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $16.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="cart_avatar">
-                                    <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/courses/img-5.jpg" alt="">
-                                </div>
-                                <div class="cart_text">
-                                    <h4> Become a Web Developer from Scratch to Advanced</h4>
-                                </div>
-                                <div class="cart_price">
-                                    <span> $12.99 </span>
-                                    <button class="type"> Remove</button>
-                                </div>
-                            </li>
-                        </ul>
 
-                        <div class="cart_footer">
-                            <p> Subtotal : $ 320 </p>
-                            <h1> Total :  <strong> $ 320</strong> </h1>
-                        </div>
-                    </div>
 
-                    <!-- notification -->
-                    <a href="#" class="header_widgets">
-                        <ion-icon name="mail-outline" class="is-icon"></ion-icon>
-                    </a>
-                    <div uk-drop="mode: click" class="header_dropdown">
-                        <div class="drop_headline">
-                            <h4>Notifications </h4>
-                            <div class="btn_action">
-                                <div class="btn_action">
-                                    <a href="#">
-                                        <ion-icon name="settings-outline" uk-tooltip="title: Notifications settings ; pos: left"></ion-icon>
-                                    </a>
-                                    <a href="#">
-                                        <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
 
-                        <ul class="dropdown_scrollbar" data-simplebar>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-1.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <p> <strong>Adrian Mohani</strong> Like Your Comment On Course
-                                            <span class="text-link">Javascript Introduction </span>
-                                        </p>
-                                        <span class="time-ago"> 2 hours ago </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <p>
-                                            <strong>Stella Johnson</strong> Replay Your Comments in
-                                            <span class="text-link">Programming for Games</span>
-                                        </p>
-                                        <span class="time-ago"> 9 hours ago </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-3.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <p>
-                                            <strong>Alex Dolgove</strong> Added New Review In Course
-                                            <span class="text-link">Full Stack PHP Developer</span>
-                                        </p>
-                                        <span class="time-ago"> 12 hours ago </span>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-1.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <p>
-                                            <strong>Jonathan Madano</strong> Shared Your Discussion On Course
-                                            <span class="text-link">Css Flex Box </span>
-                                        </p>
-                                        <span class="time-ago"> Yesterday </span>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="#" class="see-all">See all</a>
-                    </div>
 
                     <!-- messages -->
                     <a href="#" class="header_widgets">
