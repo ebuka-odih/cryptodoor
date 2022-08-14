@@ -47,7 +47,7 @@
                 <div data-aos="zoom-out"><h1>Welcome To The Biggest
                         <span>Crypto Organization</span></h1>
                     <h2>More crypto millionaires are made daily in this organization than in anywhere else.</h2>
-                    <div class="text-center text-lg-start"><a href="#about" class="btn-get-started scrollto">Get
+                    <div class="text-center text-lg-start"><a href="{{ route('register') }}" class="btn-get-started scrollto">Get
                             Started</a></div>
                 </div>
             </div>
@@ -328,7 +328,7 @@
                             <li>- Hotel Reservation and Assistance</li>
                             <li>- Support and Assistance with all Crypto/Tech Needs</li>
                         </ul>
-                        <div class="btn-wrap"><a href="#" class="btn-buy">Buy Now</a></div>
+                        <div class="btn-wrap"><a href="{{ route('register') }}" class="btn-buy">Get Started</a></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
@@ -341,7 +341,7 @@
                             <li>-Easy Flight Reservations for Crypto Events Worldwide</li>
                             <li>-Exclusive Hotels Options and Support.</li>
                         </ul>
-                        <div class="btn-wrap"><a href="#" class="btn-buy">Buy Now</a></div>
+                        <div class="btn-wrap"><a href="{{ route('register') }}" class="btn-buy">Get Started</a></div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
@@ -355,7 +355,7 @@
                             <li>-VIP Hotel and Flights Reservation Options for all Crypto Events.</li>
                             <li>-Top Priority Trading.</li>
                         </ul>
-                        <div class="btn-wrap"><a href="#" class="btn-buy">Buy Now</a></div>
+                        <div class="btn-wrap"><a href="{{ route('register') }}" class="btn-buy">Get Started</a></div>
                     </div>
                 </div>
             </div>
