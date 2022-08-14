@@ -10,13 +10,20 @@ use Illuminate\Support\Facades\Event;
 class EventServiceProvider extends ServiceProvider
 {
     /**
-     * The crypto-event listener mappings for the application.
+     * The event listener mappings for the application.
      *
      * @var array
      */
     protected $listen = [
         Registered::class => [
             SendEmailVerificationNotification::class,
+        ],
+        'coinbase::charge:created' => [
+            \App\Listeners\ChargeCreatedListener::class,
+        ],
+
+        'coinbase::charge:confirmed' => [
+            \App\Listeners\ChargeConfirmedListener::class,
         ],
     ];
 
