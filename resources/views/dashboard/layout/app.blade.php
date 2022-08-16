@@ -158,19 +158,15 @@
                                         <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="">
                                     </div>
                                     <div class="user_name">
-                                        <div> Stella Johnson </div>
-                                        <span> @Johnson </span>
+                                        <div> {{ auth()->user()->username }} </div>
+                                        <span>  {{ auth()->user()->email }} </span>
                                     </div>
                                 </a>
                             </li>
                             <li>
                                 <hr>
                             </li>
-                            <li>
-                                <a href="#" class="is-link">
-                                    <ion-icon name="rocket-outline" class="is-icon"></ion-icon> <span>  Upgrade Membership  </span>
-                                </a>
-                            </li>
+
                             <li>
                                 <hr>
                             </li>
@@ -180,18 +176,7 @@
                                     My Account
                                 </a>
                             </li>
-                            <li>
-                                <a href="#">
-                                    <ion-icon name="card-outline" class="is-icon"></ion-icon>
-                                    Subscriptions
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <ion-icon name="color-wand-outline" class="is-icon"></ion-icon>
-                                    My Billing
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="#">
                                     <ion-icon name="settings-outline" class="is-icon"></ion-icon>
@@ -201,15 +186,7 @@
                             <li>
                                 <hr>
                             </li>
-                            <li>
-                                <a href="#" id="night-mode" class="btn-night-mode" onclick="UIkit.notification({ message: 'Hmm...  <strong> Night mode </strong> feature is not available yet. ' , pos: 'bottom-right'  })">
-                                    <ion-icon name="moon-outline" class="is-icon"></ion-icon>
-                                    Night mode
-                                    <span class="btn-night-mode-switch">
-                                            <span class="uk-switch-button"></span>
-                                        </span>
-                                </a>
-                            </li>
+
                             <li>
                                 <a href="#">
                                     <ion-icon name="log-out-outline" class="is-icon"></ion-icon>
@@ -226,6 +203,7 @@
     </header>
 
     <!-- Main Contents -->
+
    @yield('content')
 
     <!-- sidebar -->
@@ -245,12 +223,17 @@
                 </li>
                 <li><a href="explore.html">
                         <ion-icon name="compass" class="side-icon"> </ion-icon>
-                        <span> Explore</span>
+                        <span> Coin Picker</span>
                     </a>
                 </li>
                 <li><a href="courses.html">
                         <ion-icon name="play-circle" class="side-icon"> </ion-icon>
-                        <span> Courses</span>
+                        <span> News Update</span>
+                    </a>
+                </li>
+                <li><a href="books.html">
+                        <ion-icon name="book" class="side-icon"> </ion-icon>
+                        <span> Learn Crypto </span>
                     </a>
                 </li>
                 <li><a href="categories.html">
@@ -263,50 +246,15 @@
                         <span> Episodes </span>
                     </a>
                 </li>
-                <li><a href="books.html">
-                        <ion-icon name="book" class="side-icon"> </ion-icon>
-                        <span> Books </span>
-                    </a>
-                </li>
+
 
             </ul>
 
             <ul class="side_links" data-sub-title="Pages">
-                <li><a href="page-pricing.html"> <ion-icon name="card-outline" class="side-icon"></ion-icon> Pricing  </a></li>
-                <li><a href="page-help.html"> <ion-icon name="information-circle-outline" class="side-icon"></ion-icon> Help </a></li>
-                <li><a href="page-faq.html"> <ion-icon name="albums-outline" class="side-icon"></ion-icon> Faq </a></li>
-                <li><a href="page-forum.html"> <ion-icon name="chatbubble-ellipses-outline" class="side-icon"></ion-icon> Forum <span class="soon">new</span> </a></li>
-                <li><a href="pages-cart.html"> <ion-icon name="receipt-outline" class="side-icon"></ion-icon> Cart list </a></li>
-                <li><a href="pages-account-info.html"> <ion-icon name="reader-outline" class="side-icon"></ion-icon> Billing </a></li>
-                <li><a href="pages-payment-info.html"> <ion-icon name="wallet-outline" class="side-icon"></ion-icon> Payments</a></li>
-                <li><a href="page-term.html"> <ion-icon name="document-outline" class="side-icon"></ion-icon> Term </a></li>
-                <li><a href="page-privacy.html"> <ion-icon name="document-text-outline" class="side-icon"></ion-icon> Privacy </a></li>
                 <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li>
-                <li><a href="#"> Development  </a>
-                    <ul>
-                        <li><a href="development-elements.html"> Elements  </a></li>
-                        <li><a href="development-components.html"> Compounents </a></li>
-                        <li><a href="development-plugins.html"> Plugins </a></li>
-                        <li><a href="development-icons.html"> Icons </a></li>
-                    </ul>
-                </li>
-                <li><a href="#"> Authentication  </a>
-                    <ul>
-                        <li><a href="form-login.html">form login </a></li>
-                        <li><a href="form-register.html">form register</a></li>
-                    </ul>
-                </li>
+
             </ul>
 
-            <div class="side_foot_links">
-                <a href="#">About</a>
-                <a href="#">Blog </a>
-                <a href="#">Careers</a>
-                <a href="#">Support</a>
-                <a href="#">Contact Us </a>
-                <a href="#">Developer</a>
-                <a href="#">Terms of service</a>
-            </div>
 
         </div>
 
