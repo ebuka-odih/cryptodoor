@@ -45,19 +45,28 @@
                             <input class="form-control" type="text" name="percent"  placeholder="Percent">
                         </div>
                     </div><!-- col-4 -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="form-group">
                             <label class="form-control-label">Image: <span class="tx-danger">*</span></label>
                             <input class="form-control form-control-file" type="file" name="image">
                         </div>
                     </div><!-- col-4 -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="form-group">
                             <label class="form-control-label">Coin Movement <span class="tx-danger">*</span></label>
                             <select name="up_down" class="form-control" id="">
                                 <option selected disabled>Select Movement</option>
                                 <option value="1">Up</option>
                                 <option value="0">Down</option>
+                            </select>
+                        </div>
+                    </div><!-- col-4 -->
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <label class="form-control-label">Featured</label>
+                            <select name="featured" class="form-control" id="">
+                                <option value="0">No</option>
+                                <option value="1">Yes</option>
                             </select>
                         </div>
                     </div><!-- col-4 -->

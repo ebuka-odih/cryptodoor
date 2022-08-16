@@ -15,4 +15,13 @@ class CoinPicker extends Model
        }
        return "<span class='badge badge-danger'><i class='fa fa-arrow-alt-circle-down'></i></span>";
    }
+
+   public function featured()
+   {
+       if ($this->featured == 1){
+           return "Yes";
+       }
+       return "No";
+   }
+
 }

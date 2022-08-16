@@ -38,7 +38,8 @@
                             <label class="form-control-label">Image: </label>
                             <input class="form-control form-control-file" type="file" name="image">
                         </div>
-                    </div><!-- col-4 -->
+                    </div>
+                    <!-- col-4 -->
                     <div class="col-lg-6">
                         <div class="form-group">
                             <label class="form-control-label">Featured</label>
@@ -47,7 +48,8 @@
                                 <option value="1">Yes</option>
                             </select>
                         </div>
-                    </div><!-- col-4 -->
+                    </div>
+                    <!-- col-4 -->
                 </div><!-- row -->
                 <div class="col-lg-12">
                     <div class="form-group">

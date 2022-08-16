@@ -11,7 +11,7 @@
 <div class="br-pagebody">
     <div class="br-section-wrapper">
         <h6 class="br-section-label mb-3">All Crypto News</h6>
-        <a href="{{ route('admin.crypto-news.create') }}" class="mt-3 mb-3 btn btn-primary">Add News</a>
+        <a href="{{ route('admin.crypto-news.create') }}" class="mt-3 mb-3 btn btn-primary">Add </a>
 
         <div class="bd bd-gray-300 rounded table-responsive">
             <table class="table mg-b-0">

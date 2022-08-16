@@ -14,4 +14,10 @@ class CryptoNewsController extends Controller
         $featured = CryptoNews::where('featured', 1)->paginate(5);
         return view('dashboard.news.news', compact('news', 'featured'));
     }
+
+    public function show($id)
+    {
+        $new = CryptoNews::findOrFail($id);
+        return view('dashboard.news.details', compact('new'));
+    }
 }

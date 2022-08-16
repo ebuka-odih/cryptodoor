@@ -1,5 +1,24 @@
 @extends('dashboard.layout.app')
 @section('content')
+
+  <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+
     <div class="br-pagetitle">
         <i class="icon ion-ios-home-outline"></i>
         <div>
@@ -65,15 +84,12 @@
                                             <div class="mt-2 md:block hidden">
                                                 <p class="line-clamp-2">{!!  Str::of($item->description)->words(20, '...') !!}</p>
                                             </div>
+                                            <div style="margin-top: 15px" class="flex space-x-2 items-center text-sm pt-3">
+                                                <div class="absolute bg-blue-100 font-semibold px-2.5 py-1 rounded-full text-blue-500 text-xs ">
+                                                    Crypto News
+                                                </div>
+                                            </div>
 
-{{--                                            <div class="mt-1 flex items-center justify-between">--}}
-{{--                                                <div class="flex space-x-2 items-center text-sm pt-2">--}}
-{{--                                                    <div style="font-style: italic"> 13 hours </div>--}}
-{{--                                                    <div>·</div>--}}
-
-{{--                                                </div>--}}
-{{--                                                <div class="text-lg font-semibold"> $14.99 </div>--}}
-{{--                                            </div>--}}
                                         </div>
                                     </div>
 
@@ -84,16 +100,47 @@
                     </ul>
                 </div>
 
-                <a class="absolute bg-white uk-position-center-left -ml-3 flex items-center justify-center p-2 rounded-full shadow-md text-xl w-11 h-11 z-10 dark:bg-gray-800 dark:text-white uk-invisible" href="#" uk-slider-item="previous"> <i class="icon-feather-chevron-left"></i></a>
+                <a class="absolute bg-white uk-position-center-left -ml-3 flex items-center justify-center p-2 rounded-full shadow-md text-xl w-11 h-11 z-10 dark:bg-gray-800 dark:text-white uk-invisible" href="#" uk-slider-item="previous"> <i  class="fa fa-arrow-circle-left"></i></a>
                 <a class="absolute bg-white uk-position-center-right -mr-3 flex items-center justify-center p-2 rounded-full shadow-md text-xl w-11 h-11 z-10 dark:bg-gray-800 dark:text-white" href="#" uk-slider-item="next"> <i class="icon-feather-chevron-right"></i></a>
 
             </div>
+
+            <div class="tube-card p-4 mt-3" uk-toggle="cls: tube-card p-4; mode: media; media: 640">
+
+                <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-4">Latest Coin Picked </h4>
+
+                <div class="relative -mx-1 uk-slider" uk-slider="finite: true">
+
+                    <div class="uk-slider-container md:px-1 px-2 py-3">
+
+                        <table>
+                            <tr>
+                                <th>SYM</th>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>24 Changes</th>
+                            </tr>
+                            <tr>
+                                <td><img src="{{ asset('cryptodoor/') }}" alt=""></td>
+                                <td>Bitcoin</td>
+                                <td>4000</td>
+                                <td>40</td>
+                            </tr>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
 
             <!--  slider courses -->
             <div class="sm:my-4 my-3 flex items-end justify-between pt-3">
                 <h2 class="text-2xl font-semibold">Featured News Update </h2>
                 <a href="#" class="text-blue-500 sm:block hidden"> See all </a>
             </div>
+
 
             <div class="mt-3">
 
@@ -117,18 +164,14 @@
                                             <div class="card-media h-40">
                                                 <div class="card-media-overly"></div>
                                                 <img src="{{ asset('cryptodoor/'.$item->image) }}" alt="" class="">
-                                                <span class="icon-play"></span>
                                             </div>
-                                            <div class="card-body p-4">
+
+                                            <div  class="card-body p-4">
                                                 <div class="font-semibold line-clamp-2"> {{ $item->title }} </div>
-                                                <div class="flex space-x-2 items-center text-sm pt-3">
-                                                    <div> 13 hours  </div>
-                                                    <div> · </div>
-                                                    <div> 32 lectures </div>
-                                                </div>
-                                                <div class="pt-1 flex items-center justify-between">
-                                                    <div class="text-sm font-medium"> John Michael </div>
-                                                    <div class="text-lg font-semibold"> $14.99 </div>
+                                                <div style="margin: 5px" class="flex space-x-2 items-center text-sm pt-3">
+                                                    <div class="absolute bg-blue-100 font-semibold px-2.5 py-1 rounded-full text-blue-500 text-xs ">
+                                                        News Update
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -157,68 +200,28 @@
             <!-- this is user toggle media to remove unwanted class for small devices more check docs uikit on https://getuikit.com/docs/toggle. -->
             <div class="tube-card p-4 mt-3" uk-toggle="cls: tube-card p-4; mode: media; media: 640">
 
-                <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-4"> Latest Episodes </h4>
+                <h4 class="py-3 px-5 border-b font-semibold text-grey-700 -mx-4 -mt-3 mb-4"> Latest Crypto Events </h4>
 
                 <div class="relative -mx-1 uk-slider" uk-slider="finite: true">
 
                     <div class="uk-slider-container md:px-1 px-2 py-3">
                         <ul class="uk-slider-items uk-child-width-1-3@m uk-child-width-1-2 uk-grid-small uk-grid" style="transform: translate3d(0px, 0px, 0px);">
+                           @foreach($learn_crypto as $item)
                             <li tabindex="-1" class="uk-active">
                                 <a href="episodes-watch.html">
                                     <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/episodes/img-2.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                        <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
-                                                12:21</span>
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                        <img src="{{ asset('cryptodoor/'.$item->image) }}" alt="" class="w-full h-full absolute inset-0 object-cover">
                                     </div>
                                 </a>
                                 <div class="pt-3">
-                                    <a href="episodes-watch.html" class="font-semibold line-clamp-2">  The PHP Singleton class  </a>
-                                    <p class="text-sm pt-1"> By <a href="#"> Stella Johnson  </a> </p>
-                                </div>
-                            </li>
-                            <li tabindex="-1" class="uk-active">
-                                <a href="episodes-watch.html">
-                                    <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/episodes/img-4.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                        <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
-                                                12:21</span>
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
+                                    <a href="episodes-watch.html" class="font-semibold line-clamp-2">  {{ $item->title }}  </a>
+                                    <div class="absolute bg-blue-100 font-semibold px-2.5 py-1 rounded-full text-blue-500 text-xs top-2.5 left-2.5">
+                                        Crypto Event
                                     </div>
-                                </a>
-                                <div class="pt-3">
-                                    <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Larafel $ fliepond   </a>
-                                    <p href="episodes-watch.html" class="text-sm pt-1"> By <a href="#"> Jesse Stevens </a> </p>
                                 </div>
                             </li>
-                            <li tabindex="-1" class="uk-active">
-                                <a href="episodes-watch.html">
-                                    <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/episodes/img-1.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                        <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
-                                                12:21</span>
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
-                                    </div>
-                                </a>
-                                <div class="pt-3">
-                                    <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating a Laravel Package   </a>
-                                    <p class="text-sm pt-1"> By <a href="#"> John Michael </a> </p>
-                                </div>
-                            </li>
-                            <li tabindex="-1">
-                                <a href="episodes-watch.html">
-                                    <div class="w-full md:h-40 h-28 overflow-hidden rounded-lg relative">
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/episodes/img-3.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
-                                        <span class="absolute bottom-2 right-2 px-2 py-1 text-xs font-semibold bg-black bg-opacity-50 text-white rounded">
-                                                12:21</span>
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/icon-play.svg" class="w-12 h-12 uk-position-center" alt="">
-                                    </div>
-                                </a>
-                                <div class="pt-3">
-                                    <a href="episodes-watch.html" class="font-semibold line-clamp-2">  Creating sticky in HTML   </a>
-                                    <p class="text-sm pt-1"> By <a href="#"> Monroe Parker </a> </p>
-                                </div>
-                            </li>
+                            @endforeach
+
                         </ul>
 
                         <a class="absolute bg-white top-16 flex items-center justify-center p-2 -left-4 rounded-full shadow-md text-xl w-9 z-10 dark:bg-gray-800 dark:text-white uk-invisible" href="#" uk-slider-item="previous">  <ion-icon name="chevron-back-outline" role="img" class="md hydrated" aria-label="chevron back outline"></ion-icon> </a>

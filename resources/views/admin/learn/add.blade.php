@@ -12,7 +12,7 @@
     <div class="br-section-wrapper">
         <h6 class="br-section-label">Add Learn Crypto Article</h6>
 
-        <form action="{{ route('admin.crypto-news.store') }}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('admin.learn-crypto.store') }}" method="POST" enctype="multipart/form-data">
             @csrf
             @if ($errors->any())
                 <div class="alert alert-danger">

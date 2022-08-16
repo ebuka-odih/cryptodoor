@@ -42,6 +42,7 @@
                 </div>
                 <!-- icon menu for mobile -->
                 <div class="triger" uk-toggle="target: #wrapper ; cls: is-active">
+                    <i class="fa fa-toggle-up"></i>
                 </div>
 
             </div>

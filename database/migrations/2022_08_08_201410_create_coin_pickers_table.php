@@ -21,7 +21,7 @@ class CreateCoinPickersTable extends Migration
             $table->string('image');
             $table->string('price');
             $table->string('percent');
-            $table->string('link')->nullable();
+            $table->integer('featured')->default(0);
         });
     }
 
