@@ -15,6 +15,13 @@ class CoinPicker extends Model
        }
        return "<span class='badge badge-danger'><i class='fa fa-arrow-alt-circle-down'></i></span>";
    }
+   public function user_status()
+   {
+       if ($this->up_down == 1){
+           return "<span style='background-color: green; color: white' >up</span>";
+       }
+       return "<span style='background-color: darkred; color: white'>down</i></span>";
+   }
 
    public function featured()
    {

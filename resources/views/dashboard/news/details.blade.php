@@ -88,25 +88,22 @@
                     <div class="tube-card p-6">
                         <div class="flex items-start justify-between">
                             <div>
-                                <h4 class="text-lg -mb-0.5 font-semibold"> Recently Posted </h4>
+                                <h4 class="text-lg -mb-0.5 font-semibold"> Featured  </h4>
                             </div>
-                            <a href="#" class="text-blue-600"> <ion-icon name="refresh" class="-mt-0.5 -mr-2 hover:bg-gray-100 p-1.5 rounded-full text-lg md hydrated" role="img" aria-label="refresh"></ion-icon> </a>
                         </div>
                         <ul>
-                            <li>
-                                <a href="blog-read.html" class="hover:bg-gray-50 rounded-md p-2 -mx-2 block">
-                                    <h3 class="font-medium line-clamp-2"> Awesome Web Dev Tools and Resources For 2021 </h3>
-                                    <div class="flex items-center my-auto text-xs space-x-1.5 mt-1.5">
-                                        <div> Sep 12, 2020</div> <div class="pb-1"> . </div>
-                                        <ion-icon name="chatbox-ellipses-outline" role="img" class="md hydrated" aria-label="chatbox ellipses outline"></ion-icon> <div> 23</div>
-                                    </div>
-                                </a>
-                            </li>
+                            @foreach($featured as $item)
+                                <li>
+                                    <a href="blog-read.html" class="hover:bg-gray-50 rounded-md p-2 -mx-2 block">
+                                        <h3 class="font-medium line-clamp-2"> {{ $item->title }} </h3>
+                                        <div class="flex items-center my-auto text-xs space-x-1.5 mt-1.5">
+                                            <div>{{ date('M d, Y', strtotime($item->created_at)) }}</div> <div class="pb-1"> . </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            @endforeach
 
                         </ul>
-                        <a href="#" class="hover:bg-gray-100 -mb-2 mt-0.5 h-8 flex items-center justify-center rounded-md text-blue-400 text-sm">
-                            See all
-                        </a>
                     </div>
 
 

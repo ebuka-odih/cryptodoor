@@ -27,6 +27,10 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('crypto/news', "CryptoNewsController@news")->name('news');
     Route::get('crypto/news/details/{id}', "CryptoNewsController@show")->name('news.show');
 
+    Route::get('news/update', "NewsUpdateController@news")->name('news.update');
+    Route::get('news/update/details/{id}', "NewsUpdateController@show")->name('newsupdate.show');
+
+    Route::get('coin/picked', "CoinPickerController@coins")->name('coins');
 
     Route::get('membership/plans', "PaymentController@membershipPlan")->name('membershipPlan');
     Route::post('membership/payment', "PaymentController@payment")->name('payment');

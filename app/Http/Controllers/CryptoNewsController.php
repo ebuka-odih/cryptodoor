@@ -20,11 +20,13 @@ class CryptoNewsController extends Controller
     {
         $post = CryptoNews::findOrFail($id);
         $news = CryptoNews::latest()->paginate(5);
+        $featured = CryptoNews::where('featured', 1)->paginate(5);
+
         if (Auth::user()->confirm_payment <= 1)
         {
            return redirect()->route('user.membershipPlan');
         }else{
-            return view('dashboard.news.details', compact('post', 'news'));
+            return view('dashboard.news.details', compact('post', 'news', 'featured'));
         }
     }
 }

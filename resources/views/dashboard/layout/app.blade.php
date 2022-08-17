@@ -65,87 +65,7 @@
 
 
 
-                    <!-- messages -->
-                    <a href="#" class="header_widgets">
-                        <ion-icon name="notifications-outline" class="is-icon"></ion-icon>
-                        <span> 2 </span>
-                    </a>
-                    <div uk-drop="mode: click" class="header_dropdown">
-                        <div class="drop_headline">
-                            <h4>Messages </h4>
-                            <div class="btn_action">
-                                <a href="#">
-                                    <ion-icon name="settings-outline" uk-tooltip="title: Message settings ; pos: left"></ion-icon>
-                                </a>
-                                <a href="#">
-                                    <ion-icon name="checkbox-outline" uk-tooltip="title: Mark as read all ; pos: left"></ion-icon>
-                                </a>
-                            </div>
-                        </div>
-                        <ul class="dropdown_scrollbar" data-simplebar>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-1.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> John menathon </strong> <span class="time"> 6:43 PM</span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> Zara Ali </strong> <span class="time">12:43 PM</span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-3.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> Mohamed Ali </strong> <span class="time"> Wed</span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-1.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> John menathon </strong> <span class="time"> Sun </span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> Zara Ali </strong> <span class="time"> Fri </span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <div class="drop_avatar"> <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-3.jpg" alt="">
-                                    </div>
-                                    <div class="drop_content">
-                                        <strong> Mohamed Ali </strong> <span class="time">1 Week ago</span>
-                                        <p> Lorem ipsum dolor sit amet, consectetur </p>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <a href="#" class="see-all">See all</a>
-                    </div>
+
 
                     <!-- profile -->
                     <a href="#">
@@ -222,12 +142,12 @@
                         <span> Crypto News</span>
                     </a>
                 </li>
-                <li><a href="explore.html">
+                <li><a href="{{ route('user.coins') }}">
                         <ion-icon name="compass" class="side-icon"> </ion-icon>
                         <span> Coin Picker</span>
                     </a>
                 </li>
-                <li><a href="courses.html">
+                <li><a href="{{ route('user.news.update') }}">
                         <ion-icon name="play-circle" class="side-icon"> </ion-icon>
                         <span> News Update</span>
                     </a>
