@@ -69,14 +69,14 @@
 
                     <!-- profile -->
                     <a href="#">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/placeholder.png" class="header_widgets_avatar" alt="">
+                        <img src="{{ asset('assets/images/placeholder.png') }}" class="header_widgets_avatar" alt="">
                     </a>
                     <div uk-drop="mode: click;offset:5" class="header_dropdown profile_dropdown">
                         <ul>
                             <li>
                                 <a href="#" class="user">
                                     <div class="user_avatar">
-                                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/avatars/avatar-2.jpg" alt="">
+                                        <img src="{{ asset('assets/images/placeholder.png') }}" alt="">
                                     </div>
                                     <div class="user_name">
                                         <div> {{ auth()->user()->username }} </div>
