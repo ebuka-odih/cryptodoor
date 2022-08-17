@@ -61,9 +61,7 @@
                                 @endforeach
 
                             </ul>
-                            <a href="#" class="hover:bg-gray-100 -mb-2 mt-0.5 h-8 flex items-center justify-center rounded-md text-blue-400 text-sm">
-                                See all
-                            </a>
+
                         </div>
 
 
