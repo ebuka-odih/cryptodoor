@@ -1,6 +1,6 @@
 @extends('dashboard.layout.app')
 @section('content')
-    
+
     <div class="main_content">
         <div class="container">
 

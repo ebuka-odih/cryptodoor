@@ -176,10 +176,10 @@
 
             </ul>
 
-            <ul class="side_links" data-sub-title="Pages">
-                <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li>
+{{--            <ul class="side_links" data-sub-title="Pages">--}}
+{{--                <li><a href="page-setting.html"> <ion-icon name="settings-outline" class="side-icon"></ion-icon> Setting </a></li>--}}
 
-            </ul>
+{{--            </ul>--}}
 
 
         </div>
