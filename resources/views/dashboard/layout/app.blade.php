@@ -152,7 +152,7 @@
                         <span> News Update</span>
                     </a>
                 </li>
-                <li><a href="books.html">
+                <li><a href="{{ route('user.learn.crypto') }}">
                         <ion-icon name="book" class="side-icon"> </ion-icon>
                         <span> Learn Crypto </span>
                     </a>
