@@ -162,7 +162,7 @@
                         <span> Community </span>
                     </a>
                 </li>
-                <li><a href="episodes.html">
+                <li><a href="{{ route('user.crypto.event') }}">
                         <ion-icon name="film" class="side-icon">  </ion-icon>
                         <span> Crypto Events </span>
                     </a>

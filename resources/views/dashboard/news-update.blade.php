@@ -17,7 +17,7 @@
                     <div class="divide-y tube-card px-6 md:m-0 -mx-5 py-2">
                         @foreach($news as $item)
                             <div class="md:flex md:space-x-6 py-5">
-                                <a href="{{ route('user.news.show', $item->id) }}">
+                                <a href="{{ route('user.newsupdate.show', $item->id) }}">
                                     <div class="md:w-56 w-full h-36 overflow-hidden rounded-lg relative shadow-sm">
                                         <img src="{{ asset('cryptodoor/'.$item->image) }}" alt="" class="w-full h-full absolute inset-0 object-cover">
                                         <div class="absolute bg-blue-100 font-semibold px-2.5 py-1 rounded-full text-blue-500 text-xs top-2.5 left-2.5">
@@ -51,7 +51,7 @@
                             <ul>
                                 @foreach($featured as $item)
                                     <li>
-                                        <a href="blog-read.html" class="hover:bg-gray-50 rounded-md p-2 -mx-2 block">
+                                        <a href="{{ route('user.newsupdate.show', $item->id) }}" class="hover:bg-gray-50 rounded-md p-2 -mx-2 block">
                                             <h3 class="font-medium line-clamp-2"> {{ $item->title }} </h3>
                                             <div class="flex items-center my-auto text-xs space-x-1.5 mt-1.5">
                                                 <div>{{ date('M d, Y', strtotime($item->created_at)) }}</div> <div class="pb-1"> . </div>
