@@ -159,12 +159,17 @@
                 </li>
                 <li><a href="categories.html">
                         <ion-icon name="albums" class="side-icon"> </ion-icon>
-                        <span> Categories </span>
+                        <span> Community </span>
                     </a>
                 </li>
                 <li><a href="episodes.html">
                         <ion-icon name="film" class="side-icon">  </ion-icon>
-                        <span> Episodes </span>
+                        <span> Crypto Events </span>
+                    </a>
+                </li>
+                <li><a href="{{ route('user.coins') }}">
+                        <ion-icon name="compass" class="side-icon"> </ion-icon>
+                        <span> Coming Soon</span>
                     </a>
                 </li>
 
