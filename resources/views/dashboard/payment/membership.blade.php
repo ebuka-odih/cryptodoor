@@ -145,24 +145,34 @@
                 <div class="grid lg:grid-cols-2 gap-5">
 
                     <div>
-                        <div class="text-lg font-medium mb-2"> How To Get Started With Courseplus?</div>
-                        <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  </div>
+                        <div class="text-lg font-medium mb-2"> What is The Main Goal Of Crypto Door ?</div>
+                        <div> The aim of The Crypto Door Organisation is to unite all individuals of the crypto ecosystem to create and support a friendly environment to develop and Promote an Effective Mechanism of streamlined Growth for each member , And increase in Net-worth and Experience per Person.
+                        </div>
                     </div>
                     <div>
-                        <div class="text-lg font-medium mb-2"> Can I Cancel My Subscription?</div>
-                        <div>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam ut laoreet dolore magna aliquam erat volutpat. </div>
+                        <div class="text-lg font-medium mb-2"> Is Crypto Hard To Understand and Follow Up in ?</div>
+                        <div>Understanding Crypto is quite the easiest Part of Crypto, We as a Team are focused on Creating easier methods to Learn and Earn with Crypto, For freshly new comers , we have a Beginner friendly approach to Ensure maximum efficacy and enable Growth in the Long Run.
+                        </div>
                     </div>
                     <div>
-                        <div class="text-lg font-medium mb-2"> How Can I Create New Course? </div>
-                        <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </div>
+                        <div class="text-lg font-medium mb-2"> How do I get Exclusive Tickets to Crypto Event all Around the world? </div>
+                        <div> You have To be a Member Firstly , So After Registration and Completing your status you have everything you need inside.
+                        </div>
                     </div>
                     <div>
-                        <div class="text-lg font-medium mb-2"> Can I Cancel At Anytime? </div>
-                        <div> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </div>
+                        <div class="text-lg font-medium mb-2"> How do I master Productivity in Crypto and NFTs? </div>
+                        <div> Productivity is mastered , and here you have true coaches to ensure you have the Same Virtue , it’s easy when you have a guide to follow.
+                        </div>
                     </div>
                     <div>
-                        <div class="text-lg font-medium mb-2"> How To Choose A Plan First? </div>
-                        <div> Lorem ipsum dolor sit amet, consectetue aoreet dolore magna aliquam erat volutpat. </div>
+                        <div class="text-lg font-medium mb-2"> What if I have no Money to Fully Start in Crypto? </div>
+                        <div> Starting with no money in crypto can be Tricky especially when you don’t do it right, You can get The best Jobs and Tricks you can learn to Scale up Quickly.
+                        </div>
+                    </div>
+                    <div>
+                        <div class="text-lg font-medium mb-2"> What Ways do Members interact , what is the medium used to Learn and Talk to others? </div>
+                        <div> Everything is Done Exclusively, The way to find out is to get Registered.
+                        </div>
                     </div>
                 </div>
             </div>
