@@ -19,7 +19,7 @@ class CryptoNewsController extends Controller
     public function show($id)
     {
         $post = CryptoNews::findOrFail($id);
-        $news = CryptoNews::latest()->paginate();
+        $news = CryptoNews::latest()->paginate(5);
         if (Auth::user()->confirm_payment <= 1)
         {
            return redirect()->route('user.membershipPlan');

@@ -9,7 +9,7 @@ use Cviebrock\EloquentSluggable\SluggableScopeHelpers;
 
 class CryptoNews extends Model
 {
-    use Sluggable, SluggableScopeHelpers;
+//    use Sluggable, SluggableScopeHelpers;
     protected $guarded = [];
 
 
@@ -21,13 +21,6 @@ class CryptoNews extends Model
         return "No";
     }
 
-    public function sluggable(): array
-    {
-        return [
-            'slug' => [
-                'source' => 'title'
-            ]
-        ];
-    }
+
 
 }

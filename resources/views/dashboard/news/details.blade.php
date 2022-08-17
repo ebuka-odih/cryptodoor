@@ -51,18 +51,14 @@
                               @foreach($news as $item)
                                 <li tabindex="-1" class="uk-active">
                                     <div>
-                                        <a href="blog-read.html" class="w-full md:h-32 h-28 overflow-hidden rounded-lg relative block">
-                                            <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/blog/img-2.jpg" alt="" class="w-full h-full absolute inset-0 object-cover">
+                                        <a href="{{ route('user.news.show', $item->id) }}" class="w-full md:h-32 h-28 overflow-hidden rounded-lg relative block">
+                                            <img src="{{ asset('cryptodoor/'.$item->image) }}" alt="" class="w-full h-full absolute inset-0 object-cover">
                                         </a>
                                         <div class="pt-3">
-                                            <a href="blog-read.html" class="font-semibold line-clamp-2"> Awesome Web Dev Tools and Resources For 2021 in 30 Minutes </a>
+                                            <a href="{{ route('user.news.show', $item->id) }}" class="font-semibold line-clamp-2"> Awesome Web Dev Tools and Resources For 2021 in 30 Minutes </a>
                                             <div class="pt-2">
-                                                <p class="text-sm"> Anoundi hellows</p>
-                                                <div class="flex space-x-2 items-center text-xs">
-                                                    <div>  May 4, 2020 </div>
-                                                    <div class="md:block hidden">·</div>
-                                                    <div class="flex items-center"> <ion-icon name="chatbox-ellipses-outline" class="text-base leading-0 mr-2 md hydrated" role="img" aria-label="chatbox ellipses outline"></ion-icon>  12 </div>
-                                                </div>
+{{--                                                <p class="text-sm"> Anoundi hellows</p>--}}
+
                                             </div>
                                         </div>
                                     </div>
