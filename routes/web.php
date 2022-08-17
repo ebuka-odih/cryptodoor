@@ -36,6 +36,9 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
     Route::get('crypto/event', "CryptoEventController@news")->name('crypto.event');
     Route::get('crypto/events/details/{id}', "CryptoEventController@show")->name('cryptoevent.show');
 
+    Route::get('coming/event', "ComingSoonController@news")->name('coming.event');
+    Route::get('coming/events/details/{id}', "ComingSoonController@show")->name('coming.show');
+
     Route::get('coin/picked', "CoinPickerController@coins")->name('coins');
 
     Route::get('membership/plans', "PaymentController@membershipPlan")->name('membershipPlan');

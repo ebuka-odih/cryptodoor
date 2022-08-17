@@ -167,7 +167,7 @@
                         <span> Crypto Events </span>
                     </a>
                 </li>
-                <li><a href="{{ route('user.coins') }}">
+                <li><a href="{{ route('user.coming.event') }}">
                         <ion-icon name="compass" class="side-icon"> </ion-icon>
                         <span> Coming Soon</span>
                     </a>
