@@ -34,7 +34,7 @@
                         <div uk-slideshow-parallax="scale: 1,1,0.8" class="flex flex-col justify-center h-full w-full space-y-3 uk-transition" style="transform: scale(0.8); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
                             <h1 uk-slideshow-parallax="y: 100,0,0" class="lg:text-4xl text-2xl text-white font-semibold uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Learn from the best</h1>
                             <p uk-slideshow-parallax="y: 150,0,0" class="text-base text-white font-medium pb-4 lg:w-1/2 uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Choose from 130,000 online video courses with new additions published every month </p>
-                            <a uk-slideshow-parallax="y: 200,0,50" href="#" class="bg-opacity-90 bg-white py-2.5 rounded-md text-base text-center w-32 uk-transition" style="transform: translateY(50px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Get Started </a>
+{{--                            <a uk-slideshow-parallax="y: 200,0,50" href="#" class="bg-opacity-90 bg-white py-2.5 rounded-md text-base text-center w-32 uk-transition" style="transform: translateY(50px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Get Started </a>--}}
                         </div>
                     </div>
                 </li>
@@ -46,7 +46,7 @@
                         <div uk-slideshow-parallax="scale: 1,1,0.8" class="flex flex-col justify-center h-full w-full space-y-3 uk-transition" style="transform: scale(1); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
                             <h1 uk-slideshow-parallax="y: 100,0,0" class="lg:text-4xl text-2xl text-white font-semibold uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Learn from the best</h1>
                             <p uk-slideshow-parallax="y: 150,0,0" class="text-base text-white font-medium pb-4 lg:w-1/2 uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Choose from 130,000 online video courses with new additions published every month </p>
-                            <a uk-slideshow-parallax="y: 200,0,0" href="#" class="bg-opacity-90 bg-white py-2.5 rounded-md text-base text-center w-32 uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Get Started </a>
+{{--                            <a uk-slideshow-parallax="y: 200,0,0" href="#" class="bg-opacity-90 bg-white py-2.5 rounded-md text-base text-center w-32 uk-transition" style="transform: translateY(0px); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;"> Get Started </a>--}}
                         </div>
                     </div>
                 </li>
@@ -113,14 +113,16 @@
                                 <th>SYM</th>
                                 <th>Name</th>
                                 <th>Price</th>
-                                <th>24 Changes</th>
+                                <th>24h Change</th>
                             </tr>
-                            <tr>
-                                <td><img src="{{ asset('cryptodoor/') }}" alt=""></td>
-                                <td>Bitcoin</td>
-                                <td>4000</td>
-                                <td>40</td>
-                            </tr>
+                            @foreach($coins as $item)
+                                <tr>
+                                    <td><img style="border-radius: 50%" height="80" width="50" src="{{ asset('cryptodoor/'.$item->image) }}" alt=""></td>
+                                    <td>{{ $item->name }}</td>
+                                    <td>{{ $item->price }}</td>
+                                    <td>{!! $item->user_status() !!} {{ $item->percent }}%</td>
+                                </tr>
+                            @endforeach
                         </table>
 
                     </div>
@@ -133,7 +135,6 @@
             <!--  slider courses -->
             <div class="sm:my-4 my-3 flex items-end justify-between pt-3">
                 <h2 class="text-2xl font-semibold">Featured News Update </h2>
-                <a href="#" class="text-blue-500 sm:block hidden"> See all </a>
             </div>
 
 

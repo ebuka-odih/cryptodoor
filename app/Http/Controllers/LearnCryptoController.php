@@ -11,6 +11,9 @@ class LearnCryptoController extends Controller
 {
     public function news()
     {
+        if (Auth::user()->confirm_payment <= 1){
+            return redirect()->route('user.membershipPlan');
+        }
         $news = LearnCrypto::latest()->get();
         $featured = LearnCrypto::where('featured', 1)->paginate(5);
         return view('dashboard.learn-crypto', compact('news', 'featured'));

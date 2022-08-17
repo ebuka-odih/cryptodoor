@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\CoinPicker;
 use App\CryptoEvent;
 use App\CryptoNews;
 use App\LearnCrypto;
@@ -14,7 +15,8 @@ class UserController extends Controller
     {
         $featured = CryptoNews::where('featured', 1)->latest()->paginate(5);
         $featured_news = NewsUpdate::where('featured', 1)->latest()->paginate(5);
+        $coins = CoinPicker::where('featured', 1)->latest()->paginate(5);
         $learn_crypto = CryptoEvent::latest()->paginate(5);
-        return view('dashboard.index', compact('featured', 'featured_news', 'learn_crypto'));
+        return view('dashboard.index', compact('featured', 'featured_news', 'learn_crypto', 'coins'));
     }
 }

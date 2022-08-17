@@ -11,6 +11,9 @@ class CryptoNewsController extends Controller
 {
     public function news()
     {
+        if (Auth::user()->confirm_payment <= 1){
+            return redirect()->route('user.membershipPlan');
+        }
         $news = CryptoNews::latest()->get();
         $featured = CryptoNews::where('featured', 1)->paginate(5);
         return view('dashboard.news.news', compact('news', 'featured'));
