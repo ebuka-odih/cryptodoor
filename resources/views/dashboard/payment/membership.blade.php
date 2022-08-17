@@ -11,7 +11,9 @@
         <div class="container">
             <div class="flex flex-col items-center lg:py-6 text-center">
                 <h3 class="mt-2 mb-2.5 font-semibold text-2xl lg:text-3xl">Membership Pricing Plans </h3>
-                <p> Our plans are simple, Start Learning To Day To Became Expart Web Developments And User Interface Desinger.</p>
+                <p>
+                    The Plans are set to be very simple , to enable individuals and companies worldwide to feel Real Crypto and Experience professional Strategies with the best Community.
+                </p>
                 <ul class="bg-gray-100 font-medium inline-flex my-4 px-1.5 py-2.5 pricing-swicher rounded-md space-x-1 mt-6" uk-switcher="connect: .change-plan ;animation: uk-animation-slide-top-medium, uk-animation-scale-up">
                     <li class="uk-active"><a class="py-2 px-8 rounded-md whitespace-nowrap" href="#">Yearly billing</a></li>
                 </ul>
@@ -30,7 +32,6 @@
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">
                             <li class="flex items-end justify-center uk-active">
                                 <div class="font-semibold text-3xl"> $35 </div>
-                                <div class="font-medium text-lg uk-animation-slide-left-small"> / monthly </div>
                             </li>
                         </ul>
                     </div>
@@ -69,7 +70,6 @@
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">
                             <li class="flex items-end justify-center uk-active">
                                 <div class="font-semibold text-3xl"> $145 </div>
-                                <div class="font-medium text-lg uk-animation-slide-left-small"> / monthly </div>
                             </li>
                         </ul>
                     </div>
@@ -106,7 +106,6 @@
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">
                             <li class="flex items-end justify-center uk-active">
                                 <div class="font-semibold text-3xl"> $590 </div>
-                                <div class="font-medium text-lg uk-animation-slide-left-small"> / monthly </div>
                             </li>
                         </ul>
                     </div>
