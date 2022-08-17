@@ -157,7 +157,7 @@
                         <span> Learn Crypto </span>
                     </a>
                 </li>
-                <li><a href="categories.html">
+                <li><a href="{{ route('user.community') }}">
                         <ion-icon name="albums" class="side-icon"> </ion-icon>
                         <span> Community </span>
                     </a>

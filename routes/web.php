@@ -43,4 +43,6 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'user', 'as' => 'user.'], fu
 
     Route::get('membership/plans', "PaymentController@membershipPlan")->name('membershipPlan');
     Route::post('membership/payment', "PaymentController@payment")->name('payment');
+
+    Route::get('community', "CommunityController@community")->name('community');
 });

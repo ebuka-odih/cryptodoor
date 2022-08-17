@@ -19,12 +19,7 @@
         }
     </style>
 
-    <div class="br-pagetitle">
-        <i class="icon ion-ios-home-outline"></i>
-        <div>
-            <h4>Dashboard</h4>
-        </div>
-    </div>
+
     <div class="main_content">
 
 

@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class CommunityController extends Controller
 {
-    //
+    public function community()
+    {
+        return view('dashboard.community');
+    }
 }

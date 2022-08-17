@@ -99,7 +99,7 @@
                 <div class="bg-white p-8 rounded-r-lg shadow space-y-2">
 
 
-                    <h4 class="font-semibold text-lg sm:text-2xl text-purple-900"> For Teams</h4>
+                    <h4 class="font-semibold text-lg sm:text-2xl text-purple-900"> Advanced Plan</h4>
                     <p> To start your learning to day you will get free 10 Course .</p>
 
                     <div class="bg-gray-100 p-3 rounded space-x-1.5">
@@ -122,7 +122,7 @@
 
                     <form action="{{ route('user.payment') }}" method="POST" target="_blank">
                         @csrf
-                        <input type="hidden" name="plan" value="Teams Plan">
+                        <input type="hidden" name="plan" value="Advanced Plan">
                         <input type="hidden" name="price" value="590" >
                         <button  class="block border p-3 rounded-md  text-center text-purple-900 text-sm">
                             Get Started

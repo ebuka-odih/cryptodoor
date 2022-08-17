@@ -1,11 +1,6 @@
 @extends('dashboard.layout.app')
 @section('content')
-    <div class="br-pagetitle">
-        <i class="icon ion-ios-home-outline"></i>
-        <div>
-            <h4> Learn Crypto</h4>
-        </div>
-    </div>
+
     <div class="main_content">
         <div class="container">
 
