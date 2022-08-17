@@ -33,7 +33,7 @@
             <ul class="uk-slideshow-items rounded" style="min-height: 450px;">
                 <li tabindex="-1" class="uk-active uk-transition-active uk-transition" style="opacity: 0; transform: scale3d(1.5, 1.5, 1); z-index: 0; transition-property: opacity, transform, z-index; transition-duration: 870ms; transition-timing-function: ease;">
                     <div class="uk-position-cover uk-transition" uk-slideshow-parallax="scale: 1.2,1.2,1" style="transform: scale(1); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/hero-1.jpg" class="object-cover uk-cover" alt="" uk-cover="" style="height: 450px; width: 1509px;">
+                        <img src="{{ asset('assets/images/hero-1.jpg') }}" class="object-cover uk-cover" alt="" uk-cover="" style="height: 450px; width: 1509px;">
                     </div>
                     <div class="container relative md:p-20 md:mt-7 p-5 h-full">
                         <div uk-slideshow-parallax="scale: 1,1,0.8" class="flex flex-col justify-center h-full w-full space-y-3 uk-transition" style="transform: scale(0.8); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
@@ -45,7 +45,7 @@
                 </li>
                 <li tabindex="-1" class="uk-active uk-transition" style="z-index: -1; transition-property: z-index; transition-duration: 870ms; transition-timing-function: ease;">
                     <div class="uk-position-cover uk-transition" uk-slideshow-parallax="scale: 1.2,1.2,1" style="transform: scale(1.2); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
-                        <img src="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/hero-2.jpg" class="object-cover uk-cover" alt="" uk-cover="" style="height: 450px; width: 1727px;">
+                        <img src="{{ asset('assets/images/hero-2.jpg') }}" class="object-cover uk-cover" alt="" uk-cover="" style="height: 450px; width: 1727px;">
                     </div>
                     <div class="container relative md:p-20 md:mt-7 p-5 h-full">
                         <div uk-slideshow-parallax="scale: 1,1,0.8" class="flex flex-col justify-center h-full w-full space-y-3 uk-transition" style="transform: scale(1); transition-property: transform, filter; transition-duration: 870ms; transition-timing-function: ease;">
