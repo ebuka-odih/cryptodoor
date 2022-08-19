@@ -101,21 +101,21 @@
                     data-aos="fade-left"><h3>Everyone knows that Crypto Door has been best Organization in Crypto</h3>
                     <p>Enjoy non-stop growth in crypto with Crypto Door, the focus is on growing together , leaving no member of this community behind, Following Professional step, and learning how it’s done rightly , we focus on growth for each member of the community and also for the entire Crypto/web3 ecosystem.</p>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                        <div class="icon"><i class="fas fa-coins fa-2x"></i></div>
                         <h4 class="title"><a href="">Flourish in Crypto </a></h4>
                         <p class="description">
                             Get Knowledge from A-Z . Fully Understand the depth of crypto. Learn and Understand money is made in crypto .
                         </p>
                        </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon"><i class="bx bx-gift"></i></div>
+                        <div class="icon"><i class="fas fa-globe fa-2x"></i></div>
                         <h4 class="title"><a href="">Access to Crypto events world-wide </a></h4>
                         <p class="description">
                             As a member of the Crypto Door Organization, you have access to meeting and crypto Events worldwide. The Fun is unlimited, make new connections and establish Growth.
                         </p>
                        </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="icon"><i class="bx bx-gift"></i></div>
+                        <div class="icon"><i class="fas fa-gift fa-2x"></i></div>
                         <h4 class="title"><a href="">Be The First. </a></h4>
                         <p class="description">
                             Technical Analysis for all crypto charts, breakdown and Price actions, Get Full Data,  stay on track. Don’t miss out on vital opportunities, Learn from Crypto Leaders.
