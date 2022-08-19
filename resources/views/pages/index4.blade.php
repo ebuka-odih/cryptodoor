@@ -23,6 +23,18 @@
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/css/style.css" rel="stylesheet">
+{{--    <style>--}}
+{{--        .word {--}}
+{{--            display: flex;--}}
+{{--            height: 100%;--}}
+{{--            margin: auto;--}}
+{{--            color: white;--}}
+{{--            font: 700 normal 2.5em 'tahoma';--}}
+{{--            text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;--}}
+{{--        }--}}
+
+{{--    </style>--}}
+
 </head>
 <body>
 <header id="header" class="fixed-top d-flex align-items-center header-transparent">
@@ -51,8 +63,14 @@
                             Started</a></div>
                 </div>
             </div>
-            <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300"><img
-                    src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/hero-img.png" class="img-fluid animated" alt=""></div>
+            <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
+
+                <div data-aos="zoom-out"><h2>
+                        <span class="word"></span></h2>
+                </div>
+{{--                <h3 style="color: white">Best In <span class="word"></span></h3>--}}
+{{--                <img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/hero-img.png" class="img-fluid animated" alt="">--}}
+            </div>
         </div>
     </div>
     <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -535,5 +553,58 @@
         gtag('js', new Date());
         gtag('config', 'G-P7JSYB1CSP');
     }</script>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+<script>
+    var words = ['Best in Crypto Trading','Learn Skills From Professionals', 'Interact With Community','Experience Growth', 'Travel Fun', 'Build Network Net-worth'],
+        part,
+        i = 0,
+        offset = 0,
+        len = words.length,
+        forwards = true,
+        skip_count = 0,
+        skip_delay = 15,
+        speed = 70;
+    var wordflick = function () {
+        setInterval(function () {
+            if (forwards) {
+                if (offset >= words[i].length) {
+                    ++skip_count;
+                    if (skip_count == skip_delay) {
+                        forwards = false;
+                        skip_count = 0;
+                    }
+                }
+            }
+            else {
+                if (offset == 0) {
+                    forwards = true;
+                    i++;
+                    offset = 0;
+                    if (i >= len) {
+                        i = 0;
+                    }
+                }
+            }
+            part = words[i].substr(0, offset);
+            if (skip_count == 0) {
+                if (forwards) {
+                    offset++;
+                }
+                else {
+                    offset--;
+                }
+            }
+            $('.word').text(part);
+        },speed);
+    };
+
+    $(document).ready(function () {
+        wordflick();
+    });
+</script>
 </body>
 </html>

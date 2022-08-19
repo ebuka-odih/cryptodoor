@@ -12,11 +12,9 @@
 
     <!-- Favicon -->
     <link href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/favicon.png" rel="icon" type="image/png">
-
     <!-- icons
     ================================================== -->
     <link rel="stylesheet" href="{{ asset('assets/css/icons.css') }}">
-
     <!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="{{ asset('assets/css/uikit.css') }}">

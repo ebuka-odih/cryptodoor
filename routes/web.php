@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'pages.index4')->name('index');
+Route::view('/demo', 'pages.demo')->name('demo');
 Route::view('quiz', 'pages.quiz')->name('quiz');
 
 Auth::routes();
