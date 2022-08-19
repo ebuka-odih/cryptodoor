@@ -24,12 +24,12 @@
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/css/style.css" rel="stylesheet">
     <style>
-        /*.word {*/
-        /*    display: flex;*/
-        /*    height: 100%;*/
-        /*    margin: auto;*/
-        /*    color: white;*/
-        /*}*/
+        .word {
+            display: flex;
+            height: 100%;
+            margin: auto;
+            color: white;
+        }
 
     </style>
 
@@ -47,7 +47,9 @@
                 <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
                 <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i></nav>
+{{--            <i class="bi bi-list mobile-nav-toggle"></i>--}}
+            <i class="fas fa-bars mobile-nav-toggle"></i>
+        </nav>
     </div>
 </header>
 <section id="hero">
