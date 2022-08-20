@@ -95,22 +95,21 @@
                                     My Account
                                 </a>
                             </li>
-
-                            <li>
-                                <a href="#">
-                                    <ion-icon name="settings-outline" class="is-icon"></ion-icon>
-                                    Account Settings
-                                </a>
-                            </li>
                             <li>
                                 <hr>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
                                     <ion-icon name="log-out-outline" class="is-icon"></ion-icon>
                                     Log Out
                                 </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
                             </li>
                         </ul>
                     </div>

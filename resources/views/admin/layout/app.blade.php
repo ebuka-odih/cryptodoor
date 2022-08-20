@@ -162,15 +162,6 @@
     </div><!-- br-header-left -->
     <div class="br-header-right">
         <nav class="nav">
-            <div class="dropdown">
-                <a href="" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
-                    <i class="icon ion-ios-email-outline tx-24"></i>
-                    <!-- start: if statement -->
-                    <span class="square-8 bg-danger pos-absolute t-15 r-0 rounded-circle"></span>
-                    <!-- end: if statement -->
-                </a>
-
-            </div><!-- dropdown -->
 
             <div class="dropdown">
                 <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
@@ -187,7 +178,17 @@
 
                     <ul class="list-unstyled user-profile-nav">
                         <li><a href=""><i class="icon ion-shield"></i> Security</a></li>
-                        <li><a href=""><i class="icon ion-power"></i> Sign Out</a></li>
+                        <li>
+                            <a href="{{ route('logout') }}"
+                               onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                <i class="icon ion-power"></i> Sign Out
+                            </a>
+
+                            <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+                        </li>
                     </ul>
                 </div><!-- dropdown-menu -->
             </div><!-- dropdown -->
@@ -226,13 +227,7 @@
 
     <footer class="br-footer">
         <div class="footer-left">
-            <div class="mg-b-2">Copyright &copy; 2017. Bracket Plus. All Rights Reserved.</div>
-            <div>Attentively and carefully made by ThemePixels.</div>
-        </div>
-        <div class="footer-right d-flex align-items-center">
-            <span class="tx-uppercase mg-r-10">Share:</span>
-            <a target="_blank" class="pd-x-5" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//themepixels.me/bracketplus/intro"><i class="fab fa-facebook tx-20"></i></a>
-            <a target="_blank" class="pd-x-5" href="https://twitter.com/home?status=Bracket%20Plus,%20your%20best%20choice%20for%20premium%20quality%20admin%20template%20from%20Bootstrap.%20Get%20it%20now%20at%20http%3A//themepixels.me/bracketplus/intro"><i class="fab fa-twitter tx-20"></i></a>
+            <div class="mg-b-2">Copyright &copy; 2022. Cryptodoor. All Rights Reserved.</div>
         </div>
     </footer>
 </div><!-- br-mainpanel -->
