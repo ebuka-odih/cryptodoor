@@ -15,9 +15,10 @@
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css" integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+{{--    <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">--}}
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
