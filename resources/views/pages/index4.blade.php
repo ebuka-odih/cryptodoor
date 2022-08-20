@@ -134,62 +134,61 @@
             <div class="row" data-aos="fade-left">
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
-                        <i class="fa fa-trophy fa-1x"
+                        <i class="bi bi-award"
                                                                                     style="color: #ffbb2c; margin-right: 5px"></i>
                         <h3 ><a  href=""> -Award Winning Crypto Community</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i class="ri-store-line"
-                                                                                    style="color: #ffbb2c;"></i>
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i style="color: #ffbb2c;" class="bi bi-flower1"></i>
                         <h3><a href=""> -Growth is the Priority, No member here is left behind</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="100"><i class="ri-bar-chart-box-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="100"><i class="bi bi-bell"
                                                                                      style="color: #5578ff;"></i>
                         <h3><a href=""> - Be early on Updates , Be the first earner</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="150"><i class="ri-calendar-todo-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="150"><i class="bi bi-stack"
                                                                                      style="color: #e80368;"></i>
                         <h3><a href=""> - Understand the Blockchain immediately</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200"><i class="ri-paint-brush-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="200"><i class="bi bi-cash-coin"
                                                                                      style="color: #e361ff;"></i>
                         <h3><a href="">How Millions are Made - Follow the Pro Team, Get early into the most profitable projects</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="250"><i class="ri-database-2-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="250"><i class="bi bi-file-earmark-bar-graph"
                                                                                      style="color: #47aeff;"></i>
                         <h3><a href="">- Technical Analysis , Get the right data Daily</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="300"><i class="ri-gradienter-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="300"><i class="bi bi-bar-chart-steps"
                                                                                      style="color: #ffa76e;"></i>
                         <h3><a href="">- Understand Futures Trading on Binance , Step by step </a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="350"><i class="ri-file-list-3-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="350"><i class="bi bi-universal-access-circle"
                                                                                      style="color: #11dbcf;"></i>
                         <h3><a href="">- Access Crypto Events worldwide , Make the best memories</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="400"><i class="ri-price-tag-2-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="400"><i class="bi bi-shield-check"
                                                                                      style="color: #4233ff;"></i>
                         <h3><a href="">- Protect your self from Losses and hacks , be a step ahead.</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="450"><i class="ri-anchor-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="450"><i class="bi bi-align-start"
                                                                                      style="color: #b2904f;"></i>
                         <h3><a href=""> - Beginner Friendly , Get from Noob to Mastery</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="500"><i class="ri-disc-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="500"><i class="bi bi-link-45deg"
                                                                                      style="color: #b20969;"></i>
                         <h3><a href=""> - Get your own step to Growth according to your Level</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4">
-                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="550"><i class="ri-base-station-line"
+                    <div class="icon-box" data-aos="zoom-in" data-aos-delay="550"><i class="bi bi-telephone-fill"
                                                                                      style="color: #ff5828;"></i>
                         <h3><a href="">- Get Help 24/7 on any Crypto Challenges</a></h3></div>
                 </div>
@@ -221,7 +220,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-                    <div class="count-box"><i class="bi bi-headset"></i>
+                    <div class="count-box"><i class="bi bi-cash-coin"></i>
                         <span class="pureounter">24,683 </span>
                         <p>Millionaires Made so far (Over $1.6 Billion in Transactions)</p>
                     </div>
