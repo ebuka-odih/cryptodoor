@@ -129,6 +129,17 @@
                 <li class="sub-item"><a href="{{ route('admin.coming-soon.index') }}" class="sub-link">All </a></li>
             </ul>
         </li>
+        <li class="br-menu-item">
+            <a href="#" class="br-menu-link with-sub">
+                <i class="menu-item-icon fa fa-users tx-20"></i>
+                <span class="menu-item-label"> Users</span>
+            </a>
+            <!-- br-menu-link -->
+            <ul class="br-menu-sub">
+                <li class="sub-item"><a href="{{ route('admin.add.user') }}" class="sub-link">Add </a></li>
+                <li class="sub-item"><a href="{{ route('admin.users') }}" class="sub-link">All </a></li>
+            </ul>
+        </li>
 
 
     </ul><!-- br-sideleft-menu -->

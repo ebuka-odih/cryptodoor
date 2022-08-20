@@ -36,4 +36,13 @@ class User extends Authenticatable
         return $this->confirm_payment;
     }
 
+    public function status()
+    {
+        if ($this->confirm_payment > 1)
+        {
+            return "<span class='badge badge-success'>Paid</span>";
+        }
+        return "<span class='badge badge-danger'>Not Paid</span>";
+    }
+
 }
