@@ -386,56 +386,57 @@
                 <p>Frequently Asked Questions</p></div>
             <div class="faq-list">
                 <ul>
-                    <li data-aos="fade-up" class="aos-init aos-animate"><i class="bx bx-help-circle icon-help"></i> <a
-                            data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is The Main Goal Of Crypto Door ? <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
+                    <li data-aos="fade-up" class="aos-init aos-animate"><i class="fa fa-help icon-help"></i> <a
+                            data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is The Main Goal Of Crypto Door ? <i class="fas fa-chevron-circle-down icon-show"></i><i
+                                class="fas fa-chevron-circle-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> The aim of The Crypto Door Organisation is to unite all individuals of the crypto ecosystem to create and support a friendly environment to develop and Promote an Effective Mechanism of streamlined Growth for each member , And increase in Net-worth and Experience per Person. </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            class="fa fa-help icon-help"></i>
+                        <a data-bs-toggle="collapse"
                                                                         data-bs-target="#faq-list-2" class="collapsed">Is Crypto Hard To Understand and Follow Up in ?
-                            <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
+                            <i class="fas fa-chevron-circle-down icon-show"></i><i
+                                class="fas fa-chevron-circle-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list"><p> Understanding Crypto is quite the easiest Part of Crypto, We as a Team are focused on Creating easier methods to Learn and Earn with Crypto, For freshly new comers , we have a Beginner friendly approach to Ensure maximum efficacy and enable Growth in the Long Run.
                             </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i>
+                            class="fa fa-help icon-help"></i>
                         <a data-bs-toggle="collapse"
                                                                         data-bs-target="#faq-list-3" class="collapsed">
-                            How do I get Exclusive Tickets to Crypto Event all Around the world?     <i class="bx bx-chevron-down icon-show"></i><i
-                                class="bx bx-chevron-up icon-close"></i></a>
+                            How do I get Exclusive Tickets to Crypto Event all Around the world?     <i class="fas fa-chevron-circle-down icon-show"></i><i
+                                class="fas fa-chevron-circle-up icon-close"></i></a>
                         <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list"><p> You have To be a Member Firstly , So After Registration and Completing your status you have everything you need inside.
                             </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
+                            class="fa fa-help icon-help"></i> <a data-bs-toggle="collapse"
                                                                         data-bs-target="#faq-list-4" class="collapsed">
                             How do I master Productivity in Crypto and NFTs?
                             <i
-                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                class="fa fa-chevron-down icon-show"></i><i class="fa fa-chevron-up icon-close"></i></a>
                         <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                             <p>Productivity is mastered , and here you have true coaches to ensure you have the Same Virtue , it’s easy when you have a guide to follow.
 
                             </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i>
+                            class="fa fa-help icon-help"></i>
                         <a data-bs-toggle="collapse"
                                                                         data-bs-target="#faq-list-5" class="collapsed">
                             What if I have no Money to Fully Start in Crypto?
                             <i
-                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                class="fa fa-chevron-down icon-show"></i><i class="fa fa-chevron-up icon-close"></i></a>
                         <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Starting with no money in crypto can be Tricky especially when you don’t do it right, You can get The best Jobs and Tricks you can learn to Scale up Quickly.
                             </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate"><i
-                            class="bx bx-help-circle icon-help"></i>
+                            class="fa fa-help icon-help"></i>
                         <a data-bs-toggle="collapse"
                                                                         data-bs-target="#faq-list-5" class="collapsed">
                             What Ways do Members interact , what is the medium used to Learn and Talk to others?
                             <i
-                                class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                                class="fa fa-chevron-down icon-show"></i><i class="fa fa-chevron-up icon-close"></i></a>
                         <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                             <p>
                                 Everything is Done Exclusively, The way to find out is to get Registered
@@ -531,8 +532,9 @@
         <div class="copyright"> &copy; Copyright <strong><span>Cryptodoor.org</span></strong>. All Rights Reserved</div>
     </div>
 </footer>
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-        class="bi bi-arrow-up-short"></i></a>
+<a href="https://cryptodoor.org/#home" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i>
+</a>
 {{--<div id="preloader"></div>--}}
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="https://bootstrapmade.com/demo/templates/Bootslander/assets/vendor/purecounter/purecounter_vanilla.js"></script>
