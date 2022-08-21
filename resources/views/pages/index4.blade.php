@@ -244,13 +244,13 @@
                                                                  alt=""></div>
                 <div class="col-md-8 pt-4" data-aos="fade-up">
                     <h3>Why Has The Cryptodoor Organization been the Leading wealth creation Path for new comers and experienced individuals in crypto?</h3>
-                    <p class="fst-italic"> Crypto Door have been focusing on Individual Development per Member within the community , this has lead to Growth Of everyone in the Chain, there by not leaving anyone behind . We follow simple steps:</p>
+                    <p class="fst-italic"> Crypto Door has been focusing on Individual Development per Member within the community , this has lead to Growth Of everyone in the Chain, there by not leaving anyone behind . We follow simple steps:</p>
                     <ul>
                         <li><i class="bi bi-check"></i> - Teaching and Enlightening of New Member.</li>
                         <li><i class="bi bi-check"></i>- Following Proven steps and taking up Profitable Projects as a Team.</li>
-                        <li><i class="bi bi-check"></i> - Making Know newest and Available means of profits Generation to all members , through Our Research Team.
+                        <li><i class="bi bi-check"></i> - Making known newest and Available means of profits Generation to all members , through Our Research Team.
                         </li>
-                        <li><i class="bi bi-check"></i> - Connect with Pros who are 24/7 a big part of the Team to show you how it’s done.
+                        <li><i class="bi bi-check"></i> - Connect with professionals who are 24/7 a big part of the Team to show you how it’s done.
                         </li>
                     </ul>
                     <p> By Joining the Community , You have a 100% chance of elevation and Growth , It’s important to know that following the right and proven steps in all that is really important.
@@ -261,7 +261,7 @@
                                                                                    class="img-fluid" alt=""></div>
                 <div class="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-up">
                     <h3>Is It Late to get into Crypto and Understand the Blockchain?</h3>
-                    <p > Statistics show that we are in the very early phase of crypto and their is far more to be made , Crypto has Generated over $1.6 Billion for members of the organization, and statistically we are not started yet. It up to your perception of Time and Events, but it’s really way to early for everyone in Crypto.</p>
+                    <p > Statistics show that we are in the very early phase of crypto and their is far more to be made , Crypto has Generated over $1.6 Billion for members of the organization, and statistically we are not started yet. It up to your perception of Time and Events, but it’s really way too early for everyone in Crypto.</p>
 
                 </div>
             </div>
@@ -269,7 +269,7 @@
                 <div class="col-md-4" data-aos="fade-right"><img src="https://bootstrapmade.com/demo/templates/Bootslander/assets/img/details-3.png" class="img-fluid"
                                                                  alt=""></div>
                 <div class="col-md-8 pt-5" data-aos="fade-up"><h3>The Membership Status of cryptodoor.org , What to Understand</h3>
-                    <p>It’s been a great time welcoming members from all over the world as the Join The Crypto Door, currently one of the Biggest as we produce the most millionaires.</p>
+                    <p>It’s been a great time welcoming members from all over the world as they Join The Crypto Door, currently one of the Biggest as we produce the most millionaires.</p>
                     <ul>
                         <li><i class="bi bi-check"></i> Joining however can’t be free as we have to maintain value , by attracting individuals who are really serious and into really Building with the Team. </li>
                         <li><i class="bi bi-check"></i> Check the Membership Pricing Below to see the one that suits you.</li>
@@ -389,7 +389,7 @@
                     <li data-aos="fade-up" class="aos-init aos-animate"><i class="fa fa-help icon-help"></i> <a
                             data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">What is The Main Goal Of Crypto Door ? <i class="fas fa-chevron-circle-down icon-show"></i><i
                                 class="fas fa-chevron-circle-up icon-close"></i></a>
-                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> The aim of The Crypto Door Organisation is to unite all individuals of the crypto ecosystem to create and support a friendly environment to develop and Promote an Effective Mechanism of streamlined Growth for each member , And increase in Net-worth and Experience per Person. </p></div>
+                        <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list"><p> The aim of The Crypto Door Organisation is to unite all individuals of the crypto ecosystem to create and support a friendly environment to develop and Promote an Effective Mechanism of streamlined Growth for each member , And increase of Net-worth and Experience per Person. </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate"><i
                             class="fa fa-help icon-help"></i>
@@ -416,7 +416,7 @@
                             <i
                                 class="fa fa-chevron-down icon-show"></i><i class="fa fa-chevron-up icon-close"></i></a>
                         <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                            <p>Productivity is mastered , and here you have true coaches to ensure you have the Same Virtue , it’s easy when you have a guide to follow.
+                            <p>Productivity is mastered , and here you have true coaches to ensure you have the Same Virtue , it’s easier when you have a guide to follow.
 
                             </p></div>
                     </li>
@@ -427,7 +427,7 @@
                             What if I have no Money to Fully Start in Crypto?
                             <i
                                 class="fa fa-chevron-down icon-show"></i><i class="fa fa-chevron-up icon-close"></i></a>
-                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Starting with no money in crypto can be Tricky especially when you don’t do it right, You can get The best Jobs and Tricks you can learn to Scale up Quickly.
+                        <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list"><p> Starting with no money in crypto can be Tricky especially when you don’t do it right, you can get the best jobs and learn the tricks you need to scale up quickly.
                             </p></div>
                     </li>
                     <li data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate"><i
@@ -500,18 +500,17 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info"><h3><a href="CryptoDoor.org">CryptoDoor.Org</a></h3>
-                        <p class="pb-3"><em>Crypto makes life easier , Crypto makes dreams come true , all Everyone needs is the right Door.</em></p>
+                        <p class="pb-3"><em>Crypto make life easier , Crypto makes dreams come true , all Everyone needs is the right Door.</em></p>
                         <p> 17 Allée Saint Jean-Paul II, Monaco-Ville 98000<br><br>
                             <strong>Phone: (Monaco Office)</strong> +377 97365363<br>
                             <strong>Phone: (Toll)</strong> +1(559)3158459<br>
-                            <strong>Email:</strong> <a href="mailto:cryptodoor@cryptodoor.org" class="__cf_email__"
-                                                       data-cfemail="a9c0c7cfc6e9ccd1c8c4d9c5cc87cac6c4">cryptodoor@cryptodoor.org</a><br>
+                            <strong>Email:</strong> <a href="mailto:cryptodoor@cryptodoor.org" >cryptodoor@cryptodoor.org</a><br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="https://twitter.com/cryptodoororg" class="twitter">
                                 <i class="bx bxl-twitter"></i>
                             </a>
-                            <a href="https://web.facebook.com/cryptodoor" class="facebook">
+                            <a href="https://facebook.com/cryptodoor" class="facebook">
                                 <i class="bx bxl-facebook"></i>
                             </a>
                             <a href="https://www.instagram.com/cryptodoororg" class="instagram">
