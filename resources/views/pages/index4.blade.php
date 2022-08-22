@@ -66,7 +66,7 @@
             </div>
             <div class="col-lg-4 order-1 order-lg-2 order-2 order-lg-1 d-flex" >
 
-                <div data-aos="zoom-out"><h1 class="word">
+                <div style="margin-top: 20px; height: 400px" data-aos="zoom-out"><h1 class="word">
                       </h1>
                 </div>
 {{--                <h3 style="color: white">Best In <span class="word"></span></h3>--}}
@@ -560,7 +560,7 @@
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     crossorigin="anonymous"></script>
 <script>
-    var words = ['Best in Crypto Trading','Learn Skills From Professionals', 'Interact With Community','Experience Growth', 'Travel', 'Build Network Net-worth'],
+    var words = ['Learn Crypto','Go Pro In Crypto & Trading', 'Learn Skills From Professionals','Follow New Updates', 'Interact With The Community', 'Experience Growth Real Time', 'Travel to Crypto Events', 'Build Network & Net-worth'],
         part,
         i = 0,
         offset = 0,
