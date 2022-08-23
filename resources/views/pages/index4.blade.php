@@ -9,7 +9,7 @@
     <meta content="" name="keywords">
     <link href="favicon.jpeg" rel="icon">
 {{--    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">--}}
-    <base href="https://bootstrapmade.com/demo/templates/Bootslander/">
+{{--    <base href="https://bootstrapmade.com/demo/templates/Bootslander/">--}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link
@@ -30,6 +30,12 @@
             height: 100%;
             margin: auto;
             color: white;
+        }
+
+        .about2 .video-box {
+            background: url(../img2/flyer.jpg) center center no-repeat;
+            background-size: contain;
+            min-height: 300px;
         }
 
     </style>
@@ -66,7 +72,7 @@
             </div>
             <div class="col-lg-4 order-1 order-lg-2 order-2 order-lg-1 d-flex" >
 
-                <div style="margin-top: 20px; height: 400px" data-aos="zoom-out"><h1 class="word">
+                <div style="margin-top: 20px; height: 100px" data-aos="zoom-out"><h1 class="word">
                       </h1>
                 </div>
 {{--                <h3 style="color: white">Best In <span class="word"></span></h3>--}}
@@ -91,7 +97,7 @@
     </svg>
 </section>
 <main id="main">
-    <section id="about" class="about">
+    <section id="about" class="about2">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
