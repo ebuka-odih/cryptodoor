@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Cryptodoor</title>
+    <title> Cryptodoor | Your only door to Crypto</title>
     <meta name="robots" content="noindex, nofollow">
     <meta content="" name="description">
     <meta content="" name="keywords">
-{{--    <link href="assets/img/favicon.png" rel="icon">--}}
+    <link href="favicon.jpeg" rel="icon">
 {{--    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">--}}
     <base href="https://bootstrapmade.com/demo/templates/Bootslander/">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -508,16 +508,16 @@
                         </p>
                         <div class="social-links mt-3">
                             <a href="https://twitter.com/cryptodoororg" class="twitter">
-                                <i class="bx bxl-twitter"></i>
+                                <i class="fab fa-twitter"></i>
                             </a>
                             <a href="https://facebook.com/cryptodoor" class="facebook">
-                                <i class="bx bxl-facebook"></i>
+                                <i class="fab fa-facebook"></i>
                             </a>
                             <a href="https://www.instagram.com/cryptodoororg" class="instagram">
-                                <i class="bx bxl-instagram"></i>
+                                <i class="fab fa-instagram"></i>
                             </a>
                             <a href="https://www.tiktok.com/@cryptodoor.org" class="linkedin">
-                                <i class="bx bxl-tiktok"></i>
+                                <i class="fab fa-tiktok"></i>
                             </a>
                         </div>
 

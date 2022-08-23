@@ -27,7 +27,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Bracket Plus Responsive Bootstrap 4 Admin Template</title>
+    <title> Cryptodoor | Your only door to Crypto</title>
 
     <!-- vendor css -->
     <link href="{{ asset('lib/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
@@ -44,7 +44,7 @@
     <div class="overlay-body bg-black-6 d-flex align-items-center justify-content-center">
         <div class="login-wrapper wd-300 wd-xs-350 pd-25 pd-xs-40 rounded bd bd-white-2 bg-black-7">
             <div class="signin-logo tx-center tx-28 tx-bold tx-white">
-                <span class="tx-normal">[</span> Crypto<span class="tx-info">Door</span> <span class="tx-normal">]</span></div>
+                <span class="tx-normal"></span> Crypto<span class="tx-info">Door</span> <span class="tx-normal"></span></div>
 {{--            <div class="tx-white-5 tx-center mg-b-60">Join </div>--}}
 
             <form class="mt-4" action="{{ route('register') }}" method="POST">
