@@ -146,7 +146,7 @@
                 </li>
                 <li><a href="{{ route('user.news.update') }}">
                         <ion-icon name="play-circle" class="side-icon"> </ion-icon>
-                        <span> News Update</span>
+                        <span> New Update</span>
                     </a>
                 </li>
                 <li><a href="{{ route('user.learn.crypto') }}">
@@ -161,7 +161,7 @@
                 </li>
                 <li><a href="{{ route('user.crypto.event') }}">
                         <ion-icon name="film" class="side-icon">  </ion-icon>
-                        <span> Crypto Events </span>
+                        <span> Crypto Airdrops / Giveaways </span>
                     </a>
                 </li>
                 <li><a href="{{ route('user.coming.event') }}">

@@ -26,7 +26,7 @@
                 <div class="bg-white p-8 rounded-l-lg shadow space-y-2">
 
                     <h4 class="font-semibold text-lg sm:text-2xl text-purple-900"> Basic Plan</h4>
-                    <p> To start your learning to day you will get free 10 Course .</p>
+                    <p> To start your learning today you will get 4 free tutorial .</p>
 
                     <div class="bg-gray-100 p-3 rounded space-x-1.5">
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">
@@ -64,7 +64,7 @@
                     <div class="lg:-top-10 top-0 absolute bg-blue-600 left-0 p-3 rounded-t-md text-center text-white w-full font-semibold"> Recommended </div>
 
                     <h4 class="font-semibold text-lg sm:text-2xl text-purple-900"> Pro Plan</h4>
-                    <p> To start your learning to day you will get free 10 Course .</p>
+                    <p> To start your learning today you will get 6 free tutorial .</p>
 
                     <div class="bg-gray-100 p-3 rounded space-x-1.5">
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">
@@ -100,7 +100,7 @@
 
 
                     <h4 class="font-semibold text-lg sm:text-2xl text-purple-900"> Advanced Plan</h4>
-                    <p> To start your learning to day you will get free 10 Course .</p>
+                    <p> To start your learning today you will get 10 free tutorial .</p>
 
                     <div class="bg-gray-100 p-3 rounded space-x-1.5">
                         <ul class="uk-switcher change-plan" style="touch-action: pan-y pinch-zoom;">

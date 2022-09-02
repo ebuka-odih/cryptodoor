@@ -111,7 +111,7 @@
                         <div class="icon"><i class="fas fa-coins fa-2x"></i></div>
                         <h4 class="title"><a href="">Flourish in Crypto </a></h4>
                         <p class="description">
-                            Get Knowledge from A-Z . Fully Understand the depth of crypto. Learn and Understand money is made in crypto .
+                            Get Knowledge from A-Z . Fully Understand the depth of crypto. Learn and Understand how money is made in crypto.
                         </p>
                        </div>
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
@@ -142,11 +142,11 @@
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="50">
                         <i class="bi bi-award"
                                                                                     style="color: #ffbb2c; margin-right: 5px"></i>
-                        <h3 ><a  href=""> -Award Winning Crypto Community</a></h3></div>
+                        <h3 ><a  href=""> - Award Winning Crypto Community</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="50"><i style="color: #ffbb2c;" class="bi bi-flower1"></i>
-                        <h3><a href=""> -Growth is the Priority, No member here is left behind</a></h3></div>
+                        <h3><a href=""> - Access to unlimited Airdrops and community crypto giveaways.</a></h3></div>
                 </div>
                 <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
                     <div class="icon-box" data-aos="zoom-in" data-aos-delay="100"><i class="bi bi-bell"
