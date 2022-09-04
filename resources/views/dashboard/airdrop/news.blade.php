@@ -22,7 +22,7 @@
                             </a>
                             <div class="flex-1 md:pt-0 pt-4">
 
-                                <a href="{{ route('user.news.show', $item->id) }}" class="text-lg font-semibold line-clamp-2 leading-8"> {{ $item->title }}</a>
+                                <a href="{{ route('user.airdrop.show', $item->id) }}" class="text-lg font-semibold line-clamp-2 leading-8"> {{ $item->title }}</a>
                                 <p style="margin-top: 3px" class="line-clamp-2"> {{ $item->description }} </p>
 
 
