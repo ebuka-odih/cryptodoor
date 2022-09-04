@@ -16,5 +16,6 @@ Route::group(['middleware' => ['admin', 'auth', 'verified'], 'prefix' => 'admin'
     Route::resource('community', 'Admin\AdminCommunityController');
     Route::resource('crypto-event', 'Admin\AdminCryptoEventController');
     Route::resource('coming-soon', 'Admin\AdminComingSoonController');
+    Route::resource('airdrop', 'Admin\AdminAirdropController');
 
 });

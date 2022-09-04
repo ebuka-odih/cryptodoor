@@ -5,10 +5,10 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Cryptodoor</title>
+    <title>Crypto door</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Courseplus is - Professional A unique and beautiful collection of UI elements">
+    <meta name="description" content="Crypto Door is - Professional A unique and beautiful collection of cryptocurrency education">
 
     <!-- Favicon -->
     <link href="http://demo.foxthemes.net/courseplus-v4.3.1/assets/images/favicon.png" rel="icon" type="image/png">
@@ -146,7 +146,7 @@
                 </li>
                 <li><a href="{{ route('user.news.update') }}">
                         <ion-icon name="play-circle" class="side-icon"> </ion-icon>
-                        <span> New Update</span>
+                        <span> New Updates</span>
                     </a>
                 </li>
                 <li><a href="{{ route('user.learn.crypto') }}">
@@ -160,6 +160,11 @@
                     </a>
                 </li>
                 <li><a href="{{ route('user.crypto.event') }}">
+                        <ion-icon name="film" class="side-icon">  </ion-icon>
+                        <span> Crypto Events </span>
+                    </a>
+                </li>
+                <li><a href="{{ route('user.airdrop') }}">
                         <ion-icon name="film" class="side-icon">  </ion-icon>
                         <span> Crypto Airdrops / Giveaways </span>
                     </a>
